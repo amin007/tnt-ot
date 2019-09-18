@@ -12,6 +12,8 @@
 			Tentang TNT</a>
 		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>ot/">
 			Tentang OT</a>
+		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>docs/">
+			Docs</a>
 		<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>index/privasi/">
 			Dasar Privasi / Privacy Policy</a>
 		<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>hubungi/mediasosial">

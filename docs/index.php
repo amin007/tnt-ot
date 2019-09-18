@@ -69,6 +69,7 @@ function pautan($fail, $type)
 #-------------------------------------------------------------------------------------------------
 function getWebList()
 {
+	$web[]['name'] = '&nbsp;';
 	$web[]['name'] = 'http://www.maybank2u.com.my';
 	$web[]['name'] = 'http://www.myedusoft.com/m/claim.htm';
 	$web[]['name'] = '&nbsp;';

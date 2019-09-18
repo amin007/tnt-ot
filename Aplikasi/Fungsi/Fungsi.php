@@ -269,3 +269,22 @@ function gambar_latarbelakang()
 	return $papar[$today];
 }
 #------------------------------------------------------------------------------------------
+function dpt_senarai($pilih)
+{
+	# define('MSICBARU', serialize (array()) );
+	if ($pilih == 'TNT_PEGAWAI') :
+		$jadual = unserialize(TNT_PEGAWAI);
+	# kod login
+	elseif ($pilih == 'jadual_login') :
+		$jadual = unserialize(JADUAL_LOGIN);
+	elseif ($pilih == 'jadual_biodata') :
+		$jadual = unserialize(JADUAL_BIODATA);
+	else : $jadual = array(); //unserialize()
+	endif;
+
+	//echo 'dpt_senarai($pilih = ' . $pilih . ')<hr>';
+	//echo '<pre>$jadual =>'; print_r($jadual); echo '</pre><hr>';
+
+	return $jadual;
+}
+#------------------------------------------------------------------------------------------

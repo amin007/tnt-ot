@@ -19,8 +19,43 @@ table.excel thead th, table.excel tbody th {
 table.excel tbody th { text-align:center; vertical-align: top; }
 table.excel tbody td { border:1px; }
 /* ********************************************************************* */
-#hitam { background-color:#000000; }
+#hitam {
+	background-color:#000000;
+	/*border:10pt double black;*/
+}
+#hitamkiri {
+	border-left:30px solid black;
+	/*border-right:5px solid black;*/
+}
+#hitamkanan {
+	/*border-left:5px solid black;*/
+	border-right:30px solid black;
+}
 #biru { background-color:#00ffff; }
+#birukiri {
+	border-left:5px solid black;
+	/*border-right:5px solid black;*/
+}
+#birukanan {
+	/*border-left:5px solid black;*/
+	border-right:5px solid black;
+}
+#kotak {
+	border-top:2pt double black;
+	border-left:2pt double black;
+	border-right:2pt double black;
+	border-bottom:2pt double black;
+}
+#kotakHide {
+	font-size:20.0pt;color:white;font-weight:400;
+	text-decoration:none;text-underline-style:none;text-line-through:none;
+	font-family:Arial;border:none;
+}
+#kotakJumlah {
+	border:2pt double windowtext;
+	font-size:20.0pt;font-weight:300;
+	text-align: center;
+}
 #top {
     background-color: #ccc;
     padding: 20px
@@ -41,7 +76,7 @@ table.excel tbody td { border:1px; }
 <tr>
 	<td height="33" colspan="15" style="height:24.95pt"></td>
 </tr>
-<tr height="66">
+<tr>
 	<td></td>
 	<td></td>
 	<td colspan=2>Nama</td>
@@ -51,8 +86,8 @@ table.excel tbody td { border:1px; }
 	<td colspan=3>: <?php echo $this->biodata['noKP'] ?></td>
 	<td style='width:18pt'>*</td>
 </tr>
-<tr height=66 style='mso-height-source:userset;height:50.1pt'>
-	<td height=66  style='height:50.1pt'></td>
+<tr>
+	<td></td>
 	<td></td>
 	<td colspan=2>Alamat Bertugas</td>
 	<td colspan=4>: <?php echo $this->biodata['alamatBertugas'] ?></td>
@@ -63,8 +98,8 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td>*</td>
 </tr>
-<tr height=66 style='mso-height-source:userset;height:50.1pt'>
-	<td height=66  style='height:50.1pt'></td>
+<tr>
+	<td></td>
 	<td></td>
 	<td colspan=2>No Akaun</td>
 	<td colspan=2>: {noAkaun}</td>
@@ -77,8 +112,8 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td>*</td>
 </tr>
-<tr height=66 style='mso-height-source:userset;height:50.1pt'>
-	<td height=66  style='height:50.1pt'></td>
+<tr>
+	<td></td>
 	<td></td>
 	<td colspan=2>Nama Bank /</td>
 	<td colspan=4>: {namaBank}</td>
@@ -89,11 +124,11 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td>*</td>
 </tr>
-<tr height=66 style='mso-height-source:userset;height:50.1pt'>
-	<td height=66  style='height:50.1pt'></td>
+<tr>
+	<td></td>
 	<td></td>
 	<td colspan=2>Alamat</td>
-	<td><span style='mso-spacerun:yes'>  </span>{alamat}</td>
+	<td>{alamat}</td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -105,8 +140,8 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td class=xl151>*</td>
 </tr>
-<tr height=66 style='mso-height-source:userset;height:50.1pt'>
-	<td height=66  style='height:50.1pt'></td>
+<tr>
+	<td></td>
 	<td></td>
 	<td colspan=2>No. Bil/Invois</td>
 	<td colspan=2>: {noInvois}</td>
@@ -120,11 +155,13 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td>*</td>
 </tr>
-<tr height="26" style="background-color: #00ffff;">
-	<td colspan="15">*</td>
+<tr height="26">
+	<td></td>
+	<td colspan="13" style="background-color: #ffffff;border-bottom:5px solid black;">&nbsp;</td>
+	<td></td>
 </tr>
-<tr height=26 style='mso-height-source:userset;height:20.1pt'>
-	<td id="biru"></td>
+<tr height=26>
+	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
@@ -138,197 +175,179 @@ table.excel tbody td { border:1px; }
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td>&nbsp;</td>
-	<td class=xl86>1.</td>
-	<td class=xl109>Elaun Makan</td>
-	<td class=xl429 style="border:2.0pt double windowtext;">120.00</td>
+	<td>1.</td>
+	<td>Elaun Makan</td>
+	<td id="kotakJumlah">120.00</td>
 	<td>Elaun Harian</td>
 	<td></td>
-	<td class=xl429 style="border:2.0pt double windowtext;">80.00</td>
-	<td class=xl107></td>
-	<td class=xl84></td>
-	<td class=xl85>: B 0221101</td>
-	<td class=xl86>= RM</td>
-	<td class=xl430 style="border:2.0pt double windowtext;">200.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="kotakJumlah">80.00</td>
+	<td></td>
+	<td></td>
+	<td>: B 0221101</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">200.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>2.</td>
-	<td class=xl109>Sewa Hotel</td>
-	<td class=xl429 style="border:2.0pt double windowtext;">132.00</td>
+	<td>2.</td>
+	<td>Sewa Hotel</td>
+	<td id="kotakJumlah">132.00</td>
 	<td class=xl106>Loging</td>
 	<td class=xl115></td>
-	<td class=xl429 style="border:2.0pt double windowtext;">40.00</td>
-	<td class=xl109>Servis Caj</td>
-	<td class=xl145>&nbsp;</td>
-	<td class=xl85>: B 0221102</td>
-	<td class=xl86>= RM</td>
-	<td class=xl430 style="border:2.0pt double windowtext;">172.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="kotakJumlah">40.00</td>
+	<td>Servis Caj</td>
+	<td id="kotakJumlah">&nbsp;</td>
+	<td>: B 0221102</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">172.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>3.</td>
+	<td>3.</td>
 	<td>Bayaran Tambang Keretapi</td>
-	<td style="border:2.0pt double windowtext;">*0.00*</td>
+	<td id="kotakJumlah">*0.00*</td>
 	<td class=xl106>LRT</td>
 	<td class=xl90></td>
-	<td class=xl139 style='border-top:none'>&nbsp;</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl115></td>
-	<td class=xl331 style='border-top:none'>&nbsp;</td>
-	<td class=xl85>: B 0221103</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td>&nbsp;</td>
+	<td>: B 0221103</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>4.</td>
-	<td class=xl109>Kilometer</td>
-	<td class=xl140 style='border-top:none'>&nbsp;</td>
+	<td>4.</td>
+	<td>Kilometer</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl106>Tambang Bas</td>
 	<td class=xl115></td>
-	<td class=xl331 style='border-top:none;font-size:20.0pt;color:white;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Arial;border:2.0pt double windowtext'>0.00</td>
+	<td id="kotakJumlah">0.00</td>
 	<td>Teksi/ Grabcar</td>
-	<td class=xl429 style='border-top:none'>&nbsp;</td>
-	<td class=xl85>: B 0221104</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="kotakJumlah">0.00</td>
+	<td>: B 0221104</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>5.</td>
+	<td>5.</td>
 	<td>Bayaran Tambang Kapal/Bot</td>
-	<td class=xl141 style='border-top:none'>&nbsp;</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl80></td>
 	<td class=xl91></td>
 	<td class=xl92></td>
 	<td class=xl92></td>
 	<td class=xl93></td>
-	<td class=xl85>: B 0221105</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td>: B 0221105</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>6.</td>
+	<td>6.</td>
 	<td>Bayaran Kapal Terbang</td>
-	<td class=xl142 style='border-top:none'>&nbsp;</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl80></td>
 	<td class=xl94></td>
-	<td class=xl86></td>
-	<td class=xl86></td>
-	<td class=xl84></td>
-	<td class=xl85>: B 0221106</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>: B 0221106</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>7.</td>
-	<td class=xl109>Elaun Kerja Luar</td>
-	<td class=xl143 style='border-top:none'>&nbsp;</td>
+	<td>7.</td>
+	<td>Elaun Kerja Luar</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl80></td>
 	<td class=xl89></td>
 	<td class=xl94></td>
 	<td class=xl94></td>
-	<td class=xl84></td>
-	<td class=xl85>: B 0221107</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
-</tr>
-<tr height=80>
-	<td id="biru"></td>
-	<td class=xl83>&nbsp;</td>
-	<td class=xl86>8.</td>
-	<td class=xl109>Bayaran Tol</td>
+	<td></td>
+	<td>: B 0221107</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
-	<td class=xl109 colspan=2>Bayaran Meletak Kereta</td>
-	<td class=xl145>&nbsp;</td>
-	<td class=xl85>: B 0221199</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>9.</td>
+	<td>8.</td>
+	<td>Bayaran Tol</td>
+	<td id="kotakJumlah">&nbsp;</td>
+	<td></td>
+	<td></td>
+	<td colspan=2>Bayaran Meletak Kereta</td>
+	<td  id="kotakJumlah">&nbsp;</td>
+	<td>: B 0221199</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
+</tr>
+<tr height="40">
+	<td id="birukanan"></td>
+	<td class=xl83>&nbsp;</td>
+	<td>9.</td>
 	<td>Bayaran Balik Telefon</td>
-	<td class=xl145 style='border-top:none'>&nbsp;</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl80></td>
-	<td class=xl84></td>
-	<td class=xl86></td>
-	<td class=xl86></td>
-	<td class=xl84></td>
-	<td class=xl85>: B 0223102</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td>: B 0223102</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
-<tr height=80>
-	<td id="biru"></td>
+<tr height="40">
+	<td id="birukanan"></td>
 	<td class=xl83>&nbsp;</td>
-	<td class=xl86>10.</td>
+	<td>10.</td>
 	<td>Elaun Tugas Memandu</td>
-	<td class=xl145 style='border-top:none'>&nbsp;</td>
+	<td id="kotakJumlah">&nbsp;</td>
 	<td class=xl80></td>
-	<td class=xl84></td>
-	<td class=xl84></td>
-	<td class=xl84></td>
+	<td></td>
+	<td></td>
+	<td></td>
 	<td class=xl95></td>
-	<td class=xl85>: B 0115199</td>
-	<td class=xl86>= RM</td>
-	<td class=xl118 style='font-size:20.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00</td>
-	<td class=xl134>&nbsp;</td>
-	<td id="biru"></td>
+	<td>: B 0115199</td>
+	<td>= RM</td>
+	<td id="kotakJumlah">0.00</td>
+	<td>&nbsp;</td>
+	<td id="birukiri"></td>
 </tr>
 <tr class=xl80 height=80>
-	<td id="biru"></td>
+	<td id="birukanan"></td>
 	<td class=xl135>&nbsp;</td>
 	<td class=xl136>*</td>
 	<td class=xl156 colspan=3>SILA LEKATKAN DITUNTUTAN ORIGINAL</td>
@@ -338,70 +357,63 @@ table.excel tbody td { border:1px; }
 	<td class=xl137>&nbsp;</td>
 	<td class=xl157>JUMLAH</td>
 	<td class=xl146>= RM</td>
-	<td class=xl431>372.00</td>
+	<td id="kotakJumlah">372.00</td>
 	<td class=xl138>&nbsp;</td>
-	<td id="biru"></td>
+	<td id="birukiri"></td>
 </tr>
-<tr height="26" style="background-color: #00ffff;">
-	<td colspan="15">*</td>
-</tr>
-<tr class=xl80 height=26 style='mso-height-source:userset;height:20.1pt'>
-	<td height=26 class=xl80 style='height:20.1pt'></td>
-	<td class=xl112></td>
-	<td class=xl112></td>
-	<td class=xl96></td>
-	<td class=xl80></td>
-	<td class=xl80></td>
-	<td class=xl80></td>
-	<td class=xl80></td>
-	<td class=xl80></td>
-	<td class=xl80></td>
-	<td class=xl92></td>
-	<td class=xl86></td>
-	<td class=xl119></td>
-	<td class=xl80></td>
-	<td class=xl97>*</td>
+<tr height="26">
+	<td></td>
+	<td colspan="13" style="background-color: #ffffff;border-top:5px solid black;">&nbsp;</td>
+	<td></td>
 </tr>
 <!-- tanda sempadan ----------------------------------------------------------------------------- -->
 <tr height="30" style="background-color: #000000;">
 	<td colspan="15">*</td>
 </tr>
-<tr height="40">
-	<td id="hitam">&nbsp;</td>
-	<td colspan=3 rowspan=2 style="border-right:2.0pt double black;
-	border-bottom:2.0pt double black"><h2>POM</h2></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td colspan=3>BDP-AP01</td>
-	<td id="hitam">*</td>
+<tr height="30">
+	<td id="hitamkanan"></td>
+	<td colspan="13"></td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan">&nbsp;</td>
+	<td colspan=3 rowspan=2 style="font-size:30px;text-align:center;
+	border-top:2pt double black;
+	border-right:2pt double black;
+	border-bottom:2pt double black;">
+	<b>POM</b></td>
+	<td style="border-style: none;"></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
-	<td></td>
-	<td></td>
-	<td class=xl111></td>
-	<td class=xl111></td>
-	<td id="hitam">*</td>
+	<td colspan=3 rowspan=2 style="font-size:30px;text-align:center;
+	border-top:0pt;
+	border-right:2pt double black;
+	border-bottom:0pt">
+	BDP-AP01</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
-	<td colspan=12 class=xl500>Pergerakan Modul 1GFMAS</td>
-	<td id="hitam">*</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
+</tr>
+<tr height="60">
+	<td id="hitamkanan"></td>
+	<td colspan="13" style="text-align:center;font-size:20;">Pergerakan Modul 1GFMAS</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td class=xl120 colspan=3>Jenis modul: (tandakan di kotak yang berkenaan)</td>
@@ -411,12 +423,12 @@ table.excel tbody td { border:1px; }
 	<td class=xl101></td>
 	<td class=xl101></td>
 	<td class=xl101></td>
-	<td class=xl108></td>
+	<td></td>
 	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -428,27 +440,27 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td></td>
 	<td></td>
-	<td class=xl108></td>
+	<td></td>
 	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
+	<td width="40px" id="kotak">&nbsp;</td>
 	<td class=xl101>Waran Peruntukan</td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
+	<td width="40px" id="kotak">&nbsp;</td>
 	<td class=xl101 colspan=2>Pesanan Kerajaan</td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
+	<td width="40px" id="kotak">&nbsp;</td>
 	<td class=xl101 colspan=2>Arahan Pembayaran</td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -461,77 +473,77 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td></td>
 	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
+</tr>
+<tr height="40">
+	<td id="hitamkanan"></td>
+	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td>Baucar Jurnal</td>
+	<td></td>
+	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td colspan=2>Penyata Pemungut</td>
+	<td></td>
+	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td>ePerolehan</td>
 	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
-	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101>Baucar Jurnal</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101 colspan=2>Penyata Pemungut</td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101>ePerolehan</td>
-	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
+	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td>Perubahan Gaji</td>
 	<td></td>
 	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td colspan=2>Penyelarasan Rekod</td>
 	<td></td>
 	<td></td>
+	<td width="40px" id="kotak">&nbsp;</td>
+	<td>APCT</td>
 	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
-	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101>Perubahan Gaji</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101 colspan=2>Penyelarasan Rekod</td>
 	<td></td>
 	<td></td>
-	<td class=xl103>&nbsp;</td>
-	<td class=xl101>APCT</td>
-	<td class=xl147></td>
-	<td id="hitam">*</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td class=xl108></td>
-	<td class=xl147></td>
-	<td id="hitam">*</td>
-</tr>
-<tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td class=xl154 colspan=6>Sub Modul : Tuntutan Perjalanan {noInvois}</td>
@@ -540,10 +552,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl148></td>
 	<td></td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -557,10 +569,10 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td class=xl79></td>
 	<td class=xl104></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl123 colspan=2>Tindakan</td>
 	<td class=xl123 colspan=2>Tandatangan Ringkas</td>
@@ -571,10 +583,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl123 colspan=2>No. Rujukan AP</td>
 	<td class=xl114>&nbsp;</td>
 	<td class=xl121></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl126 colspan=2 style='mso-ignore:colspan;border-right:.5pt solid black'>Sedia</td>
 	<td class=xl126 style='border-top:none;border-left:none'>&nbsp;</td>
@@ -587,10 +599,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl116 style='border-top:none'>&nbsp;</td>
 	<td class=xl117 style='border-top:none'>&nbsp;</td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl126 colspan=2 style='mso-ignore:colspan;border-right:.5pt solid black'>Peraku 1</td>
 	<td class=xl126 style='border-top:none;border-left:none'>&nbsp;</td>
@@ -603,10 +615,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl116 style='border-top:none'>&nbsp;</td>
 	<td class=xl117 style='border-top:none'>&nbsp;</td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl126 colspan=2 style='mso-ignore:colspan;border-right:.5pt solid black'>Peraku 2</td>
 	<td class=xl126 style='border-top:none;border-left:none'>&nbsp;</td>
@@ -619,10 +631,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl116 style='border-top:none'>&nbsp;</td>
 	<td class=xl117 style='border-top:none'>&nbsp;</td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl126 colspan=2 style='mso-ignore:colspan;border-right:.5pt solid black'>Batal</td>
 	<td class=xl126 style='border-top:none;border-left:none'>&nbsp;</td>
@@ -635,10 +647,10 @@ table.excel tbody td { border:1px; }
 	<td class=xl116 style='border-top:none'>&nbsp;</td>
 	<td class=xl117 style='border-top:none'>&nbsp;</td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td class=xl122></td>
 	<td class=xl122></td>
@@ -646,30 +658,30 @@ table.excel tbody td { border:1px; }
 	<td class=xl102></td>
 	<td class=xl102></td>
 	<td class=xl102></td>
-	<td class=xl108></td>
-	<td class=xl108></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="40">
-	<td id="hitam">*</td>
-	<td></td>
-	<td class=xl122></td>
-	<td class=xl122></td>
-	<td class=xl102></td>
-	<td class=xl102></td>
-	<td class=xl102></td>
-	<td class=xl102></td>
-	<td class=xl108></td>
-	<td class=xl108></td>
+	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
-	<td id="hitam">*</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td id="hitamkiri"></td>
 </tr>
 <tr height="30" style="background-color: #000000;">
 	<td colspan="15">*</td>
@@ -692,7 +704,7 @@ table.excel tbody td { border:1px; }
 	<td></td>
 	<td>*</td>
 </tr>
-<tr height="66">
+<tr>
 	<td>&nbsp;</td>
 	<td colspan="13" style="border-style:double;">
 		<h1 align="center">KENYATAAN TUNTUTAN ELAUN PERJALANAN
@@ -766,11 +778,11 @@ table.excel tbody td { border:1px; }
 </tr>
 <tr height="53">
 	<td></td>
-	<td colspan="13">MAKLUMAT PEGAWAI</td>
+	<td colspan="13" align="center">MAKLUMAT PEGAWAI</td>
 	<td>*</td>
 </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl162>&nbsp;</td>
 	<td class=xl182 style='border-top:none'>&nbsp;</td>
@@ -786,8 +798,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl165>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>NAMA</td>
@@ -800,8 +812,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183 colspan=2>NO. KAD PENGENALAN<span
@@ -816,8 +828,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183 colspan=2>GRED / KATEGORI /</td>
@@ -832,8 +844,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>[ KUMPULAN (*) ] :</td>
@@ -848,8 +860,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>JAWATAN</td>
@@ -863,8 +875,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -880,8 +892,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl162>&nbsp;</td>
 	<td class=xl182>&nbsp;</td>
@@ -897,8 +909,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl165>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>NO AKAUN BANK<span style='mso-spacerun:yes'>  </span></td>
@@ -913,8 +925,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183 colspan=2>NAMA BANK/ALAMAT<span
@@ -928,8 +940,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -945,8 +957,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl172>&nbsp;</td>
 	<td class=xl184>&nbsp;</td>
@@ -962,8 +974,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl176>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl162 style='border-top:none'>&nbsp;</td>
 	<td class=xl182 style='border-top:none'>&nbsp;</td>
@@ -979,8 +991,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl165 style='border-top:none'>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -996,8 +1008,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183 colspan=2>PENDAPATAN (RM)</td>
@@ -1012,8 +1024,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1029,8 +1041,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl172>&nbsp;</td>
 	<td class=xl184>&nbsp;</td>
@@ -1046,8 +1058,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl176>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl162 style='border-top:none'>&nbsp;</td>
 	<td class=xl182 style='border-top:none'>&nbsp;</td>
@@ -1064,8 +1076,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl165 style='border-top:none'>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>KENDERAAN</td>
@@ -1081,8 +1093,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1098,8 +1110,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1115,8 +1127,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1132,8 +1144,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl172>&nbsp;</td>
 	<td class=xl184>&nbsp;</td>
@@ -1149,8 +1161,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl176>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl162 style='border-top:none'>&nbsp;</td>
 	<td class=xl182 style='border-top:none'>&nbsp;</td>
@@ -1166,8 +1178,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl165 style='border-top:none'>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>ALAMAT PEJABAT</td>
@@ -1181,8 +1193,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1197,8 +1209,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1212,8 +1224,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1227,8 +1239,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl172>&nbsp;</td>
 	<td class=xl184>&nbsp;</td>
@@ -1244,8 +1256,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl176>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1261,8 +1273,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183>ALAMAT RUMAH</td>
@@ -1277,8 +1289,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1292,8 +1304,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1308,8 +1320,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl166>&nbsp;</td>
 	<td class=xl183></td>
@@ -1323,8 +1335,8 @@ table.excel tbody td { border:1px; }
 	<td class=xl169>&nbsp;</td>
 	<td class=xl104>*</td>
  </tr>
-<tr height=53 style='mso-height-source:userset;height:39.95pt'>
-	<td height=53 style='height:39.95pt'></td>
+<tr height=53>
+	<td>+</td>
 	<td></td>
 	<td class=xl172>&nbsp;</td>
 	<td class=xl185>&nbsp;</td>

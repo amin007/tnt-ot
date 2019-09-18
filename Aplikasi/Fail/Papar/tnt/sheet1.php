@@ -43,17 +43,17 @@ table.excel tbody td
   <td height=66 class=xl88 style='height:50.1pt'></td>
   <td class=xl88></td>
   <td class=xl332 colspan=2 style='mso-ignore:colspan'>Nama</td>
-  <td class=xl411 colspan=5 style='mso-ignore:colspan'>: {namaPegawai}</td>
+  <td class=xl411 colspan=5 style='mso-ignore:colspan'>: <?php echo $this->biodata['namaPegawai'] ?></td>
   <td class=xl412></td>
   <td class=xl332>No. K/P<span style='mso-spacerun:yes'> </span></td>
-  <td class=xl332 colspan=3 style='mso-ignore:colspan'>: {noKP}</td>
+  <td class=xl332 colspan=3 style='mso-ignore:colspan'>: <?php echo $this->biodata['noKP'] ?></td>
   <td class=xl150 style='width:18pt'>*</td>
  </tr>
  <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
   <td height=66 class=xl88 style='height:50.1pt'></td>
   <td class=xl88></td>
   <td class=xl332 colspan=2 style='mso-ignore:colspan'>Alamat Bertugas</td>
-  <td class=xl411 colspan=4 style='mso-ignore:colspan'>: {alamatBertugas}</td>
+  <td class=xl411 colspan=4 style='mso-ignore:colspan'>: <?php echo $this->biodata['alamatBertugas'] ?></td>
   <td class=xl411></td>
   <td class=xl411></td>
   <td class=xl332>No. Pembekal</td>
@@ -1156,7 +1156,7 @@ table.excel tbody td
   <td class=xl159></td>
   <td class=xl159></td>
   <td class=xl168>&nbsp;</td>
-  <td class=xl159 colspan=4 style='mso-ignore:colspan'>{namaPegawai}</td>
+  <td class=xl159 colspan=4 style='mso-ignore:colspan'><?php echo $this->biodata['namaPegawai'] ?></td>
   <td class=xl159></td>
   <td class=xl159></td>
   <td class=xl169>&nbsp;</td>
@@ -1181,7 +1181,7 @@ table.excel tbody td
   style='mso-spacerun:yes'> </span></td>
   <td class=xl159></td>
   <td class=xl168>&nbsp;</td>
-  <td class=xl159 colspan=2 style='mso-ignore:colspan'>{noKP}</td>
+  <td class=xl159 colspan=2 style='mso-ignore:colspan'><?php echo $this->biodata['noKP'] ?></td>
   <td class=xl159></td>
   <td class=xl159></td>
   <td class=xl159></td>

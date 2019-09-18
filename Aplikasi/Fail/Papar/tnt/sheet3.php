@@ -1,10 +1,34 @@
 <html>
 <head>
+<style type="text/css">
+/* ********************************************************************* */
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+/* ********************************************************************* */
+</style>
 </head>
 <body>
 
-<table border=0 cellpadding=0 cellspacing=0 width=2009 style='border-collapse:
- collapse;table-layout:fixed;width:1506pt'>
+<table class="excel">
  <tr height=26 style='mso-height-source:userset;height:20.1pt'>
   <td colspan=10 height=26 class=xl507 width=776 style='border-right:2.0pt double black;
   height:20.1pt;width:584pt'><a name="Print_Area">TUNTUTAN ELAUN PERJALANAN

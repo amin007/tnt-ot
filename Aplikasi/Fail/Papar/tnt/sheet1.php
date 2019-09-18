@@ -1,11 +1,34 @@
 <html>
 <head>
-
+<style type="text/css">
+/* ********************************************************************* */
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+/* ********************************************************************* */
+</style>
 </head>
 <body>
 
-<table border=1 cellpadding=0 cellspacing=0 width=2629 style='border-collapse:
- collapse;table-layout:fixed;width:1971pt'>
+<table class="excel">
 <tr height=80 style='mso-height-source:userset;height:60.0pt'>
 	<td height=80 width=24 style='height:60.0pt;width:18pt'><a name="Print_Area"></a></td>
 	<td colspan=13 style="border-style:double; width:1369pt">

@@ -69,6 +69,10 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = 'Cetak';
+		list($a1,$a2,$a3) = dpt_senarai('TNT_PEGAWAI');
+		$this->papar->biodata['namaPegawai'] = $a1;
+		$this->papar->biodata['noKP'] = $a2;
+		$this->papar->biodata['alamatBertugas'] = $a3;
 
 		# Pergi papar kandungan
 		$f = array('','sheet1','sheet2','sheet3','sheet4',);

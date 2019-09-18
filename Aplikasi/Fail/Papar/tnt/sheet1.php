@@ -34,86 +34,86 @@ table.excel tbody td
 	<td colspan=13 style="border-style:double; width:1369pt">
 		<h1 align="center">PECAHAN PERBELANJAAN PERJALANAN DAN SARA HIDUP KAKITANGAN AWAM DI DALAM NEGERI</h1>
 	</td>
-	<td class=xl78 width=24 style='width:18pt'>*</td>
+	<td width=24 style='width:18pt'>*</td>
 </tr>
  <tr height=33 style='mso-height-source:userset;height:24.95pt'>
   <td height=33 colspan="15" style='height:24.95pt'></td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>Nama</td>
-  <td class=xl411 colspan=5 style='mso-ignore:colspan'>: <?php echo $this->biodata['namaPegawai'] ?></td>
-  <td class=xl412></td>
-  <td class=xl332>No. K/P<span style='mso-spacerun:yes'> </span></td>
-  <td class=xl332 colspan=3 style='mso-ignore:colspan'>: <?php echo $this->biodata['noKP'] ?></td>
-  <td class=xl150 style='width:18pt'>*</td>
+ <tr height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td></td>
+  <td colspan=2 style='mso-ignore:colspan'>Nama</td>
+  <td colspan=5 style='mso-ignore:colspan'>: <?php echo $this->biodata['namaPegawai'] ?></td>
+  <td></td>
+  <td>No. K/P<span style='mso-spacerun:yes'> </span></td>
+  <td colspan=3 style='mso-ignore:colspan'>: <?php echo $this->biodata['noKP'] ?></td>
+  <td style='width:18pt'>*</td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>Alamat Bertugas</td>
-  <td class=xl411 colspan=4 style='mso-ignore:colspan'>: <?php echo $this->biodata['alamatBertugas'] ?></td>
-  <td class=xl411></td>
-  <td class=xl411></td>
-  <td class=xl332>No. Pembekal</td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>: {noPembekal}</td>
-  <td class=xl411></td>
-  <td class=xl411>*</td>
+ <tr  height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td ></td>
+  <td  colspan=2 style='mso-ignore:colspan'>Alamat Bertugas</td>
+  <td  colspan=4 style='mso-ignore:colspan'>: <?php echo $this->biodata['alamatBertugas'] ?></td>
+  <td ></td>
+  <td ></td>
+  <td >No. Pembekal</td>
+  <td  colspan=2 style='mso-ignore:colspan'>: {noPembekal}</td>
+  <td ></td>
+  <td >*</td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>No Akaun</td>
-  <td class=xl411 colspan=2 style='mso-ignore:colspan'>: {noAkaun}</td>
-  <td class=xl411></td>
-  <td class=xl412></td>
-  <td class=xl412></td>
-  <td class=xl411></td>
-  <td class=xl332>No.Gaji</td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>: {noGaji}</td>
-  <td class=xl411></td>
-  <td class=xl411>*</td>
+ <tr  height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td ></td>
+  <td  colspan=2 style='mso-ignore:colspan'>No Akaun</td>
+  <td  colspan=2 style='mso-ignore:colspan'>: {noAkaun}</td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td >No.Gaji</td>
+  <td  colspan=2 style='mso-ignore:colspan'>: {noGaji}</td>
+  <td ></td>
+  <td >*</td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>Nama Bank /</td>
-  <td class=xl411 colspan=4 style='mso-ignore:colspan'>: {namaBank}</td>
-  <td class=xl412></td>
-  <td class=xl411></td>
-  <td class=xl332>No. Telefon</td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>: {noTelefon}</td>
-  <td class=xl411></td>
-  <td class=xl411>*</td>
+ <tr  height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td ></td>
+  <td  colspan=2 style='mso-ignore:colspan'>Nama Bank /</td>
+  <td  colspan=4 style='mso-ignore:colspan'>: {namaBank}</td>
+  <td ></td>
+  <td ></td>
+  <td >No. Telefon</td>
+  <td  colspan=2 style='mso-ignore:colspan'>: {noTelefon}</td>
+  <td ></td>
+  <td >*</td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>Alamat</td>
-  <td class=xl411><span style='mso-spacerun:yes'>  </span>{alamat}</td>
-  <td class=xl411></td>
-  <td class=xl411></td>
-  <td class=xl411></td>
-  <td class=xl411></td>
-  <td class=xl411></td>
-  <td class=xl332></td>
-  <td class=xl332></td>
-  <td class=xl412></td>
-  <td class=xl411></td>
+ <tr  height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td ></td>
+  <td  colspan=2 style='mso-ignore:colspan'>Alamat</td>
+  <td ><span style='mso-spacerun:yes'>  </span>{alamat}</td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
   <td class=xl151>*</td>
  </tr>
- <tr class=xl88 height=66 style='mso-height-source:userset;height:50.1pt'>
-  <td height=66 class=xl88 style='height:50.1pt'></td>
-  <td class=xl88></td>
-  <td class=xl332 colspan=2 style='mso-ignore:colspan'>No. Bil/Invois</td>
-  <td class=xl411 colspan=2 style='mso-ignore:colspan'>: {noInvois}</td>
-  <td class=xl412></td>
-  <td class=xl412></td>
-  <td class=xl412></td>
-  <td class=xl411></td>
-  <td class=xl332>Email</td>
-  <td class=xl332 style='mso-ignore:colspan'>:{email}</td>
+ <tr  height=66 style='mso-height-source:userset;height:50.1pt'>
+  <td height=66  style='height:50.1pt'></td>
+  <td ></td>
+  <td  colspan=2 style='mso-ignore:colspan'>No. Bil/Invois</td>
+  <td  colspan=2 style='mso-ignore:colspan'>: {noInvois}</td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td ></td>
+  <td >Email</td>
+  <td  style='mso-ignore:colspan'>:{email}</td>
   <td></td>
   <td></td>
   <td>*</td>
@@ -402,18 +402,7 @@ table.excel tbody td
   <td></td>
   <td></td>
   <td class=xl111 colspan=3 style='mso-ignore:colspan'>BDP-AP01</td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -427,35 +416,13 @@ table.excel tbody td
   <td></td>
   <td class=xl111></td>
   <td class=xl111></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=60 style='height:45.0pt'>
   <td height=60 class=xl98 style='height:45.0pt'>&nbsp;</td>
   <td></td>
   <td colspan=12 class=xl500>Pergerakan Modul 1GFMAS</td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -471,18 +438,7 @@ table.excel tbody td
   <td class=xl101></td>
   <td class=xl108></td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -499,18 +455,7 @@ table.excel tbody td
   <td class=xl101></td>
   <td class=xl108></td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -525,18 +470,7 @@ table.excel tbody td
   <td class=xl101></td>
   <td class=xl103>&nbsp;</td>
   <td class=xl101 colspan=2 style='mso-ignore:colspan'>Arahan Pembayaran</td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -553,18 +487,7 @@ table.excel tbody td
   <td class=xl101></td>
   <td class=xl101></td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -580,18 +503,7 @@ table.excel tbody td
   <td class=xl103>&nbsp;</td>
   <td class=xl101>ePerolehan</td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -608,18 +520,7 @@ table.excel tbody td
   <td class=xl101></td>
   <td class=xl101></td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>
@@ -635,18 +536,7 @@ table.excel tbody td
   <td class=xl103>&nbsp;</td>
   <td class=xl101>APCT</td>
   <td class=xl147></td>
-  <td class=xl98>&nbsp;</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class=xl98>*</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td height=40 class=xl98 style='height:30.0pt'>&nbsp;</td>

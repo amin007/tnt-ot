@@ -40,6 +40,8 @@ function getFileList($dir)
 function paparFail($t)
 {
 	diatas($t);
+	echo "<h1>$t</h1>\n";
+	echo "<p>Berikut adalah contoh sistem $t yang sedia ada di internet</p>";
 	echo "\n" . '<ul class="fa-ul">';
 	foreach(getFileList('./') as $file):
 		echo ($file['type'] == 'dir') ? 
@@ -59,16 +61,19 @@ function pautan($fail, $type)
 {
 	$icon = ($type == 'dir') ? '<i class="far fa-folder fa-spin"></i>'
 	: '<i class="fas fa-globe-asia fa-spin"></i>';
-	return '<span class="fa-li">' . $icon . '</span>'
+	$p = ($fail == '&nbsp;') ? '<hr>' : '<span class="fa-li">' . $icon . '</span>'
 	. '<a target="_blank" href="' . $fail . '">' . $fail . '</a>';
+
+	return $p;
 }
 #-------------------------------------------------------------------------------------------------
 function getWebList()
 {
-	$web[]['name'] = 'https://ww9.fmovies.to';
-	$web[]['name'] = 'https://hdbest.net';
 	$web[]['name'] = 'http://www.maybank2u.com.my';
 	$web[]['name'] = 'http://www.myedusoft.com/m/claim.htm';
+	$web[]['name'] = '&nbsp;';
+	$web[]['name'] = 'https://ww9.fmovies.to';
+	$web[]['name'] = 'https://hdbest.net';
 
 	return $web;
 }

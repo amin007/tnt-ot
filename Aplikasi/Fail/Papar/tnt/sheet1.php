@@ -168,7 +168,7 @@ table.excel tbody td {
 	<td></td>
 	<td></td>
 	<td colspan="2">No. Bil/Invois</td>
-	<td colspan="5">: <?php echo $this->biodata['noInvois'] ?></td>
+	<td colspan="5">: <?php echo $this->claim['noInvois'] ?></td>
 	<td></td>
 	<td colspan="2">Email</td>
 	<td>:<?php echo $this->biodata['email'] ?></td>
@@ -460,7 +460,7 @@ table.excel tbody td {
 	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
-	<td colspan="10">Sub Modul : Tuntutan Perjalanan <?php echo $this->biodata['noInvois'] ?></td>
+	<td colspan="10">Sub Modul : Tuntutan Perjalanan <?php echo $this->claim['noInvois'] ?></td>
 	<td></td>
 	<td id="hitamkiri"></td>
 </tr>

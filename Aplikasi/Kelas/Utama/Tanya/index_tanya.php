@@ -7,10 +7,12 @@ class Index_Tanya extends \Aplikasi\Kitab\Tanya
 	public function __construct()
 	{
 		parent::__construct();
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 	}
 #------------------------------------------------------------------------------------------#
 	function data_contoh($pilih)
 	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$data = array(
 			'namaPendek' => 'james007',
 			'namaPenuh' => 'Polan Bin Polan',

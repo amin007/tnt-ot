@@ -65,5 +65,44 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		return ($pilih==1) ? $kira : $data; # pulangkan nilai
 	}
 #------------------------------------------------------------------------------------------------#
+	public function claim($pilih=2)
+	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$data = array(
+			'bulan' => date("F"),
+			'tahun' => date("Y"),
+			/*'noAkaun' => '987456321',
+			'namaBank' => 'Maybank',
+			'alamatBank' => 'Jalan Kaya Raya',
+			'noInvois' => 'URKTNT-09/19-POLAN',
+			'noKP' => '010203010123',
+			'noPembekal' => '20190103',
+			'noGaji' => '5020190103',
+			'noTelefon' => '0123456799',
+			'email' => 'awak@duduk.mana',
+			'gred' => 'N19',
+			'kumpulan' => 'SOKONGAN',
+			'jawatan' => 'PEMBANTU TADBIR',
+			'gajiPokok' => '1234.00',
+			'elaun' => '656.00',
+			'jumGaji' => '1890.00',
+			'kenderaanModel' => '***',
+			'kenderaanNoDaftar' => '***',
+			'kenderaanKuasa' => '***',
+			'kenderaanKelasTuntutan' => '***',
+			'alamatPejabat01' => '***',
+			'alamatPejabat02' => '***',
+			'alamatPejabat03' => '***',
+			'alamatPejabat04' => '***',
+			'alamatRumah01' => '***',
+			'alamatRumah02' => '***',
+			'alamatRumah03' => '***',
+			'alamatRumah04' => '***',*/
+		); # dapatkan medan terlibat
+		$kira = 1; # kira jumlah data
+
+		return ($pilih==1) ? $kira : $data; # pulangkan nilai
+	}
+#------------------------------------------------------------------------------------------------#
 #=================================================================================================
 }

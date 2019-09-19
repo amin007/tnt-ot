@@ -189,13 +189,13 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>1.</td>
-	<td>Elaun Makan</td><td id="kotakJumlah">120.00</td>
-	<td colspan="2">Elaun Harian</td><td id="kotakJumlah">80.00</td>
+	<td>Elaun Makan</td><td id="kotakJumlah"><?php echo $this->claim['elaunMakan'] ?></td>
+	<td colspan="2">Elaun Harian</td><td id="kotakJumlah"><?php echo $this->claim['elaunHarian'] ?></td>
 	<td></td>
 	<td></td>
 	<td>:&nbsp;B&nbsp;0221101</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">200.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221101'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -203,12 +203,12 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>2.</td>
-	<td>Sewa Hotel</td><td id="kotakJumlah">132.00</td>
-	<td colspan="2">Loging</td><td id="kotakJumlah">40.00</td>
-	<td>Servis Caj</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Sewa Hotel</td><td id="kotakJumlah"><?php echo $this->claim['sewaHotel'] ?></td>
+	<td colspan="2">Loging</td><td id="kotakJumlah"><?php echo $this->claim['loging'] ?></td>
+	<td>Servis Caj</td><td id="kotakJumlah" style="width:40pt"><?php echo $this->claim['servisCaj'] ?></td>
 	<td>:&nbsp;B&nbsp;0221102</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">172.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221102'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -216,13 +216,13 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>3.</td>
-	<td>Bayaran Tambang Keretapi</td><td id="kotakJumlah">0.00</td>
-	<td colspan="2">LRT</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Bayaran Tambang Keretapi</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretapi'] ?></td>
+	<td colspan="2">LRT</td><td id="kotakJumlah"><?php echo $this->claim['tambangLRT'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td>:&nbsp;B&nbsp;0221103</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221103'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -230,12 +230,12 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>4.</td>
-	<td>Kilometer</td><td id="kotakJumlah">&nbsp;</td>
-	<td colspan="2">Tambang&nbsp;Bas</td><td id="kotakJumlah">0.00</td>
-	<td>Teksi/ Grabcar</td><td id="kotakJumlah">0.00</td>
+	<td>Kilometer</td><td id="kotakJumlah"><?php echo $this->claim['km'] ?></td>
+	<td colspan="2">Tambang&nbsp;Bas</td><td id="kotakJumlah"><?php echo $this->claim['tambangBas'] ?></td>
+	<td>Teksi/ Grabcar</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretaSewa'] ?></td>
 	<td>:&nbsp;B&nbsp;0221104</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221104'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -243,7 +243,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>5.</td>
-	<td>Bayaran Tambang Kapal/Bot</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Bayaran Tambang Kapal/Bot</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalBot'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -251,7 +251,7 @@ table.excel tbody td {
 	<td></td>
 	<td>:&nbsp;B&nbsp;0221105</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221105'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -259,7 +259,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>6.</td>
-	<td>Bayaran Kapal Terbang</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Bayaran Kapal Terbang</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalTerbang'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -267,7 +267,7 @@ table.excel tbody td {
 	<td></td>
 	<td>:&nbsp;B&nbsp;0221106</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221106'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -275,7 +275,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>7.</td>
-	<td>Elaun Kerja Luar</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Elaun Kerja Luar</td><td id="kotakJumlah"><?php echo $this->claim['elaunKerjaLuar'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -283,7 +283,7 @@ table.excel tbody td {
 	<td></td>
 	<td>:&nbsp;B&nbsp;0221107</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221107'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -291,13 +291,13 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>8.</td>
-	<td>Bayaran Tol</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Bayaran Tol</td><td id="kotakJumlah"><?php echo $this->claim['bayaranTol'] ?></td>
 	<td></td>
 	<td></td>
-	<td colspan="2">Bayaran Meletak Kereta</td><td id="kotakJumlah">&nbsp;</td>
+	<td colspan="2">Bayaran Meletak Kereta</td><td id="kotakJumlah"><?php echo $this->claim['bayaranParkir'] ?></td>
 	<td>:&nbsp;B&nbsp;0221199</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0221199'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -305,7 +305,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>9.</td>
-	<td>Bayaran Balik Telefon</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Bayaran Balik Telefon</td><td id="kotakJumlah"><?php echo $this->claim['bayaranBalikTel'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -313,7 +313,7 @@ table.excel tbody td {
 	<td></td>
 	<td>:&nbsp;B&nbsp;0223102</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0223102'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -321,7 +321,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>10.</td>
-	<td>Elaun Tugas Memandu</td><td id="kotakJumlah">&nbsp;</td>
+	<td>Elaun Tugas Memandu</td><td id="kotakJumlah"><?php echo $this->claim['elaunTugasMemandu'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -329,7 +329,7 @@ table.excel tbody td {
 	<td></td>
 	<td>:&nbsp;B&nbsp;0115199</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">0.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['b0115199'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -341,7 +341,7 @@ table.excel tbody td {
 	<td>&nbsp;</td>
 	<td>JUMLAH</td>
 	<td>= RM</td>
-	<td id="kotakJumlah">372.00</td>
+	<td id="kotakJumlah"><?php echo $this->claim['jumClaim'] ?></td>
 	<td>&nbsp;</td>
 	<td id="birukiri"></td>
 </tr>
@@ -547,9 +547,9 @@ table.excel tbody td {
 	<td></td>
 	<td></td>
 	<td align="right">BAGI</td>
-	<td colspan="2" style="border-bottom:double;text-align:center;"><?php echo $this->claim['bulan'] ?></td>
+	<td colspan="2" style="border-bottom:dashed;text-align:center;"><?php echo $this->claim['bulan'] ?></td>
 	<td rowspan="2" align="center">/</td>
-	<td colspan="2" style="border-bottom:double;text-align:center;"><?php echo $this->claim['tahun'] ?></td>
+	<td colspan="2" style="border-bottom:dashed;text-align:center;"><?php echo $this->claim['tahun'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>

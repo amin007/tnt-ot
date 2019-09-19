@@ -42,7 +42,6 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'noAkaun' => '987456321',
 			'namaBank' => 'Maybank',
 			'alamatBank' => 'Jalan Kaya Raya',
-			'noInvois' => 'URKTNT-09/19-POLAN',
 			'noPembekal' => '20190103',
 			'noGaji' => '5020190103',
 			# pendapatan
@@ -75,8 +74,9 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		$data = array(
-			'bulan' => date("F"),
-			'tahun' => date("Y"),
+			'bulan' => date('F'),
+			'tahun' => date('Y'),
+			'noInvois' => 'URKTNT-' . date('m') . '/' . date('y') . '-POLAN',
 			'elaunMakan' => '40.00',
 			'elaunHarian' => null,
 			'b0221101' => '',

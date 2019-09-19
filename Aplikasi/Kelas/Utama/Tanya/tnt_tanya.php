@@ -105,5 +105,28 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		return ($pilih==1) ? $kira : $data; # pulangkan nilai
 	}
 #------------------------------------------------------------------------------------------------#
+	public function ms($pilih=2)
+	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$t = 'Muka Surat ';
+		$ms = 10;
+		$data = array(
+			'0' => null,
+			'1' => "$t 1/$ms",
+			'2' => "$t 2/$ms",
+			'3' => "$t 3/$ms",
+			'4' => "$t 4/$ms",
+			'5' => "$t 5/$ms",
+			'6' => "$t 6/$ms",
+			'7' => "$t 7/$ms",
+			'8' => "$t 8/$ms",
+			'9' => "$t 9/$ms",
+			'10' => "$t 10/$ms",
+		); # dapatkan medan terlibat
+		$kira = 1; # kira jumlah data
+
+		return ($pilih==1) ? $kira : $data; # pulangkan nilai
+	}
+#------------------------------------------------------------------------------------------------#
 #=================================================================================================
 }

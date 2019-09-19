@@ -545,11 +545,11 @@ table.excel tbody td {
 <tr>
 	<td colspan="15"></td>
 </tr>
-<tr>
+<tr height="30">
 	<td></td>
 	<td></td>
 	<td></td>
-	<td align="right">BAGI</td>
+	<td rowspan="2" align="right">BAGI</td>
 	<td colspan="2" style="border-bottom:dashed;text-align:center;"><?php echo $this->claim['bulan'] ?></td>
 	<td rowspan="2" align="center">/</td>
 	<td colspan="2" style="border-bottom:dashed;text-align:center;"><?php echo $this->claim['tahun'] ?></td>
@@ -561,7 +561,6 @@ table.excel tbody td {
 	<td></td>
 </tr>
 <tr>
-	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>

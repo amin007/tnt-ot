@@ -18,10 +18,10 @@ table.excel thead th, table.excel tbody th {
 }
 table.excel tbody th { text-align:center; vertical-align: top; }
 table.excel tbody td {
-	/*border-top:1pt solid black;
+	border-top:1pt solid black;
 	border-left:1pt solid black;
 	border-right:1pt solid black;
-	border-bottom:1pt solid black;*/
+	border-bottom:1pt solid black;
 }
 /* ********************************************************************* */
 #hitam {
@@ -355,7 +355,7 @@ table.excel tbody td {
 </tr>
 <!-- tanda sempadan ----------------------------------------------------------------------------- -->
 <tr height="10">
-	<td colspan="14" style="border-bottom:20px solid black;"></td>
+	<td colspan="15" style="border-bottom:20px solid black;"></td>
 </tr>
 <tr height="20">
 	<td id="hitamkanan"></td>
@@ -553,6 +553,7 @@ table.excel tbody td {
 	<td></td>
 	<td></td>
 	<td></td>
+	<td></td>
 </tr>
 <tr>
 	<td></td>
@@ -561,6 +562,7 @@ table.excel tbody td {
 	<td></td>
 	<td colspan="2">( BULAN )</td>
 	<td colspan="2">( TAHUN )</td>
+	<td></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -586,12 +588,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>NAMA</td>
-	<td></td>
+	<td colspan="2">NAMA</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=4><?php echo $this->biodata['namaPegawai'] ?></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['namaPegawai'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -603,13 +603,9 @@ table.excel tbody td {
 	<td colspan="2">NO. KAD PENGENALAN</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td></td>
-	<td colspan="2"><?php echo $this->biodata['noKP'] ?></td>
+	<td colspan="5"><?php echo $this->biodata['noKP'] ?></td>
 	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td9>&nbsp;</td>
+	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
  </tr>
 <tr height="20">
@@ -619,11 +615,7 @@ table.excel tbody td {
 	<td colspan="2">GRED / KATEGORI /</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td><?php echo $this->biodata['gred'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['gred'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -632,14 +624,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>[ KUMPULAN (*) ] :</td>
-	<td></td>
+	<td colspan="2">[ KUMPULAN (*) ] :</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan="2"><?php echo $this->biodata['kumpulan'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['kumpulan'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -648,13 +636,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>JAWATAN</td>
-	<td></td>
+	<td colspan="2">JAWATAN</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=3><?php echo $this->biodata['jawatan'] ?></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['jawatan'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -677,14 +662,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>NO AKAUN BANK</td>
-	<td></td>
+	<td colspan="2">NO AKAUN BANK</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan="2"><?php echo $this->biodata['noAkaun'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['noAkaun'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -696,9 +677,7 @@ table.excel tbody td {
 	<td colspan="2">NAMA BANK/ALAMAT</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=3><?php echo $this->biodata['namaBank'] ?></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['namaBank'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -707,15 +686,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td><?php echo $this->biodata['alamatBank'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatBank'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -738,15 +712,12 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td>GAJI</td>
-	<td></td>
+	<td colspan="2">GAJI</td>
 	<td>: RM</td>
-	<td><?php echo $this->biodata['gajiPokok'] ?></td>
-	<td></td>
+	<td colspan="2" align="right"><?php echo $this->biodata['gajiPokok'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -760,8 +731,7 @@ table.excel tbody td {
 	<td>&nbsp;</td>
 	<td colspan="2">ELAUN-ELAUN</td>
 	<td>: RM</td>
-	<td><?php echo $this->biodata['elaun'] ?></td>
-	<td></td>
+	<td colspan="2" align="right"><?php echo $this->biodata['elaun'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -770,15 +740,12 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td>JUMLAH</td>
-	<td></td>
+	<td colspan="2">JUMLAH</td>
 	<td>: RM</td>
-	<td><?php echo $this->biodata['jumGaji'] ?></td>
-	<td></td>
+	<td colspan="2" align="right"><?php echo $this->biodata['jumGaji'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -801,14 +768,11 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>KENDERAAN</td>
-	<td></td>
+	<td colspan="2">KENDERAAN</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
 	<td colspan="2">JENIS / MODEL</td>
-	<td>:</td>
-	<td></td>
-	<td></td>
+	<td colspan="3">:<?php echo $this->biodata['kenderaanModel'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -817,14 +781,11 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
 	<td colspan="2">NO. PENDAFTARAN</td>
-	<td>:</td>
-	<td></td>
-	<td></td>
+	<td colspan="3">:<?php echo $this->biodata['kenderaanNoDaftar'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -833,14 +794,11 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
 	<td colspan="2">KUASA [C.C]</td>
-	<td>:</td>
-	<td></td>
-	<td></td>
+	<td colspan="3">:<?php echo $this->biodata['kenderaanKuasa'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -849,14 +807,11 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
 	<td colspan="2">KELAS TUNTUTAN</td>
-	<td>:</td>
-	<td></td>
-	<td></td>
+	<td colspan="3">:<?php echo $this->biodata['kenderaanKelasTuntutan'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -879,12 +834,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>ALAMAT PEJABAT</td>
-	<td></td>
+	<td colspan="2">ALAMAT PEJABAT</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=4><?php echo $this->biodata['alamatPejabat01'] ?></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatPejabat01'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -893,12 +846,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=4><?php echo $this->biodata['alamatPejabat02'] ?></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatPejabat02'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -907,12 +858,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=4><?php echo $this->biodata['alamatPejabat03'] ?></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatPejabat03'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -921,12 +870,10 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=4><?php echo $this->biodata['alamatPejabat04'] ?></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatPejabat04'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -949,60 +896,46 @@ table.excel tbody td {
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td>ALAMAT RUMAH</td>
-	<td></td>
+	<td colspan="2">ALAMAT RUMAH</td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan="2"><?php echo $this->biodata['alamatRumah01'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatRumah01'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
- </tr>
+</tr>
 <tr height="20">
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan=3><?php echo $this->biodata['alamatRumah02'] ?></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatRumah02'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
- </tr>
+</tr>
 <tr height="20">
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td>&nbsp;</td>
-	<td colspan="2"><?php echo $this->biodata['alamatRumah03'] ?></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatRumah03'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
- </tr>
+</tr>
 <tr height="20">
 	<td id="kotaKanan"></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td></td>
+	<td colspan="2"></td>
 	<td id="kotaKanan">&nbsp;&nbsp;</td>
 	<td></td>
-	<td colspan=3><?php echo $this->biodata['alamatRumah04'] ?></td>
-	<td></td>
-	<td></td>
+	<td colspan="5"><?php echo $this->biodata['alamatRumah04'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>

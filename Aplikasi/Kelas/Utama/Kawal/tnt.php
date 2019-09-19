@@ -70,6 +70,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = 'Cetak';
 		$this->papar->biodata = $this->tanya->biodata();
+		$this->papar->claim = $this->tanya->claim();
 
 		# Pergi papar kandungan
 		$f = array('','sheet1','sheet2','sheet3','sheet4',);

@@ -29,31 +29,37 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//list($a1,$a2,$a3) = dpt_senarai('TNT_PEGAWAI');
 		$data = array(
+			# profil
 			'namaPegawai' => 'POLAN BIN POLAN',
+			'noKP' => '010203010123',
+			'gred' => 'N19',
+			'kumpulan' => 'SOKONGAN',
+			'jawatan' => 'PEMBANTU TADBIR',
 			'alamatBertugas' => 'UNIT RISIKAN KHAS',
+			'noTelefon' => '0123456799',
+			'email' => 'awak@duduk.mana',
+			# akaun daa
 			'noAkaun' => '987456321',
 			'namaBank' => 'Maybank',
 			'alamatBank' => 'Jalan Kaya Raya',
 			'noInvois' => 'URKTNT-09/19-POLAN',
-			'noKP' => '010203010123',
 			'noPembekal' => '20190103',
 			'noGaji' => '5020190103',
-			'noTelefon' => '0123456799',
-			'email' => 'awak@duduk.mana',
-			'gred' => 'N19',
-			'kumpulan' => 'SOKONGAN',
-			'jawatan' => 'PEMBANTU TADBIR',
+			# pendapatan
 			'gajiPokok' => '1234.00',
 			'elaun' => '656.00',
 			'jumGaji' => '1890.00',
+			# kenderaan
 			'kenderaanModel' => '***',
 			'kenderaanNoDaftar' => '***',
 			'kenderaanKuasa' => '***',
 			'kenderaanKelasTuntutan' => '***',
+			# alamat pejabat
 			'alamatPejabat01' => '***',
 			'alamatPejabat02' => '***',
 			'alamatPejabat03' => '***',
 			'alamatPejabat04' => '***',
+			# alamat rumah
 			'alamatRumah01' => '***',
 			'alamatRumah02' => '***',
 			'alamatRumah03' => '***',

@@ -527,6 +527,9 @@ table.excel tbody td {
 <tr height="10">
 	<td colspan="15" style="border-top:20px solid black;"></td>
 </tr>
+<tr height="10">
+	<td colspan="15" style="text-align:center"><?php echo $this->ms[1] ?></td>
+</tr>
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <tr style='page-break-before:always;height:18.0pt'>
 	<td colspan="15"></td>
@@ -948,6 +951,9 @@ table.excel tbody td {
 	<td id="kotaBawahKanan">&nbsp;&nbsp;</td>
 	<td id="kotaBawah" colspan="8"></td>
 	<td id="kotaKiri"></td>
+</tr>
+<tr height="10">
+	<td colspan="15" style="text-align:center"><?php echo $this->ms[2] ?></td>
 </tr>
 
 </table>

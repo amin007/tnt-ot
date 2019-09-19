@@ -88,6 +88,7 @@ class Peta2
 		if( file_exists(KAWAL . '/' . $url[0] . '.php') )
 		{
 			$this->kawal = $Url[0];
+			$nama = $url[0];
 			//echo 'lokasi fail:' . KAWAL . '/' . $url[0] . '.php<hr>';
 			//echo 'nama class:' . $this->kawal . '<hr>';
 			require_once KAWAL . '/' . $url[0] . '.php';
@@ -95,6 +96,7 @@ class Peta2
 		}
 		else $this->sesat();
 		$this->kawal = new $this->kawal;# nilai default adalah index
+		$this->kawal->jemaahTaskil($nama);# cari class $nama_Tanya
 
 		return $url;
 	}

@@ -531,7 +531,7 @@ table.excel tbody td {
 	<td colspan="15" style="text-align:center"><?php echo $this->ms[1] ?></td>
 </tr>
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<tr style='page-break-before:always;height:18.0pt'>
+<tr style="page-break-before:always;height:18.0pt">
 	<td colspan="15"></td>
 </tr>
 <tr>

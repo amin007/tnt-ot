@@ -18,10 +18,10 @@ table.excel thead th, table.excel tbody th {
 }
 table.excel tbody th { text-align:center; vertical-align: top; }
 table.excel tbody td {
-	border-top:1pt solid black;
+	/*border-top:1pt solid black;
 	border-left:1pt solid black;
 	border-right:1pt solid black;
-	border-bottom:1pt solid black;
+	border-bottom:1pt solid black;*/
 }
 /* ********************************************************************* */
 #hitam {
@@ -29,12 +29,14 @@ table.excel tbody td {
 	/*border:10pt double black;*/
 }
 #hitamkiri {
-	border-left:30px solid black;
-	/*border-right:5px solid black;*/
+	background-color:#000000;
+	border-left:20px solid black;
+	/*border-right:20px solid black;*/
 }
 #hitamkanan {
-	/*border-left:5px solid black;*/
-	border-right:30px solid black;
+	background-color:#000000;
+	/*border-left:20px solid black;*/
+	border-right20px solid black;
 }
 #biru { background-color:#00ffff; }
 #birukiri {
@@ -544,10 +546,10 @@ table.excel tbody td {
 	<td></td>
 	<td></td>
 	<td></td>
-	<td>BAGI</td>
-	<td colspan="2">September</td>
-	<td rowspan=2>/</td>
-	<td colspan="2">2019</td>
+	<td align="right">BAGI</td>
+	<td colspan="2" style="border-bottom:double;text-align:center;"><?php echo $this->claim['bulan'] ?></td>
+	<td rowspan="2" align="center">/</td>
+	<td colspan="2" style="border-bottom:double;text-align:center;"><?php echo $this->claim['tahun'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -560,8 +562,8 @@ table.excel tbody td {
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan="2">( BULAN )</td>
-	<td colspan="2">( TAHUN )</td>
+	<td colspan="2" style="text-align:center;">( BULAN )</td>
+	<td colspan="2" style="text-align:center;">( TAHUN )</td>
 	<td></td>
 	<td></td>
 	<td></td>

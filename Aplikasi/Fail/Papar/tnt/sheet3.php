@@ -188,8 +188,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>TUNTUTAN TAMBANG PENGANGKUTAN AWAM</td>
+	<td colspan="10" id="tajukTengah">TUNTUTAN TAMBANG PENGANGKUTAN AWAM</td>
   <td></td>
   <td>11</td>
 </tr>
@@ -345,8 +344,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>TUNTUTAN ELAUN MAKAN / ELAUN HARIAN</td>
+	<td colspan="10" id="tajukTengah">TUNTUTAN ELAUN MAKAN / ELAUN HARIAN</td>
   <td></td>
   <td>20</td>
 </tr>
@@ -426,8 +424,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>TUNTUTAN BAYARAN SEWA HOTEL(BSH) / ELAUN LOJING</td>
+	<td colspan="10" id="tajukTengah">TUNTUTAN BAYARAN SEWA HOTEL(BSH) / ELAUN LOJING</td>
   <td></td>
   <td>26</td>
 </tr>
@@ -578,11 +575,10 @@ table.excel tbody td
   <td>36</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
- <tr class=xl273 height="20">
-  <td colspan=10 height="20"class=xl510 style='border-right:2.0pt double black;
-  height:20.1pt'>TUNTUTAN PELBAGAI</td>
-  <td class=xl285></td>
-  <td>37</td>
+<tr height="20">
+	<td colspan="10" id="tajukTengah">TUNTUTAN PELBAGAI</td>
+	<td></td>
+	<td>37</td>
 </tr>
  <tr class=xl273 height="20">
   <td height="20" style='height:20.1pt'>&nbsp;</td>
@@ -709,6 +705,12 @@ table.excel tbody td
   <td></td>
   <td>46</td>
 </tr>
+<tr>
+	<td colspan="11" style="text-align:center;border-top:1px solid black;"><?php
+	echo $this->ms[5] ?></td>
+	<td>*</td>
+</tr>
+<!-- sempadan --------------------------------------------------------------------------------- -->
  <tr height="20" style='page-break-before:always;mso-height-source:userset;
   height:20.1pt'>
   <td height="20" style='height:20.1pt'>&nbsp;</td>
@@ -724,7 +726,6 @@ table.excel tbody td
   <td></td>
   <td>1</td>
 </tr>
-<!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
   <td height="20" style='height:20.1pt'>&nbsp;</td>
   <td> PENGAKUAN</td>
@@ -904,8 +905,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>PENGESAHAN</td>
+	<td colspan="10" id="tajukTengah">PENGESAHAN</td>
   <td></td>
   <td>17</td>
 </tr>
@@ -1112,8 +1112,7 @@ table.excel tbody td
   <td>32</td>
 </tr>
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>PENDAHULUAN DIRI ( jika ada )</td>
+	<td colspan="10" id="tajukTengah">PENDAHULUAN DIRI ( jika ada )</td>
   <td></td>
   <td>33</td>
 </tr>
@@ -1222,8 +1221,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
-  <td colspan=10 height="20" style='border-right:2.0pt double black;
-  height:20.1pt'>UNTUK KEGUNAAN PEJABAT</td>
+	<td colspan="10" id="tajukTengah">UNTUK KEGUNAAN PEJABAT</td>
   <td></td>
   <td>42</td>
 </tr>
@@ -1282,6 +1280,12 @@ table.excel tbody td
   <td>&nbsp;</td>
   <td></td>
   <td>46</td>
+</tr>
+<!-- sempadan --------------------------------------------------------------------------------- -->
+<tr>
+	<td colspan="11" style="text-align:center;border-top:1px solid black;"><?php
+	echo $this->ms[6] ?></td>
+	<td>*</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 </table>

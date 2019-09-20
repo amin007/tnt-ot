@@ -79,7 +79,7 @@ table.excel tbody td
 #garis2Kiri
 {
 	font-size:12pt;font-weight:200;text-align:right;
-	border-left:double;
+	border-left:double black;/*color:white;*/
 }
 /* ********************************************************************* */
 </style>
@@ -129,8 +129,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">{km02}</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>4</td>
+	<td id="garis2Kiri">4</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -143,8 +142,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">{km03}</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>5</td>
+	<td id="garis2Kiri">5</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -157,8 +155,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">{km04}</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>6</td>
+	<td id="garis2Kiri">6</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -171,8 +168,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>7</td>
+	<td id="garis2Kiri">7</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -185,8 +181,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>8</td>
+	<td id="garis2Kiri">8</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -199,8 +194,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>9</td>
+	<td id="garis2Kiri">9</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -213,14 +207,12 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">{rmkm05}</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>10</td>
+	<td id="garis2Kiri">10</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">TUNTUTAN TAMBANG PENGANGKUTAN AWAM</td>
-	<td></td>
-	<td>11</td>
+	<td id="garis2Kiri">11</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -233,8 +225,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>12</td>
+	<td id="garis2Kiri">12</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -247,8 +238,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>13</td>
+	<td id="garis2Kiri">13</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -261,8 +251,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>14</td>
+	<td id="garis2Kiri">14</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -275,8 +264,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>15</td>
+	<td id="garis2Kiri">15</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -288,8 +276,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>16</td>
+	<td id="garis2Kiri">16</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -302,8 +289,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>17</td>
+	<td id="garis2Kiri">17</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -316,8 +302,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>18</td>
+	<td id="garis2Kiri">18</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -330,14 +315,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>19</td>
+	<td id="garis2Kiri">19</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">TUNTUTAN ELAUN MAKAN / ELAUN HARIAN</td>
-	<td></td>
-	<td>20</td>
+	<td id="garis2Kiri">20</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -350,8 +333,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>21</td>
+	<td id="garis2Kiri">21</td>
 </tr>
 <tr height="20">
 	<td align=right>3</td>
@@ -363,8 +345,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">120.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>22</td>
+	<td id="garis2Kiri">22</td>
 </tr>
 <tr height="20">
 	<td align=right>4</td>
@@ -376,8 +357,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">80.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>23</td>
+	<td id="garis2Kiri">23</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -390,8 +370,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">200.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>24</td>
+	<td id="garis2Kiri">24</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -404,14 +383,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>25</td>
+	<td id="garis2Kiri">25</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">TUNTUTAN BAYARAN SEWA HOTEL(BSH) / ELAUN LOJING</td>
-	<td></td>
-	<td>26</td>
+	<td id="garis2Kiri">26</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -424,8 +401,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>27</td>
+	<td id="garis2Kiri">27</td>
 </tr>
 <tr height="20">
 	<td align=right>2</td>
@@ -438,8 +414,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">132.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>28</td>
+	<td id="garis2Kiri">28</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -452,8 +427,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>29</td>
+	<td id="garis2Kiri">29</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -466,8 +440,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>30</td>
+	<td id="garis2Kiri">30</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -477,8 +450,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>31</td>
+	<td id="garis2Kiri">31</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -491,8 +463,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>32</td>
+	<td id="garis2Kiri">32</td>
 </tr>
 <tr height="20">
 	<td align="right">1</td>
@@ -504,8 +475,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">40.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>33</td>
+	<td id="garis2Kiri">33</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -517,8 +487,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>34</td>
+	<td id="garis2Kiri">34</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -531,8 +500,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">172.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>35</td>
+	<td id="garis2Kiri">35</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -545,14 +513,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>36</td>
+	<td id="garis2Kiri">36</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">TUNTUTAN PELBAGAI</td>
-	<td></td>
-	<td>37</td>
+	<td id="garis2Kiri">37</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -565,8 +531,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>38</td>
+	<td id="garis2Kiri">38</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -578,8 +543,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>39</td>
+	<td id="garis2Kiri">39</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -590,8 +554,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>40</td>
+	<td id="garis2Kiri">40</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -604,8 +567,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>41</td>
+	<td id="garis2Kiri">41</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -618,8 +580,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>42</td>
+	<td id="garis2Kiri">42</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -632,8 +593,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>43</td>
+	<td id="garis2Kiri">43</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -646,8 +606,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>44</td>
+	<td id="garis2Kiri">44</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -660,8 +619,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>45</td>
+	<td id="garis2Kiri">45</td>
 </tr>
 <tr height="20">
   <td>&nbsp;</td>
@@ -674,8 +632,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum">372.00</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>46</td>
+	<td id="garis2Kiri">46</td>
 </tr>
 <tr>
 	<td colspan="11" style="text-align:center;border-top:1px solid black;"><?php
@@ -694,8 +651,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>1</td>
+	<td id="garis2Kiri">1</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -708,8 +664,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>2</td>
+	<td id="garis2Kiri">2</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -722,32 +677,28 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>3</td>
+	<td id="garis2Kiri">3</td>
 </tr>
 <tr height="20">
 	<td align="right"> (a)</td>
 	<td colspan=8>perjalanan pada tarikh-tarikh tersebut adalah benar dan
 	telah dibuat atas urusan rasmi ;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>4</td>
+	<td id="garis2Kiri">4</td>
 </tr>
 <tr height="20">
 	<td align="right"> (b)</td>
 	<td colspan=7>tuntutan ini dibuat mengikut kadar dan syarat seperti yang dinyatakan di bawah</td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>5</td>
+	<td id="garis2Kiri">5</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
 	<td colspan=7>peraturan-peraturan bagi pegawai bertugas rasmi dan / atau pegawai berkursus</td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>6</td>
+	<td id="garis2Kiri">6</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -759,8 +710,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>7</td>
+	<td id="garis2Kiri">7</td>
 </tr>
 <tr height="20">
 	<td align="right"> (c)</td>
@@ -769,8 +719,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>8</td>
+	<td id="garis2Kiri">8</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -780,8 +729,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>9</td>
+	<td id="garis2Kiri">9</td>
 </tr>
 <tr height="20">
 	<td align="right"> (d)</td>
@@ -789,15 +737,13 @@ table.excel tbody td
 	<td colspan="2" id="kotakSolid">&nbsp;</td>
 	<td colspan=4> dibuat atas urusan rasmi ; dan</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>10</td>
+	<td id="garis2Kiri">10</td>
 </tr>
 <tr height="20">
 	<td align="right"> (e)</td>
 	<td colspan=9>butir-butir seperti yang dinyatakan di atas adalah benar
 	dan saya bertanggungjawab terhadapnya.</td>
-	<td></td>
-	<td>11</td>
+	<td id="garis2Kiri">11</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -810,8 +756,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>12</td>
+	<td id="garis2Kiri">12</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -824,8 +769,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>13</td>
+	<td id="garis2Kiri">13</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -837,8 +781,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>14</td>
+	<td id="garis2Kiri">14</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -848,8 +791,7 @@ table.excel tbody td
 	<td></td>
 	<td colspan=4 style="border-top:2.0pt dashed black">{namaPegawai}</td>
 	<td></td>
-	<td></td>
-	<td>15</td>
+	<td id="garis2Kiri">15</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -862,14 +804,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>16</td>
+	<td id="garis2Kiri">16</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">PENGESAHAN</td>
-	<td></td>
-	<td>17</td>
+	<td id="garis2Kiri">17</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -877,8 +817,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>18</td>
+	<td id="garis2Kiri">18</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -891,8 +830,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>19</td>
+	<td id="garis2Kiri">19</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -905,8 +843,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>20</td>
+	<td id="garis2Kiri">20</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -919,8 +856,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>21</td>
+	<td id="garis2Kiri">21</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -929,9 +865,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td colspan=4 style="border-top:2.0pt dashed black"> ( Tandatangan )</td>
-	<td></td>
 	<td>&nbsp;</td>
-	<td>22</td>
+	<td id="garis2Kiri">22</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -944,8 +879,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>23</td>
+	<td id="garis2Kiri">23</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -958,8 +892,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>24</td>
+	<td id="garis2Kiri">24</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -972,8 +905,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>25</td>
+	<td id="garis2Kiri">25</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -982,9 +914,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td colspan=4 style="border-top:2.0pt dashed black">( Nama )</td>
-	<td></td>
 	<td>&nbsp;</td>
-	<td>26</td>
+	<td id="garis2Kiri">26</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -997,8 +928,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>27</td>
+	<td id="garis2Kiri">27</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1011,8 +941,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>28</td>
+	<td id="garis2Kiri">28</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1025,8 +954,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>29</td>
+	<td id="garis2Kiri">29</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1035,9 +963,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td colspan=4 style="border-top:2.0pt dashed black">( Jawatan )</td>
-	<td></td>
 	<td>&nbsp;</td>
-	<td>30</td>
+	<td id="garis2Kiri">30</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1050,8 +977,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>31</td>
+	<td id="garis2Kiri">31</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1064,14 +990,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>32</td>
+	<td id="garis2Kiri">32</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">PENDAHULUAN DIRI ( jika ada )</td>
-	<td></td>
-	<td>33</td>
+	<td id="garis2Kiri">33</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1084,8 +1008,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>34</td>
+	<td id="garis2Kiri">34</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1096,8 +1019,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum"></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>35</td>
+	<td id="garis2Kiri">35</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1108,8 +1030,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum"></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>36</td>
+	<td id="garis2Kiri">36</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1119,8 +1040,7 @@ table.excel tbody td
 	<td>: RM</td>
 	<td id="garisJum"></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>37</td>
+	<td id="garis2Kiri">37</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1133,8 +1053,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>38</td>
+	<td id="garis2Kiri">38</td>
 </tr>
 <tr height="20">
 	<td> Catatan :</td>
@@ -1144,8 +1063,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>39</td>
+	<td id="garis2Kiri">39</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1156,8 +1074,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>40</td>
+	<td id="garis2Kiri">40</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1170,14 +1087,12 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>41</td>
+	<td id="garis2Kiri">41</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">UNTUK KEGUNAAN PEJABAT</td>
-	<td></td>
-	<td>42</td>
+	<td id="garis2Kiri">42</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1190,8 +1105,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>43</td>
+	<td id="garis2Kiri">43</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1204,8 +1118,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>44</td>
+	<td id="garis2Kiri">44</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1218,8 +1131,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>45</td>
+	<td id="garis2Kiri">45</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -1232,8 +1144,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>46</td>
+	<td id="garis2Kiri">46</td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr>

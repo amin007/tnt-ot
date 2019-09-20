@@ -41,6 +41,46 @@ table.excel tbody td
 	border-right:1pt solid black;
 	border-bottom:1pt solid black;*/
 }
+#garisBawahPutihAsal
+{
+	font-size:12.0pt;font-weight:400;
+	text-decoration:none;text-underline-style:none;text-line-through:none;
+	font-family:Arial;border:none
+}
+#garisBawahPutih
+{
+	font-size:8pt;font-weight:200;color:white;
+	text-decoration:none;text-underline-style:none;
+	text-line-through:none;
+	text-align:right;
+	font-family:Arial;border:none
+}
+#garisBawaHitamAsal
+{
+	font-size:12.0pt;color:white;font-weight:400;
+	text-decoration:none;text-underline-style:none;text-line-through:none;
+	font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
+	border-bottom:none;border-left:none
+}
+#garisBawaHitam
+{
+	font-size:8pt;font-weight:200;color:white;
+	text-align:right;
+	text-decoration:none;text-underline-style:none;text-line-through:none;
+	font-family:Arial;border:.5pt solid windowtext;
+}
+#garisJum
+{
+	font-size:8pt;font-weight:200;
+	text-align:right;
+	text-decoration:none;text-underline-style:none;text-line-through:none;
+	font-family:Arial;border:.5pt solid windowtext;
+}
+#garis2Kiri
+{
+	font-size:12pt;font-weight:200;text-align:right;
+	border-left:double;
+}
 /* ********************************************************************* */
 </style>
 </head>
@@ -50,8 +90,7 @@ table.excel tbody td
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height="20">
 	<td colspan="10" id="tajukTengah">TUNTUTAN ELAUN PERJALANAN KENDERAAN</td>
-	<td width=65 style='width:49pt'></td>
-	<td width=65 style='width:49pt'>1</td>
+	<td id="garis2Kiri">1</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -63,9 +102,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td>&nbsp;</td>
-	<td></td>
-	<td>2</td>
+	<td width="90"></td>
+	<td id="garis2Kiri">2</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -76,12 +114,9 @@ table.excel tbody td
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-  <td align=right style='font-size:12.0pt;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">{km01}</td>
 	<td>&nbsp;</td>
-	<td></td>
-	<td>3</td>
+	<td id="garis2Kiri">3</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
@@ -92,9 +127,7 @@ table.excel tbody td
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-  <td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">{km02}</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>4</td>
@@ -108,9 +141,7 @@ table.excel tbody td
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-  <td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">{km03}</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>5</td>
@@ -124,9 +155,7 @@ table.excel tbody td
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-  <td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">{km04}</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>6</td>
@@ -176,19 +205,13 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td> Jumlah KM :</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:none;border-left:none'>0</td>
+	<td id="garisBawaHitam">{km05}</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:none;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">{rmkm05}</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>10</td>
@@ -216,19 +239,13 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>Teksi : Ehailing (Grabcar)</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none'>0.00</td>
+	<td id="garisBawaHitam">0.00</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>13</td>
@@ -236,19 +253,13 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>Bas :</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none'>0.00</td>
+	<td id="garisBawaHitam">0.00</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>14</td>
@@ -256,38 +267,26 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>Kereta Api :</td>
-	<td style='border-top:none;font-size:12.0pt;color:white;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none'>&nbsp;</td>
+	<td id="garisBawaHitam">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>15</td>
 </tr>
 <tr height="20">
 	<td>&nbsp;</td>
-	<td>Feri :</td>	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none'>0.00</td>
+	<td>Feri :</td>	<td id="garisBawaHitam">0.00</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>16</td>
@@ -295,19 +294,13 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>Lain-lain:</td>
-	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none'>0.00</td>
+	<td id="garisBawaHitam">0.00</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>17</td>
@@ -315,19 +308,13 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td style='border-top:none;font-size:12.0pt;color:white;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Arial;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:none;border-left:none'>&nbsp;</td>
+	<td id="garisBawaHitam">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td align=right style='border-top:none;font-size:12.0pt;
-  color:white;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Arial;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none'>0.00 </td>
+	<td id="garisBawaHitam">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>18</td>
@@ -341,9 +328,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>19</td>
@@ -363,9 +348,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td style='font-size:12.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'></td>
+	<td></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>21</td>
@@ -374,11 +357,11 @@ table.excel tbody td
 	<td align=right>3</td>
 	<td colspan=2> hari X Elaun Makan sebanyak</td>
 	<td>RM</td>
-	<td>40.00 </td>
+	<td id="garisJum">40.00 </td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right>120.00 </td>
+	<td id="garisJum">120.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>22</td>
@@ -387,11 +370,11 @@ table.excel tbody td
 	<td align=right>4</td>
 	<td colspan=2> hari X Elaun Harian sebanyak</td>
 	<td>RM</td>
-	<td align=right>20.00 </td>
+	<td id="garisJum">20.00 </td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right>80.00 </td>
+	<td id="garisJum">80.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>23</td>
@@ -405,7 +388,7 @@ table.excel tbody td
 	<td></td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td align=right>200.00 </td>
+	<td id="garisJum">200.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>24</td>
@@ -419,9 +402,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td style='font-size:12.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'></td>
+	<td></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>25</td>
@@ -441,9 +422,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td style='font-size:12.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'></td>
+	<td></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>27</td>
@@ -453,11 +432,11 @@ table.excel tbody td
 	<td>hari X BSH sebanyak</td>
 	<td></td>
 	<td>RM</td>
-	<td align=right>66.00 </td>
+	<td id="garisJum">66.00 </td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right>132.00 </td>
+	<td id="garisJum">132.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>28</td>
@@ -467,13 +446,11 @@ table.excel tbody td
 	<td>hari X BSH sebanyak</td>
 	<td></td>
 	<td>RM</td>
-	<td></td>
+	<td id="garisJum"></td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>29</td>
@@ -487,9 +464,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td style='font-size:12.0pt;color:white;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'></td>
+	<td></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>30</td>
@@ -500,7 +475,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td>&nbsp;</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>31</td>
@@ -520,14 +495,14 @@ table.excel tbody td
 	<td>32</td>
 </tr>
 <tr height="20">
-	<td>1</td>
-	<td colspan=2 style='mso-ignore:colspan'>hari X Elaun Loging sebanyak</td>
+	<td align="right">1</td>
+	<td colspan=2> hari X Elaun Loging sebanyak</td>
 	<td>RM</td>
-	<td align=right>40.00 </td>
+	<td id="garisJum">40.00 </td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right>40.00 </td>
+	<td id="garisJum">40.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>33</td>
@@ -536,13 +511,11 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td colspan=2> hari X Elaun Loging* sebanyak</td>
 	<td>RM</td>
-	<td align=right>35.00 </td>
+	<td id="garisJum">35.00 </td>
 	<td>/ hari</td>
 	<td></td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>34</td>
@@ -556,7 +529,7 @@ table.excel tbody td
 	<td></td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td align=right>172.00 </td>
+	<td id="garisJum">172.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>35</td>
@@ -603,7 +576,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td>&nbsp;</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>39</td>
@@ -615,7 +588,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td>&nbsp;</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>40</td>
@@ -629,7 +602,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td>&nbsp;</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>41</td>
@@ -643,7 +616,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td>&nbsp;</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>42</td>
@@ -657,8 +630,8 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
+	<td id="garisJum">&nbsp;</td>
 	<td>&nbsp;</td>
-  <td class=xl262 style='border-top:none'>&nbsp;</td>
 	<td></td>
 	<td>43</td>
 </tr>
@@ -671,9 +644,7 @@ table.excel tbody td
 	<td></td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td align=right style='font-size:12.0pt;color:white;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Arial;border:none'>0.00 </td>
+	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>44</td>
@@ -701,7 +672,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>Jumlah Tuntutan</td>
 	<td>: RM</td>
-	<td>372.00</td>
+	<td id="garisJum">372.00</td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>46</td>
@@ -875,7 +846,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=5 style="border-top:2.0pt dashed black">{namaPegawai}</td>
+	<td colspan=4 style="border-top:2.0pt dashed black">{namaPegawai}</td>
+	<td></td>
 	<td></td>
 	<td>15</td>
 </tr>
@@ -1122,7 +1094,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>: RM</td>
-	<td></td>
+	<td id="garisJum"></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>35</td>
@@ -1134,7 +1106,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td>: RM</td>
-	<td></td>
+	<td id="garisJum"></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>36</td>
@@ -1145,7 +1117,7 @@ table.excel tbody td
 	<td colspan=4>Baki dituntut / Baki dibayar balik</td>
 	<td></td>
 	<td>: RM</td>
-	<td></td>
+	<td id="garisJum"></td>
 	<td>&nbsp;</td>
 	<td></td>
 	<td>37</td>

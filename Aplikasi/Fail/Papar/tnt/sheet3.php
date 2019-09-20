@@ -34,6 +34,13 @@ table.excel tbody td
 	text-align:center;
 	vertical-align:middle;
 }
+#kotakSolid {
+	border:1px solid black;
+	/**border-top:1pt solid black;
+	border-left:1pt solid black;
+	border-right:1pt solid black;
+	border-bottom:1pt solid black;*/
+}
 /* ********************************************************************* */
 </style>
 </head>
@@ -63,7 +70,7 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>500 km pertama:</td>
-	<td>&nbsp;</td>
+	<td id="kotakSolid">&nbsp;</td>
 	<td> km X</td>
 	<td>0.70</td>
 	<td>sen / km </td>
@@ -79,7 +86,7 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>500 km selepas 1000</td>
-	<td>&nbsp;</td>
+	<td id="kotakSolid">&nbsp;</td>
 	<td> km X </td>
 	<td>0.65</td>
 	<td>sen / km </td>
@@ -95,7 +102,7 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>1001 km selepas 1700</td>
-	<td>&nbsp;</td>
+	<td id="kotakSolid">&nbsp;</td>
 	<td> km X </td>
 	<td>0.60</td>
 	<td>sen / km </td>
@@ -111,7 +118,7 @@ table.excel tbody td
 <tr height="20">
 	<td>&nbsp;</td>
 	<td>1701 Setiap km selepas</td>
-	<td>&nbsp;</td>
+	<td id="kotakSolid">&nbsp;</td>
 	<td> km X </td>
 	<td>0.55</td>
 	<td>sen / km </td>
@@ -787,8 +794,7 @@ table.excel tbody td
 <tr height="20">
 	<td align="right"> (c)</td>
 	<td colspan=4>perbelanjaan yang bertanda (*) berjumlah sebanyak RM </td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
+	<td colspan="2" id="kotakSolid">&nbsp;</td>
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
@@ -809,8 +815,7 @@ table.excel tbody td
 <tr height="20">
 	<td align="right"> (d)</td>
 	<td colspan=2>panggilan telefon sebanyak RM</td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
+	<td colspan="2" id="kotakSolid">&nbsp;</td>
 	<td colspan=4> dibuat atas urusan rasmi ; dan</td>
 	<td>&nbsp;</td>
 	<td></td>
@@ -870,7 +875,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=5 style="border-bottom:2.0pt double black">{namaPegawai}</td>
+	<td colspan=5 style="border-top:2.0pt dashed black">{namaPegawai}</td>
 	<td></td>
 	<td>15</td>
 </tr>
@@ -951,10 +956,9 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
+	<td colspan=4 style="border-top:2.0pt dashed black"> ( Tandatangan )</td>
 	<td></td>
-	<td colspan=3> ( Tandatangan )</td>
 	<td>&nbsp;</td>
-	<td></td>
 	<td>22</td>
 </tr>
 <tr height="20">
@@ -1005,11 +1009,9 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td></td>
-	<td colspan=2>( Nama )</td>
+	<td colspan=4 style="border-top:2.0pt dashed black">( Nama )</td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
 	<td>26</td>
 </tr>
 <tr height="20">
@@ -1060,11 +1062,9 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td></td>
-	<td colspan=2>( Jawatan )</td>
+	<td colspan=4 style="border-top:2.0pt dashed black">( Jawatan )</td>
 	<td></td>
 	<td>&nbsp;</td>
-	<td></td>
 	<td>30</td>
 </tr>
 <tr height="20">

@@ -748,7 +748,7 @@ table.excel tbody td
 	<td>3</td>
 </tr>
 <tr height="20">
-	<td> (a)</td>
+	<td align="right"> (a)</td>
 	<td colspan=8>perjalanan pada tarikh-tarikh tersebut adalah benar dan
 	telah dibuat atas urusan rasmi ;</td>
 	<td>&nbsp;</td>
@@ -756,7 +756,7 @@ table.excel tbody td
 	<td>4</td>
 </tr>
 <tr height="20">
-	<td> (b)</td>
+	<td align="right"> (b)</td>
 	<td colspan=7>tuntutan ini dibuat mengikut kadar dan syarat seperti yang dinyatakan di bawah</td>
 	<td></td>
 	<td>&nbsp;</td>
@@ -785,7 +785,7 @@ table.excel tbody td
 	<td>7</td>
 </tr>
 <tr height="20">
-	<td> (c)</td>
+	<td align="right"> (c)</td>
 	<td colspan=4>perbelanjaan yang bertanda (*) berjumlah sebanyak RM </td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
@@ -807,7 +807,7 @@ table.excel tbody td
 	<td>9</td>
 </tr>
 <tr height="20">
-	<td>(d)</td>
+	<td align="right"> (d)</td>
 	<td colspan=2>panggilan telefon sebanyak RM</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
@@ -817,7 +817,7 @@ table.excel tbody td
 	<td>10</td>
 </tr>
 <tr height="20">
-	<td>(e)</td>
+	<td align="right"> (e)</td>
 	<td colspan=9>butir-butir seperti yang dinyatakan di atas adalah benar
 	dan saya bertanggungjawab terhadapnya.</td>
 	<td></td>

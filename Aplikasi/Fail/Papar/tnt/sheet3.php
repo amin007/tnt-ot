@@ -29,6 +29,12 @@ table.excel tbody td
 	background:#ffffff;*/
 }
 /* ********************************************************************* */
+#tajukTengah{
+	border-style:double;
+	text-align:center;
+	vertical-align:middle;
+}
+/* ********************************************************************* */
 </style>
 </head>
 <body>
@@ -36,9 +42,7 @@ table.excel tbody td
 <table class="excel">
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr height=26 style='mso-height-source:userset;height:20.1pt'>
-  <td colspan=10 height=26 class=xl507 width=776 style='border-right:2.0pt double black;
-  height:20.1pt;width:584pt'><a name="Print_Area">TUNTUTAN ELAUN PERJALANAN
-  KENDERAAN</a></td>
+  <td colspan="10" id="tajukTengah">TUNTUTAN ELAUN PERJALANAN KENDERAAN</td>
   <td class=xl108 width=65 style='width:49pt'></td>
   <td class=xl76 width=65 style='width:49pt'>1</td>
 </tr>

@@ -298,10 +298,11 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +21 -->
 	<td align=right>3</td>
-	<td colspan=2 align="left">&nbsp;hari X Elaun Makan sebanyak</td>
+	<td align="left">&nbsp;hari X Elaun Makan sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">40.00 </td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">120.00 </td>
@@ -311,10 +312,11 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +22 -->
 	<td align="right">4</td>
-	<td colspan=2 align="left">&nbsp;hari X Elaun Harian sebanyak</td>
+	<td align="left">&nbsp;hari X Elaun Harian sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">20.00 </td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">80.00 </td>
@@ -354,10 +356,10 @@ table.excel tbody td
 	<!-- +27 -->
 	<td align="right">&nbsp;&nbsp;&nbsp;2</td>
 	<td align="left">&nbsp;hari X BSH sebanyak</td>
-	<td></td>
 	<td>RM</td>
 	<td id="garisJum">66.00 </td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">132.00 </td>
@@ -368,10 +370,10 @@ table.excel tbody td
 	<!-- +28 -->
 	<td align="right">&nbsp;&nbsp;&nbsp;1</td>
 	<td align="left">&nbsp;hari X BSH sebanyak</td>
-	<td></td>
 	<td>RM</td>
 	<td id="garisJum"></td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
@@ -403,10 +405,10 @@ table.excel tbody td
 	<!-- +32 -->
 	<td align="right">1</td>
 	<td align="left">&nbsp;hari X Elaun Loging sebanyak</td>
-	<td></td>
 	<td>RM</td>
 	<td id="garisJum">40.00 </td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">40.00 </td>
@@ -417,10 +419,10 @@ table.excel tbody td
 	<!-- +33 -->
 	<td>&nbsp;&nbsp;&nbsp;1</td>
 	<td align="left">&nbsp;hari X Elaun Loging* sebanyak</td>
-	<td></td>
 	<td>RM</td>
 	<td id="garisJum">35.00 </td>
 	<td>/ hari</td>
+	<td></td>
 	<td></td>
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
@@ -430,7 +432,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +34 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
-	<td>* Untuk kursus</td>
+	<td align="left">* Untuk kursus</td>
 	<td></td>
 	<td></td>
 	<td></td>

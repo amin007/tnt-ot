@@ -761,11 +761,11 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">30</td>
 </tr>
-<tr height="20" id="garis2Kiri">
+<tr height="40" id="garis2Kiri">
 	<td colspan="10"><!-- ruang kosong dipenuhkan --></td>
 	<td id="garis2Kanan">31</td>
 </tr>
-<tr height="20" id="garis2Kiri">
+<tr height="40" id="garis2Kiri">
 	<td colspan="10"><!-- ruang kosong dipenuhkan --></td>
 	<td id="garis2Kanan">32</td>
 </tr>

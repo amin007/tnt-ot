@@ -502,7 +502,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisJum">&nbsp;</td>
+	<td id="garisJum"><?php echo $this->claim['bayaranBalikTel'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+41</td>
 </tr>
@@ -547,7 +547,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>Jumlah Tuntutan</td>
 	<td>: RM</td>
-	<td id="garisJum">372.00</td>
+	<td id="garisJum"><?php echo $this->claim['jumClaim'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+45</td>
 </tr>
@@ -623,8 +623,8 @@ table.excel tbody td
 </tr>
 <tr height="20" id="garis2Kiri">
 	<td align="right"> (d)</td>
-	<td colspan="2" align="left">&nbsp;panggilan telefon sebanyak RM</td>
-	<td colspan="2" id="kotakSolid">&nbsp;</td>
+	<td colspan="1" align="left">&nbsp;panggilan telefon sebanyak RM</td>
+	<td colspan="3" id="kotakSolid"><?php echo $this->claim['bayaranBalikTel'] ?></td>
 	<td colspan="4" align="left">&nbsp;dibuat atas urusan rasmi ; dan</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">10</td>
@@ -647,14 +647,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<td>&nbsp;</td>
 	<td colspan="2" style="text-align:left">Tarikh :
-	<?php echo $this->claim['tarikh'] ?>
-	</td>
+	<?php echo $this->claim['tarikh'] ?></td>
 	<td></td>
-	<td></td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
+	<td style="text-align:right">Tandatangan :</td>
+	<td colspan=4 style="border-bottom:2.0pt dashed black"></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">14</td>
 </tr>
@@ -664,10 +660,11 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=4 style="border-top:2.0pt dashed black">
-	<?php echo $this->biodata['namaPegawai'] ?>
-	</td>
 	<td></td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
 	<td id="garis2Kanan">15</td>
 </tr>
 <tr height="20" id="garis2Kiri">
@@ -696,7 +693,7 @@ table.excel tbody td
 </tr>
 <tr height="20" id="garis2Kiri">
 	<td>&nbsp;</td>
-	<td>Tarikh :</td>
+	<td style="text-align:left">Tarikh :</td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -713,7 +710,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=4 style="border-top:2.0pt dashed black"> ( Tandatangan )</td>
+	<td colspan="4" style="border-top:2.0pt dashed black;text-align:center;">
+	( Tandatangan )</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">22</td>
 </tr>
@@ -735,7 +733,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=4 style="border-top:2.0pt dashed black">( Nama )</td>
+	<td colspan="4" style="border-top:2.0pt dashed black;text-align:center;">
+	( Nama )</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">26</td>
 </tr>
@@ -757,7 +756,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=4 style="border-top:2.0pt dashed black">( Jawatan )</td>
+	<td colspan="4" style="border-top:2.0pt dashed black;text-align:center;">
+	( Jawatan )</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">30</td>
 </tr>

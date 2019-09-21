@@ -58,6 +58,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $a;
+		$this->papar->senarai['biodata'][] = $this->tanya->biodata();
 
 		# Pergi papar kandungan
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu

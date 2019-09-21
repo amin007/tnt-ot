@@ -20,7 +20,7 @@ table.excel tbody th { text-align:center; vertical-align: top; }
 table.excel tbody td { vertical-align:bottom; }
 table.excel tbody td
 {
-	font-size:10px;
+	font-size:12px;
 	/*border:1pt solid green;*/
 	/*padding: 0 3px; border: 1px solid #aaaaaa;
 	background:#ffffff;*/

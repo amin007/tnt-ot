@@ -103,9 +103,9 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'tambangKeretapi' => '',
 			'tambangLRT' => '',
 			'b0221103' => '',
-			'km' => '',
+			'jumKMRM' => '',
 			'tambangBas' => '',
-			'tambangKeretaSewa' => '0',
+			'tambangKeretaSewa' => '85.00',
 			'b0221104' => '',
 			'tambangKapalBot' => '190.00',
 			'b0221105' => '',
@@ -120,7 +120,10 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'b0223102' => null,
 			'elaunTugasMemandu' => null,
 			'b0115199' => null,
-			'jumClaim' => '100.00'//*/
+			'jumClaim' => '100.00',
+			# ms3
+			'tambangAwamLain2' => '',
+			'jumTambangAwam' => '123.00'
 		); # dapatkan medan terlibat
 		$kira = 1; # kira jumlah data
 

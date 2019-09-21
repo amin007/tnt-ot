@@ -182,7 +182,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">{rmkm05}</td>
+	<td id="garisJum"><?php echo $this->claim['jumKMRM'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+9</td>
 </tr>
@@ -206,7 +206,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['tambangKeretaSewa'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+12</td>
 </tr>
@@ -220,7 +220,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['tambangBas'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+13</td>
 </tr>
@@ -234,7 +234,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['tambangKeretapi'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+14</td>
 </tr>
@@ -248,7 +248,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['tambangKapalBot'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+15</td>
 </tr>
@@ -262,7 +262,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['tambangAwamLain2'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+16</td>
 </tr>
@@ -276,7 +276,7 @@ table.excel tbody td
 	<td></td>
 	<td> Jumlah </td>
 	<td>: RM</td>
-	<td id="garisBawaHitam">0.00 </td>
+	<td id="garisJum"><?php echo $this->claim['jumTambangAwam'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+17</td>
 </tr>

@@ -230,7 +230,7 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>4.</td>
-	<td>Kilometer</td><td id="kotakJumlah"><?php echo $this->claim['km'] ?></td>
+	<td>Kilometer</td><td id="kotakJumlah"><?php echo $this->claim['jumKMRM'] ?></td>
 	<td colspan="2">Tambang&nbsp;Bas</td><td id="kotakJumlah"><?php echo $this->claim['tambangBas'] ?></td>
 	<td>Teksi/ Grabcar</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretaSewa'] ?></td>
 	<td>:&nbsp;B&nbsp;0221104</td>

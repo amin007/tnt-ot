@@ -7,7 +7,7 @@ table.excel {
 	border-width:0;
 	border-collapse:collapse;
 	font-family:sans-serif;
-	font-size:11px;
+	font-size:8px;
 }
 table.excel thead th, table.excel tbody th {
 	background:#CCCCCC;
@@ -20,6 +20,7 @@ table.excel tbody th { text-align:center; vertical-align: top; }
 table.excel tbody td { vertical-align:bottom; }
 table.excel tbody td
 {
+	font-size:10px;
 	/*border:1pt solid green;*/
 	/*padding: 0 3px; border: 1px solid #aaaaaa;
 	background:#ffffff;*/
@@ -102,7 +103,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td width="90"></td>
+	<td width="50"></td>
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td id="garis2Kanan">+2</td>
 </tr>

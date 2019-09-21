@@ -874,7 +874,7 @@ table.excel tbody td
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->
 <tr>
-	<td colspan="11" style="text-align:center;border-bottom:double black;"><?php
+	<td colspan="10" style="text-align:center;border-top:double black;"><?php
 	echo $this->ms[6] ?></td>
 </tr>
 <!-- sempadan --------------------------------------------------------------------------------- -->

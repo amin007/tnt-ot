@@ -64,7 +64,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$p = 1;
 		$f = array('index','biodata');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
-		$this->paparKandungan($this->_folder,$f[$p],$noInclude=1);
+		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
 	public function cetak($p=1)

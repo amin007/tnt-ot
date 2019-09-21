@@ -647,7 +647,9 @@ table.excel tbody td
 </tr>
 <tr height="20" id="garis2Kiri">
 	<td>&nbsp;</td>
-	<td colspan="2" style="text-align:left">Tarikh : 12 September 2019</td>
+	<td colspan="2" style="text-align:left">Tarikh :
+	<?php echo $this->claim['tarikh'] ?>
+	</td>
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>

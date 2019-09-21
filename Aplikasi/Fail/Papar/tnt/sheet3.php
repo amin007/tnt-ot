@@ -299,12 +299,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +21 -->
 	<td align=right>3</td>
-	<td align="left">&nbsp;hari X Elaun Makan sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X Elaun Makan sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">40.00 </td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">120.00 </td>
 	<td>&nbsp;</td>
@@ -313,12 +311,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +22 -->
 	<td align="right">4</td>
-	<td align="left">&nbsp;hari X Elaun Harian sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X Elaun Harian sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">20.00 </td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">80.00 </td>
 	<td>&nbsp;</td>
@@ -356,12 +352,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +27 -->
 	<td align="right">&nbsp;&nbsp;&nbsp;2</td>
-	<td align="left">&nbsp;hari X BSH sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X BSH sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">66.00 </td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">132.00 </td>
 	<td>&nbsp;</td>
@@ -370,12 +364,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +28 -->
 	<td align="right">&nbsp;&nbsp;&nbsp;1</td>
-	<td align="left">&nbsp;hari X BSH sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X BSH sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum"></td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
@@ -405,12 +397,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +32 -->
 	<td align="right">1</td>
-	<td align="left">&nbsp;hari X Elaun Loging sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X Elaun Loging sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">40.00 </td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">40.00 </td>
 	<td>&nbsp;</td>
@@ -419,12 +409,10 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +33 -->
 	<td>&nbsp;&nbsp;&nbsp;1</td>
-	<td align="left">&nbsp;hari X Elaun Loging* sebanyak</td>
+	<td align="left" colspan="3">&nbsp;hari X Elaun Loging* sebanyak</td>
 	<td>RM</td>
 	<td id="garisJum">35.00 </td>
-	<td>/ hari</td>
-	<td></td>
-	<td></td>
+	<td align="left">/ hari</td>
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>

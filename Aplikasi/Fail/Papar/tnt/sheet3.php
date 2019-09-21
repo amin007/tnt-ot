@@ -102,8 +102,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td></td>
 	<td width="90"></td>
+	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td id="garis2Kanan">+2</td>
 </tr>
 <tr height="20" id="garis2Kiri">
@@ -175,7 +175,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +9 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
-	<td align="right"> Jumlah KM :</td>
+	<td align="left"> Jumlah KM </td>
 	<td id="garisJum"><?php echo $this->claim['km05'] ?></td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>

@@ -466,7 +466,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisJum">&nbsp;</td>
+	<td id="garisJum"><?php echo $this->claim['bayaranTol'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+38</td>
 </tr>
@@ -478,7 +478,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>: RM</td>
-	<td id="garisJum">&nbsp;</td>
+	<td id="garisJum"><?php echo $this->claim['bayaranParkir'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+39</td>
 </tr>

@@ -647,7 +647,7 @@ table.excel tbody td
 </tr>
 <tr height="20" id="garis2Kiri">
 	<td>&nbsp;</td>
-	<td colspan=2>Tarikh : 12 September 2019</td>
+	<td colspan="2" style="text-align:left">Tarikh : 12 September 2019</td>
 	<td></td>
 	<td></td>
 	<td>&nbsp;</td>
@@ -663,7 +663,9 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td colspan=4 style="border-top:2.0pt dashed black">{namaPegawai}</td>
+	<td colspan=4 style="border-top:2.0pt dashed black">
+	<?php echo $this->biodata['namaPegawai'] ?>
+	</td>
 	<td></td>
 	<td id="garis2Kanan">15</td>
 </tr>

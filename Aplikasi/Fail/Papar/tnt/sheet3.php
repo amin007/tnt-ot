@@ -78,7 +78,7 @@ table.excel tbody td
 }
 #garis2Kiri
 {
-	font-size:12pt;font-weight:200;text-align:right;
+	font-size:12pt;font-weight:200;
 	border-left:double black;/*color:white;*/
 }
 /* ********************************************************************* */

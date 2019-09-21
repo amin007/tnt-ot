@@ -110,13 +110,13 @@ table.excel tbody td
 	<!-- +3 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td align="left">500 km pertama:</td>
-	<td id="kotakSolid">&nbsp;</td>
+	<td id="kotakSolid"><?php echo $this->claim['km01'] ?></td>
 	<td> km X</td>
 	<td>0.70</td>
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-	<td id="garisJum">{km01}</td>
+	<td id="garisJum"><?php echo $this->claim['kmRM01'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+3</td>
 </tr>
@@ -124,13 +124,13 @@ table.excel tbody td
 	<!-- +4 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td align="left">500 km selepas 1000</td>
-	<td id="kotakSolid">&nbsp;</td>
+	<td id="kotakSolid"><?php echo $this->claim['km02'] ?></td>
 	<td> km X </td>
 	<td>0.65</td>
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-	<td id="garisJum">{km02}</td>
+	<td id="garisJum"><?php echo $this->claim['kmRM02'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+4</td>
 </tr>
@@ -138,13 +138,13 @@ table.excel tbody td
 	<!-- +5 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td align="left">1001 km selepas 1700</td>
-	<td id="kotakSolid">&nbsp;</td>
+	<td id="kotakSolid"><?php echo $this->claim['km03'] ?></td>
 	<td> km X </td>
 	<td>0.60</td>
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-	<td id="garisJum">{km03}</td>
+	<td id="garisJum"><?php echo $this->claim['kmRM03'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+5</td>
 </tr>
@@ -152,13 +152,13 @@ table.excel tbody td
 	<!-- +6 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td align="left">1701 Setiap km selepas</td>
-	<td id="kotakSolid">&nbsp;</td>
+	<td id="kotakSolid"><?php echo $this->claim['km04'] ?></td>
 	<td> km X </td>
 	<td>0.55</td>
 	<td>sen / km </td>
 	<td></td>
 	<td>: RM</td>
-	<td id="garisJum">{km04}</td>
+	<td id="garisJum"><?php echo $this->claim['kmRM04'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">+6</td>
 </tr>
@@ -176,7 +176,7 @@ table.excel tbody td
 	<!-- +9 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
 	<td align="right"> Jumlah KM :</td>
-	<td id="garisBawaHitam">{km05}</td>
+	<td id="garisJum"><?php echo $this->claim['km05'] ?></td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>

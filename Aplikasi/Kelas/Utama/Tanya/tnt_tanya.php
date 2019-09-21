@@ -122,6 +122,15 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'b0115199' => null,
 			'jumClaim' => '100.00',
 			# ms3
+			'km01' => '',
+			'km02' => '',
+			'km03' => '',
+			'km04' => '',
+			'km05' => '',
+			'kmRM01' => '',
+			'kmRM02' => '',
+			'kmRM03' => '',
+			'kmRM04' => '',
 			'tambangAwamLain2' => '',
 			'jumTambangAwam' => '123.00'
 		); # dapatkan medan terlibat

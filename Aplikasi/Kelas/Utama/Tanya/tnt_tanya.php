@@ -122,7 +122,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'b0115199' => null,
 			'jumClaim' => '100.00',
 			# ms3
-			'km01' => '',
+			'km01' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
 			'km02' => '',
 			'km03' => '',
 			'km04' => '',

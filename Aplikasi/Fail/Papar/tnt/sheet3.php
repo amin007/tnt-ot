@@ -21,7 +21,7 @@ table.excel tbody td { vertical-align:bottom; }
 table.excel tbody td
 {
 	font-size:12px;
-	/*border:1pt solid green;*/
+	/*border:1pt solid green;
 	/*padding: 0 3px; border: 1px solid #aaaaaa;
 	background:#ffffff;*/
 }
@@ -638,8 +638,11 @@ table.excel tbody td
 	<td colspan="2" style="text-align:left">Tarikh :
 	<?php echo $this->claim['tarikh'] ?></td>
 	<td></td>
-	<td style="text-align:right">Tandatangan :</td>
-	<td colspan=4 style="border-bottom:2.0pt dashed black"></td>
+	<td></td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">14</td>
 </tr>
@@ -649,10 +652,8 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td></td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
+	<td colspan="4" style="border-top:2.0pt dashed black;text-align:center;">
+	<?php echo $this->biodata['namaPegawai'] ?></td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">15</td>
 </tr>

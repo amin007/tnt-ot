@@ -181,7 +181,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td> Jumlah </td>
+	<td style="text-align:right"> Jumlah </td>
 	<td>: RM</td>
 	<td id="garisJum"><?php echo $this->claim['jumKMRM'] ?></td>
 	<td>&nbsp;</td>
@@ -275,7 +275,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td> Jumlah </td>
+	<td style="text-align:right"> Jumlah </td>
 	<td>: RM</td>
 	<td id="garisJum"><?php echo $this->claim['jumTambangAwam'] ?></td>
 	<td>&nbsp;</td>
@@ -328,7 +328,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td> Jumlah </td>
+	<td style="text-align:right"> Jumlah </td>
 	<td>: RM</td>
 	<td id="garisJum">200.00 </td>
 	<td>&nbsp;</td>
@@ -426,7 +426,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td> Jumlah </td>
+	<td style="text-align:right"> Jumlah </td>
 	<td>: RM</td>
 	<td id="garisJum">172.00 </td>
 	<td>&nbsp;</td>
@@ -515,7 +515,7 @@ table.excel tbody td
 	<td></td>
 	<td></td>
 	<td></td>
-	<td> Jumlah </td>
+	<td style="text-align:right"> Jumlah </td>
 	<td>: RM</td>
 	<td id="garisJum">0.00 </td>
 	<td>&nbsp;</td>
@@ -534,7 +534,7 @@ table.excel tbody td
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
-	<td>Jumlah Tuntutan</td>
+	<td style="text-align:right"> Jumlah Tuntutan </td>
 	<td>: RM</td>
 	<td id="garisJum"><?php echo $this->claim['jumClaim'] ?></td>
 	<td>&nbsp;</td>

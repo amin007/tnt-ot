@@ -33,10 +33,7 @@ table.excel tbody td
 }
 #kotakSolid {
 	border:1px solid black;
-	/**border-top:1pt solid black;
-	border-left:1pt solid black;
-	border-right:1pt solid black;
-	border-bottom:1pt solid black;*/
+	font-size:12.0pt;font-weight:400;
 }
 #garisBawahPutihAsal
 {
@@ -68,7 +65,7 @@ table.excel tbody td
 }
 #garisJum
 {
-	font-size:8pt;font-weight:200;
+	font-size:12pt;font-weight:200;
 	text-align:right;
 	text-decoration:none;text-underline-style:none;text-line-through:none;
 	font-family:Arial;border:.5pt solid windowtext;

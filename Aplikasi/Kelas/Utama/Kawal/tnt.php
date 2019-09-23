@@ -67,11 +67,11 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
-	public function borang($p=null)
+	public function borang($a=null)
 	{
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama
-		$this->papar->Tajuk_Muka_Surat = $p;
+		$this->papar->Tajuk_Muka_Surat = $a;
 		//$this->papar->senarai['biodata'][] = $this->tanya->biodata();
 
 		# Pergi papar kandungan

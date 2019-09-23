@@ -46,9 +46,10 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//$this->papar->Tajuk_Muka_Surat = $a;
 
 		# Pergi papar kandungan
-		$this->paparHeader('tnt/biodata');
+		//$this->paparHeader('tnt/biodata');
+		$p = 0; $f = array('index','biodata','keterangan','formula');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
-		//$this->paparKandungan($this->_folder,'index',$noInclude=0);
+		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}
 ##------------------------------------------------------------------------------------------
 #==========================================================================================

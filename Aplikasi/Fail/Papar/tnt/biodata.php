@@ -17,6 +17,14 @@ foreach($this->senarai as $jadual => $row):
 	paparJadual($this->senarai, $jadual, $row);
 endforeach;
 #
+?>
+		</div><!-- / class="col-sm-7" -->
+	</div><!-- / class="row" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- /div><!-- / class="container" -->
+<?php
+# koleksi fungsi untuk paparkan data dari $this->senarai
 #-------------------------------------------------------------------------------------------------
 	function ulangJadual($senarai)
 	{
@@ -122,8 +130,3 @@ END;
 	}
 #-------------------------------------------------------------------------------------------------
 ?>
-		</div><!-- / class="col-sm-7" -->
-	</div><!-- / class="row" -->
-</div><!-- / class="col" -->
-</div><!-- / class="row" -->
-<!-- /div><!-- / class="container" -->

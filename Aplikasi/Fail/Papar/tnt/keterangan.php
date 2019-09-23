@@ -66,7 +66,7 @@ contohBorangBootstrap();
 	</div><!-- / class="col-sm-10" -->
 </div>
 <!-- sempadan form-group row -->
-<fieldset class="form-group">
+<fieldset class="form-group border p-2">
 <div class="row">
 	<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
 	<div class="col-sm-10">

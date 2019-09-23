@@ -1,3 +1,14 @@
+<h1><span class="bg-secondary text-white rounded-pill">&nbsp;</span></h1>
+<div class="container">
+<div class="row">
+<div class="col">
+	<h1 style="text-align:center;background-color:white;"><?php echo $this->Tajuk_Muka_Surat ?><img
+		src="http://via.placeholder.com/93x101" alt="logo"
+		width="93" height="101"></h1>
+	<br>
+	<div class="row">
+		<div class="col-sm-2"><?php include 'i-menu-kiri.php'; ?></div>
+		<div class="col-sm-10" style="background-color:white;text-align:justify;">
 <?php
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 
@@ -110,3 +121,9 @@ END;
 		echo "\r<b>$jadual</b>";
 	}
 #-------------------------------------------------------------------------------------------------
+?>
+		</div><!-- / class="col-sm-7" -->
+	</div><!-- / class="row" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+</div><!-- / class="container" -->

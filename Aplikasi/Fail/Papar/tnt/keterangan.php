@@ -121,7 +121,7 @@ contohBorangBootstrap();
 <!-- sempadan form-group row -->
 <form>
 <!-- sempadan form-group row -->
-<fieldset class="border p-2"><legend class="w-auto">Your Legend</legend>
+<fieldset class="border p-2"><legend class="w-auto">Your Are Legend</legend>
 <div class="form-group row">
 	<label for="inputTajuk" class="col-sm-2 control-label text-right">#label</label>
 	<div class="col-sm-8">

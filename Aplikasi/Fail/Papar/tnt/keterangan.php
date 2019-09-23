@@ -365,6 +365,11 @@ END;
 			<option>Elaun Hotel</option>
 			<option>Elaun Makan X RM 40.00</option>
 			<option>Elaun Harian X RM 20.00</option>
+			<option>Bayaran Tol</option>
+			<option>Bayaran Parkir</option>
+			<option>Tambang Bas</option>
+			<option>Tambang Teksi</option>
+			<option>Tambang Grabcar</option>
 			</select>
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->

@@ -12,7 +12,8 @@
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <?php
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
-contohBorangBootstrap();
+//contohBorangBootstrap();
+borangPerjalanan();
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->
@@ -243,5 +244,153 @@ END;
 END;
 		echo "\r<b>$jadual</b>";
 	}
+#-------------------------------------------------------------------------------------------------
+	function borangPerjalanan()
+	{
+		# https://getbootstrap.com/docs/4.3/components/forms/
+		print <<<END
+<!-- h1> Ini Template Borang Bootstrap </h1 -->
+<form>
+<!-- sempadan form-group row -->
+<fieldset class="border p-2"><legend class="w-auto">Perjalanan</legend>
+<div class="form-group row">
+	<label for="inputTajuk" class="col-sm-2 control-label text-right">#label</label>
+	<div class="col-sm-8">
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">*</span></div>
+			<input type="text" class="form-control">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="col-sm-10" -->
+</div><!-- / class="form-group row" -->
+</fieldset><br>
+<!-- sempadan form-group row -->
+<fieldset class="form-group border p-2">
+<div class="row">
+	<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+	<div class="col-sm-10">
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+			<label class="form-check-label" for="gridRadios1">
+				First radio
+			</label>
+		</div><!-- / class="form-check" -->
+		<div class="form-check">
+			<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			<label class="form-check-label" for="gridRadios2">
+				Second radio
+			</label>
+		</div><!-- / class="form-check" -->
+		<div class="form-check disabled">
+			<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+			<label class="form-check-label" for="gridRadios3">
+				Third disabled radio
+			</label>
+		</div><!-- / class="form-check" -->
+	</div><!-- / class="col-sm-10" -->
+</div>
+</fieldset>
+<!-- sempadan form-group row -->
+<fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 01</legend>
+<div class="form-row">
+	<div class="form-group col-md-3">
+		<label for="inputState">Tarikh & Masa</label>
+		<input type="date" class="form-control" id="inputCity">
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+			<input type="time" class="form-control" id="inputCity">
+			<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+			<input type="time" class="form-control" id="inputCity">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-3">
+		<label for="inputCity">Keterangan</label>
+		<textarea class="form-control" row="100"></textarea>
+	</div>
+	<div class="form-group col-md-3">
+		<label for="inputState">Jenis Tuntutan</label>
+		<select id="inputState" class="form-control">
+		<option selected>Tiada</option>
+		<option>Tuntutan Perbatuan</option>
+		<option>Tuntutan Keretapi</option>
+		<option>Tuntutan Teksi</option>
+		<option>...</option>
+		</select>
+		<label for="inputState">Cara Pengangkutan</label>
+		<select id="inputState" class="form-control">
+		<option selected>Tiada</option>
+		<option>dengan memandu kenderaan sendiri</option>
+		<option>dengan menaiki ERL</option>
+		<option>dengan menaiki LRT</option>
+		<option>dengan Teksi</option>
+		<option>dengan Grabcar</option>
+		<option>** menumpang saudara sendiri</option>
+		<option>*** menaiki kenderaan jabatan</option>
+		<option>...</option>
+		</select>
+	</div>
+	<div class="form-group col-md-3">
+		<label for="inputZip">&nbsp;</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
+			<input type="text" class="form-control" id="inputCity">
+			<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+			<input type="text" class="form-control" id="inputCity">
+		</div><!-- / "input-group input-group" -->
+	</div>
+</div>
+</fieldset>
+<!-- sempadan form-group row -->
+<fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 02</legend>
+<div class="form-row">
+	<div class="form-group col-md-1">
+			<label>Tarikh</label>
+			<input type="date" class="form-control" id="inputCity">
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-3">
+		<label for="inputState">Masa</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+			<input type="time" class="form-control" id="inputCity">
+			<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+			<input type="time" class="form-control" id="inputCity">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-1">
+		<label for="inputState">Berapa</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
+			<input type="text" class="form-control" id="inputZip">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-3">
+		<label for="inputState">Kiraan</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
+			<select id="inputState" class="form-control">
+			<option selected>Elaun Loging X RM 40.00</option>
+			<option selected>Elaun *Loging X RM 35.00</option>
+			<option>Elaun Hotel</option>
+			<option>Elaun Makan X RM 40.00</option>
+			<option>Elaun Harian X RM 20.00</option>
+			</select>
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-1">
+		<label for="inputState">Kadar</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
+			<input type="text" class="form-control" id="inputZip">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+</div></div><!-- / class="form-row -->
+</fieldset>
+<!-- sempadan form-group row -->
+
+</form>
+<br>
+END;
+		#
+	}
+
 #-------------------------------------------------------------------------------------------------
 ?>

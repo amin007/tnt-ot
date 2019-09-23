@@ -361,7 +361,7 @@ END;
 			<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
 			<select id="inputState" class="form-control">
 			<option selected>Elaun Loging X RM 40.00</option>
-			<option selected>Elaun *Loging X RM 35.00</option>
+			<option>Elaun *Loging X RM 35.00</option>
 			<option>Elaun Hotel</option>
 			<option>Elaun Makan X RM 40.00</option>
 			<option>Elaun Harian X RM 20.00</option>

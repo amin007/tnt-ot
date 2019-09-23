@@ -3,7 +3,7 @@
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/biodata">
 				Biodata</a>
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/borang/keterangan">
-				Keterangan Tuntutan</a>
+				Perjalanan</a>
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/borang/formula">
 				Formula</a>
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/cetak/1">

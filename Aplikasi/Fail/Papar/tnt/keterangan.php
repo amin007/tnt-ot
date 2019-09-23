@@ -136,6 +136,7 @@ contohBorangBootstrap();
 </form>
 <br>
 END;
+		# https://stackoverflow.com/questions/16852484/use-fieldset-legend-with-bootstrap/16852571
 		#
 	}
 ##################################################################################################

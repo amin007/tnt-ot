@@ -39,15 +39,15 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//*/
 	}
 ##------------------------------------------------------------------------------------------
-	public function index($a='TNT')
+	public function index($a='')
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama
-		//$this->papar->Tajuk_Muka_Surat = $a;
+		$this->papar->Tajuk_Muka_Surat = $this->_folder;
 
 		# Pergi papar kandungan
 		//$this->paparHeader('tnt/biodata');
-		$p = 0; $f = array('index','biodata','keterangan','formula');
+		$p = 0; $f = array('index');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}

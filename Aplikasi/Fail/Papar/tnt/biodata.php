@@ -9,6 +9,7 @@
 	<div class="row">
 		<div class="col-sm-2"><?php include 'i-menu-kiri.php'; ?></div>
 		<div class="col-sm-10" style="background-color:white;text-align:justify;">
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <?php
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 
@@ -18,6 +19,7 @@ foreach($this->senarai as $jadual => $row):
 endforeach;
 #
 ?>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->
 	</div><!-- / class="row" -->
 </div><!-- / class="col" -->

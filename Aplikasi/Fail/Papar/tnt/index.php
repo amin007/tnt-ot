@@ -9,11 +9,13 @@
 	<div class="row">
 		<div class="col-sm-2"><?php include 'i-menu-kiri.php'; ?></div>
 		<div class="col-sm-8" style="background-color:white;text-align:justify;">
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 			<h2>Assalamualaikum &amp; Selamat Datang Ke <br> Dunia Programming Saya</h2>
 			<p>Nama saya Amin, berasal dari muar, johor.
 			Laman web ini menceritakan tentang aplikasi <b> TNT dan OT</b>
 			<br><br>
 			Sekian Terima Kasih. Wasalam</p>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->
 		<div class="col-sm-1"><?php
 $namaServer = $_SERVER['SERVER_NAME'];

@@ -23,6 +23,7 @@ contohBorangBootstrap();
 ##################################################################################################
 	function contohBorangBootstrap()
 	{
+		# https://getbootstrap.com/docs/4.3/components/forms/
 		print <<<END
 <!-- h1> Ini Template Borang Bootstrap </h1 -->
 <form method="POST" action="" class="bg-light text-dark">

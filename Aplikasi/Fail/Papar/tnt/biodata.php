@@ -1,5 +1,5 @@
 <h1><span class="bg-secondary text-white rounded-pill">&nbsp;</span></h1>
-<div class="container">
+<!-- div class="container" -->
 <div class="row">
 <div class="col">
 	<h1 style="text-align:center;background-color:white;"><?php echo $this->Tajuk_Muka_Surat ?><img
@@ -126,4 +126,4 @@ END;
 	</div><!-- / class="row" -->
 </div><!-- / class="col" -->
 </div><!-- / class="row" -->
-</div><!-- / class="container" -->
+<!-- /div><!-- / class="container" -->

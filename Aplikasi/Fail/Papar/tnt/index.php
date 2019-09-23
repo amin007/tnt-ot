@@ -1,5 +1,5 @@
 <h1><span class="bg-secondary text-white rounded-pill">&nbsp;Pengenalan&nbsp;</span></h1>
-<div class="container">
+<!-- div class="container" -->
 <div class="row">
 <div class="col">
 	<h1 style="text-align:center;background-color:white;">Tentang TNT dan OT<img
@@ -36,4 +36,4 @@ endif;
 	</div><!-- / class="row" -->
 </div><!-- / class="col" -->
 </div><!-- / class="row" -->
-</div><!-- / class="container" -->
+<!-- /div><!-- / class="container" -->

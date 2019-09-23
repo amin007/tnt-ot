@@ -355,13 +355,6 @@ END;
 			<input type="time" class="form-control" id="inputCity">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
-	<div class="form-group col-md-1">
-		<label for="inputState">Berapa</label>
-		<div class="input-group input-group">
-			<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
-			<input type="text" class="form-control" id="inputZip">
-		</div><!-- / "input-group input-group" -->
-	</div><!-- / class="form-group -->
 	<div class="form-group col-md-3">
 		<label for="inputState">Kiraan</label>
 		<div class="input-group input-group">
@@ -373,6 +366,13 @@ END;
 			<option>Elaun Makan X RM 40.00</option>
 			<option>Elaun Harian X RM 20.00</option>
 			</select>
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="form-group -->
+	<div class="form-group col-md-1">
+		<label for="inputState">Berapa</label>
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
+			<input type="text" class="form-control" id="inputZip">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
 	<div class="form-group col-md-1">

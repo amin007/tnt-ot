@@ -61,8 +61,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->papar->senarai['biodata'][] = $this->tanya->biodata();
 
 		# Pergi papar kandungan
-		$p = 1;
-		$f = array('index','biodata');
+		$p = 1; $f = array('index','biodata','keterangan','formula');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}

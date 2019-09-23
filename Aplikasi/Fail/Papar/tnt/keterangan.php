@@ -118,6 +118,22 @@ contohBorangBootstrap();
 </div>
 <!-- sempadan form-group row -->
 </form>
+<!-- sempadan form-group row -->
+<form>
+<!-- sempadan form-group row -->
+<div class="form-group row">
+<fieldset class="border p-2"><legend class="w-auto">Your Legend</legend>
+	<label for="inputTajuk" class="col-sm-2 control-label text-right">#label</label>
+	<div class="col-sm-8">
+		<div class="input-group input-group">
+			<div class="input-group-prepend"><span class="input-group-text">*</span></div>
+			<input type="text" class="form-control">
+		</div><!-- / "input-group input-group" -->
+	</div><!-- / class="col-sm-10" -->
+</fieldset>
+</div><!-- / class="form-group row" -->
+<!-- sempadan form-group row -->
+</form>
 END;
 		#
 	}

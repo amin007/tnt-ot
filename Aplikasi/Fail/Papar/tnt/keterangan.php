@@ -392,10 +392,14 @@ END;
 <!-- sempadan form-group row -->
 <fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 03</legend>
 <div class="form-row">
-	<div class="form-group col-md-2">
-		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Foo</label>
-		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bar</label>
-	</div><!-- / class="form-group col-md-2" -->
+	<div class="form-group col">
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Keterangan</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Tuntutan</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bayaran</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Tambang</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Elaun</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
+	</div><!-- / class="form-group col" -->
 </div><!-- / class="form-row" -->
 </fieldset>
 <!-- sempadan form-group row -->

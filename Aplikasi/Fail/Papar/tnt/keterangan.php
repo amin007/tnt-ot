@@ -390,6 +390,13 @@ END;
 </div></div><!-- / class="form-row -->
 </fieldset>
 <!-- sempadan form-group row -->
+<fieldset>
+<div class="form-group row">
+	<label> data-toggle-"tab" data-target="#tab1"><input type="radio">Foo</label>
+	<label> data-toggle-"tab" data-target="#tab1"><input type="radio">Bar</label>
+</div><!-- / class="form-group row" -->
+</fieldset>
+<!-- sempadan form-group row -->
 
 </form>
 <br>

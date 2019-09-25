@@ -408,11 +408,6 @@ END;
 	function contohBorang02()
 	{
 		print <<<END
-<div class="form-group row">
-	<labe> data-toggle-"tab" data-target="#tab1">input type="radio">Foo</label>
-	<labe> data-toggle-"tab" data-target="#tab1">input type="radio">Bar</label>
-</div><!-- / class="form-group row" -->
-<br>
 END;
 		#
 	}

@@ -390,7 +390,7 @@ END;
 </div></div><!-- / class="form-row -->
 </fieldset>
 <!-- sempadan form-group row -->
-<fieldset>
+<fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 03</legend>
 <div class="form-group row">
 	<label> data-toggle-"tab" data-target="#tab1"><input type="radio">Foo</label>
 	<label> data-toggle-"tab" data-target="#tab1"><input type="radio">Bar</label>

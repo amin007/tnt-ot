@@ -15,3 +15,7 @@
 				Cetak Muka3</a>
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/cetak/4">
 				Cetak Muka4</a>
+			<a class="btn btn-outline-success rounded-pill" href="https://www.maybank2u.com.my">
+				Maybank2u</a>
+			<a class="btn btn-outline-success rounded-pill" href="http://www.anm.gov.my/index.html">
+				ANM</a>

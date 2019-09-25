@@ -391,10 +391,12 @@ END;
 </fieldset>
 <!-- sempadan form-group row -->
 <fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 03</legend>
-<div class="form-group row">
-	<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Foo</label>
-	<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bar</label>
-</div><!-- / class="form-group row" -->
+<div class="form-row">
+	<div class="form-group col-md-2">
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Foo</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bar</label>
+	</div><!-- / class="form-group col-md-2" -->
+</div><!-- / class="form-row" -->
 </fieldset>
 <!-- sempadan form-group row -->
 

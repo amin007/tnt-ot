@@ -387,7 +387,7 @@ END;
 			<input type="text" class="form-control" id="inputZip">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
-</div></div><!-- / class="form-row -->
+</div><!-- / class="form-row -->
 </fieldset>
 <!-- sempadan form-group row -->
 <fieldset class="form-group border p-2"><legend class="w-auto">Perjalanan 03</legend>

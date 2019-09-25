@@ -1,3 +1,4 @@
+<?php echo "\n";?>
 			<a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>tnt">
 				Pengenalan</a>
 			<a class="btn btn-outline-secondary rounded-pill" href="<?php echo URL ?>tnt/biodata">

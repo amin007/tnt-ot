@@ -506,7 +506,7 @@ END;
 		Contact Daa
 	</div>
 </div>
-<!-- ----------------------------------------------------------------------------------------- --><br>
+<!-- ----------------------------------------------------------------------------------------- --<br>
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Keterangan</label>
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Tuntutan</label>
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bayaran</label>

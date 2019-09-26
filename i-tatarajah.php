@@ -74,6 +74,9 @@ else
 	define('FONTAWESOME', $fontawesome_local);
 	define('BOOTSTRAPJS', $bootstrapJS_local);
 	define('BOOTSTRAPCSS', $bootstrapCSS_local);
+	define('CSS_ARRAY', serialize(
+		array ($bootstrapCSS_431,$fontawesome_510)
+	));
 	define('JS_ARRAY', serialize(
 		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
 	));

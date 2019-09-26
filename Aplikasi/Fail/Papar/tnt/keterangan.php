@@ -515,25 +515,25 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-<li class="btn-outline-secondary rounded-pill">
-	<a id="pa" href="#a" class="nav-link active" data-toggle="pill" aria-selected="true">A</a>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pa" href="#a" class="active" data-toggle="pill" aria-selected="true">Keterangan</a>
 </li>
-<li class="btn-outline-secondary rounded-pill">
-	<a id="pb" href="#b" class="nav-link" data-toggle="pill" aria-selected="false">B</a>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pb" href="#b" class="" data-toggle="pill" aria-selected="false">Tuntutan</a>
 </li>
-<li class="btn-outline-secondary rounded-pill">
-	<a id="pc" href="#c" class="nav-link" data-toggle="pill" aria-selected="false">C</a>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pc" href="#c" class="" data-toggle="pill" aria-selected="false">Bayaran</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active border border-secondary" id="a">
-		A Daa
+		Keterangan Daa
 	</div>
 	<div class="tab-pane fade border border-secondary" id="b">
-		B Daa
+		Tuntutan Daa
 	</div>
 	<div class="tab-pane fade border border-secondary" id="c">
-		C Daa
+		Bayaran Daa
 	</div>
 </div>
 <!-- ----------------------------------------------------------------------------------------- --<br>

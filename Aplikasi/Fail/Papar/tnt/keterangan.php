@@ -483,7 +483,7 @@ END;
 		</div>
 	</div>
 </div>
-<!-- ----------------------------------------------------------------------------------------- --><br>
+<!-- ----------------------------------------------------------------------------------------- --<br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 <li class="nav-item">
 	<a class="border border-secondary nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
@@ -514,6 +514,29 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Elaun</label>
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+<li class="nav-item">
+	<a id="pa" href="#a" aria-controls="a" class="nav-link active border border-secondary" data-toggle="pill" role="tab" aria-selected="true">A</a>
+</li>
+<li class="nav-item">
+	<a id="pb" href="#b" aria-controls="b" class="nav-link border border-secondary" data-toggle="pill" data-toggle="pill" role="tab" aria-selected="false">B</a>
+</li>
+<li class="nav-item">
+	<a id="pc" href="#c" aria-controls="c" class="nav-link border border-secondary" data-toggle="pill" data-toggle="pill" role="tab" aria-selected="false">C</a>
+</li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+	<div class="tab-pane fade show active border border-secondary" role="tabpanel" aria-labelledby="a" id="pa">
+		A Daa
+	</div>
+	<div class="tab-pane fade border border-secondary" role="tabpanel" aria-labelledby="b" id="pb">
+		B Daa
+	</div>
+	<div class="tab-pane fade border border-secondary " role="tabpanel" aria-labelledby="c" id="pc">
+		C Daa
+	</div>
+</div>
+<!-- ----------------------------------------------------------------------------------------- --<br>
 <p>
 	<a class="btn btn-outline-secondary rounded-pill" href="#Keterangan" aria-controls="Keterangan" data-toggle="collapse" aria-expanded="false">Keterangan</a>
 	<a class="btn btn-outline-secondary rounded-pill" href="#Tuntutan" aria-controls="Tuntutan" data-toggle="collapse" aria-expanded="false">Tuntutan</a>

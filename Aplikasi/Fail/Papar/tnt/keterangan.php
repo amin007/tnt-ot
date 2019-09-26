@@ -516,22 +516,22 @@ END;
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 <li>
-	<a id="pa" href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a>
+	<a href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a>
 </li>
 <li>
-	<a id="pb" href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a>
+	<a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a>
 </li>
 <li>
-	<a id="pc" href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Bayaran</a>
+	<a href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Bayaran</a>
 </li>
 <li>
-	<a id="pd" href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a>
+	<a href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a>
 </li>
 <li>
-	<a id="pe" href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
+	<a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
 </li>
 <li>
-	<a id="pf" href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
+	<a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">

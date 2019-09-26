@@ -526,13 +526,13 @@ END;
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
-	<div class="tab-pane fade show active border border-secondary" role="tabpanel" id="a">
+	<div class="tab-pane fade show active border border-secondary" id="a">
 		A Daa
 	</div>
-	<div class="tab-pane fade border border-secondary" role="tabpanel" id="b">
+	<div class="tab-pane fade border border-secondary" id="b">
 		B Daa
 	</div>
-	<div class="tab-pane fade border border-secondary " role="tabpanel" id="c">
+	<div class="tab-pane fade border border-secondary" id="c">
 		C Daa
 	</div>
 </div>

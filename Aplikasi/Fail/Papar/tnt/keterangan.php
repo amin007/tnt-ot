@@ -648,33 +648,17 @@ END;
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
-				<label for="inputState">Jenis Tuntutan</label>
+				<label for="inputState">Tambang</label>
 				<select id="inputState" class="form-control">
-				<option selected>Tiada</option>
-				<option>Tuntutan Perbatuan</option>
-				<option>Tuntutan Keretapi</option>
-				<option>Tuntutan Teksi</option>
-				<option>...</option>
-				</select>
-				<label for="inputState">Cara Pengangkutan</label>
-				<select id="inputState" class="form-control">
-				<option selected>Tiada</option>
-				<option>dengan memandu kenderaan sendiri</option>
-				<option>dengan menaiki ERL</option>
-				<option>dengan menaiki LRT</option>
-				<option>dengan Teksi</option>
-				<option>dengan Grabcar</option>
-				<option>** menumpang saudara sendiri</option>
-				<option>*** menaiki kenderaan jabatan</option>
-				<option>...</option>
+					<option>Tambang Bas</option>
+					<option>Tambang Teksi</option>
+					<option>Tambang Grabcar</option>
 				</select>
 			</div>
-			<div class="form-group col-md-3">
-				<label for="inputZip">&nbsp;</label>
+			<div class="form-group col-md-2">
+				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
-					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input type="text" class="form-control" id="inputCity">
-					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
 					<input type="text" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div>

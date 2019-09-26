@@ -20,8 +20,6 @@ echo $tajuk[0] . '[' . $tajuk[1] . $tajuk[2] . ']' ;
 <meta name="keywords" content="idea kreatif inovatif projek link Dunia Imaginasi Saya">
 <meta name="author" content="Amin007 Ledang">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="<?=FONTAWESOME510?>" rel="stylesheet" type="text/css">
-<link href="<?=BOOTSTRAPCSS431?>" rel="stylesheet" type="text/css">
 <?php
 if (isset($this->css))
 {

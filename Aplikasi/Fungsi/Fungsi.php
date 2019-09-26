@@ -274,6 +274,10 @@ function dpt_senarai($pilih)
 	# define('MSICBARU', serialize (array()) );
 	if ($pilih == 'TNT_PEGAWAI') :
 		$jadual = unserialize(TNT_PEGAWAI);
+	# kod JS
+	elseif ($pilih == 'JS_ARRAY') :
+		$jadual = unserialize(JS_ARRAY);
+	elseif ($pilih == 'jadual_biodata') :
 	# kod login
 	elseif ($pilih == 'jadual_login') :
 		$jadual = unserialize(JADUAL_LOGIN);

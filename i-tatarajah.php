@@ -16,8 +16,11 @@ define('Tajuk_Muka_Surat', '***');
 
 # setkan jquery, bootstrap dan font awesome sama ada local atau cdn
 ## cdn
-      $jquery_cdn = 'https://code.jquery.com/jquery-2.2.3.min.js';
- $bootstrapJS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js';
+      //$jquery_cdn = 'https://code.jquery.com/jquery-2.2.3.min.js';
+      $jquery_cdn = 'https://code.jquery.com/jquery-3.3.1.slim.min.js';
+      $popper_cdn = 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js';
+# 337
+ $bootstrapJS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';
 $bootstrapCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css';
  $ceruleanCSS_cdn = 'https://maxcdn.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css';
  $fontawesome_cdn = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
@@ -71,6 +74,9 @@ else
 	define('FONTAWESOME', $fontawesome_local);
 	define('BOOTSTRAPJS', $bootstrapJS_local);
 	define('BOOTSTRAPCSS', $bootstrapCSS_local);
+	define('JS_ARRAY', serialize(
+		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
+	));
 	define('BOOTSTRAPJS431', $bootstrapJS_431);
 	define('BOOTSTRAPCSS431', $bootstrapCSS_431);
 	define('FONTAWESOME510', $fontawesome_510);

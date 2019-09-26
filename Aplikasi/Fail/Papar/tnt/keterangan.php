@@ -684,15 +684,14 @@ END;
 			<div class="form-group col-md-3">
 				<label for="inputState">Cara Pengangkutan</label>
 				<select id="inputState" class="form-control">
-					<option selected>Tiada</option>
-					<option>dengan memandu kenderaan sendiri</option>
+					<option value="" selected>Tiada</option>
+					<option>* memandu kenderaan sendiri</option>
+					<option>** menumpang saudara sendiri</option>
+					<option>*** menaiki kenderaan jabatan</option>
 					<option>dengan menaiki ERL</option>
 					<option>dengan menaiki LRT</option>
 					<option>dengan Teksi</option>
 					<option>dengan Grabcar</option>
-					<option>** menumpang saudara sendiri</option>
-					<option>*** menaiki kenderaan jabatan</option>
-					<option>...</option>
 				</select>
 			</div>
 		</div>

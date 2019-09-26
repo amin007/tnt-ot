@@ -617,7 +617,53 @@ END;
 
 	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="c">
-		Bayaran Daa
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Bayaran</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Jenis Tuntutan</label>
+				<select id="inputState" class="form-control">
+				<option selected>Tiada</option>
+				<option>Tuntutan Perbatuan</option>
+				<option>Tuntutan Keretapi</option>
+				<option>Tuntutan Teksi</option>
+				<option>...</option>
+				</select>
+				<label for="inputState">Cara Pengangkutan</label>
+				<select id="inputState" class="form-control">
+				<option selected>Tiada</option>
+				<option>dengan memandu kenderaan sendiri</option>
+				<option>dengan menaiki ERL</option>
+				<option>dengan menaiki LRT</option>
+				<option>dengan Teksi</option>
+				<option>dengan Grabcar</option>
+				<option>** menumpang saudara sendiri</option>
+				<option>*** menaiki kenderaan jabatan</option>
+				<option>...</option>
+				</select>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="inputZip">&nbsp;</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="d">
 		Tambang Daa

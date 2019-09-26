@@ -566,7 +566,7 @@ END;
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="b">
+	<div class="tab-pane fade" id="b">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Tuntutan</legend>
 		<div class="form-row">
@@ -600,7 +600,7 @@ END;
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="c">
+	<div class="tab-pane fade" id="c">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Bayaran</legend>
 		<div class="form-row">
@@ -633,7 +633,7 @@ END;
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="d">
+	<div class="tab-pane fade" id="d">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Tambang</legend>
 		<div class="form-row">
@@ -673,7 +673,7 @@ END;
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="e">
+	<div class="tab-pane fade" id="e">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Pengangkutan</legend>
 		<div class="form-row">
@@ -700,7 +700,7 @@ END;
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="f">
+	<div class="tab-pane fade" id="f">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Elaun</legend>
 		<div class="form-row">
@@ -727,9 +727,6 @@ END;
 					<option>Elaun Hotel</option>
 					<option>Elaun Makan X RM 40.00</option>
 					<option>Elaun Harian X RM 20.00</option>
-					<option>Tambang Bas</option>
-					<option>Tambang Teksi</option>
-					<option>Tambang Grabcar</option>
 					</select>
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->

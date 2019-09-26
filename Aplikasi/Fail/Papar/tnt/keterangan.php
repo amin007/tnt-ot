@@ -654,6 +654,12 @@ END;
 					<option>Tambang Bas</option>
 					<option>Tambang Teksi</option>
 					<option>Tambang Grabcar</option>
+					<option>Tambang Keretapi</option>
+					<option>Tambang Komuter</option>
+					<option>Tambang ERL</option>
+					<option>Tambang LRT</option>
+					<option>Tambang Monoril</option>
+					<option>Tambang MRT</option>
 				</select>
 			</div>
 			<div class="form-group col-md-2">
@@ -688,8 +694,6 @@ END;
 					<option>* memandu kenderaan sendiri</option>
 					<option>** menumpang saudara sendiri</option>
 					<option>*** menaiki kenderaan jabatan</option>
-					<option>dengan menaiki ERL</option>
-					<option>dengan menaiki LRT</option>
 				</select>
 			</div>
 		</div>

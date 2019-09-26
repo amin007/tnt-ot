@@ -515,14 +515,14 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-<li class="nav-item">
-	<a id="pa" href="#a" class="nav-link active border border-secondary" data-toggle="pill" aria-selected="true">A</a>
+<li class="btn-outline-secondary rounded-pill">
+	<a id="pa" href="#a" class="nav-link active" data-toggle="pill" aria-selected="true">A</a>
 </li>
-<li class="nav-item">
-	<a id="pb" href="#b" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">B</a>
+<li class="btn-outline-secondary rounded-pill">
+	<a id="pb" href="#b" class="nav-link" data-toggle="pill" aria-selected="false">B</a>
 </li>
-<li class="nav-item">
-	<a id="pc" href="#c" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">C</a>
+<li class="btn-outline-secondary rounded-pill">
+	<a id="pc" href="#c" class="nav-link" data-toggle="pill" aria-selected="false">C</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">

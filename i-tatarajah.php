@@ -60,6 +60,13 @@ if ($server == 'laman.web.anda')
 	define('FONTAWESOME', $fontawesome_cdn);
 	define('BOOTSTRAPJS', $bootstrapJS_cdn);
 	define('BOOTSTRAPCSS', $bootstrapCSS_cdn);
+	define('CSS_ARRAY', serialize(
+		array ($bootstrapCSS_431,$fontawesome_510)
+	));
+	define('JS_ARRAY', serialize(
+		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
+	));
+
 }
 else 
 {	# isytihar tatarajah mysql
@@ -80,9 +87,6 @@ else
 	define('JS_ARRAY', serialize(
 		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
 	));
-	define('BOOTSTRAPJS431', $bootstrapJS_431);
-	define('BOOTSTRAPCSS431', $bootstrapCSS_431);
-	define('FONTAWESOME510', $fontawesome_510);
 }
 //echo DB_HOST . "," . DB_USER . "," . DB_PASS . ",," . DB_NAME . "<br>";
 ############################################################################################

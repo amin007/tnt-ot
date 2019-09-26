@@ -515,23 +515,23 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pa" href="#a" class="active" data-toggle="pill" aria-selected="true">Keterangan</a>
+<li>
+	<a id="pa" href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a>
 </li>
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pb" href="#b" class="" data-toggle="pill" aria-selected="false">Tuntutan</a>
+<li>
+	<a id="pb" href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a>
 </li>
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pc" href="#c" class="" data-toggle="pill" aria-selected="false">Bayaran</a>
+<li>
+	<a id="pc" href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Bayaran</a>
 </li>
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pd" href="#d" class="" data-toggle="pill" aria-selected="false">Tambang</a>
+<li>
+	<a id="pd" href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a>
 </li>
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pe" href="#e" class="" data-toggle="pill" aria-selected="false">Elaun</a>
+<li>
+	<a id="pe" href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
 </li>
-<li class="btn btn-outline-secondary rounded-pill">
-	<a id="pf" href="#f" class="" data-toggle="pill" aria-selected="false">Pengangkutan</a>
+<li>
+	<a id="pf" href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">

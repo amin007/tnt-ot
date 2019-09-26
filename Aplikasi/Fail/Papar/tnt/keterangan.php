@@ -715,10 +715,10 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="e">
-		Elaun Daa
+		Pengangkutan Daa
 	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="f">
-		Pengangkutan Daa
+		Elaun Daa
 	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="c">
 		Bayaran Daa

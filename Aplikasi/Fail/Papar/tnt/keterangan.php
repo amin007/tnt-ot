@@ -528,10 +528,10 @@ END;
 	<a href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a>
 </li>
 <li>
-	<a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
+	<a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
 </li>
 <li>
-	<a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
+	<a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">

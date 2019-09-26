@@ -650,6 +650,7 @@ END;
 			<div class="form-group col-md-3">
 				<label for="inputState">Tambang</label>
 				<select id="inputState" class="form-control">
+					<option value="">Tambang ...</option>
 					<option>Tambang Bas</option>
 					<option>Tambang Teksi</option>
 					<option>Tambang Grabcar</option>

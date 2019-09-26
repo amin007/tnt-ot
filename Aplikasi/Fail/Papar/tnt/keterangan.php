@@ -620,6 +620,7 @@ END;
 					<option value="">Bayaran ...</option>
 					<option>Bayaran Tol</option>
 					<option>Bayaran Parkir</option>
+					<option>Bayaran Balik Telefon</option>
 				</select>
 			</div>
 			<div class="form-group col-md-2">

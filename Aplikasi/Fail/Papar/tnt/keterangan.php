@@ -516,13 +516,13 @@ END;
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 <li class="nav-item">
-	<a id="pa" href="#a" aria-controls="a" class="nav-link active border border-secondary" data-toggle="pill" aria-selected="true">A</a>
+	<a id="pa" href="#a" class="nav-link active border border-secondary" data-toggle="pill" aria-selected="true">A</a>
 </li>
 <li class="nav-item">
-	<a id="pb" href="#b" aria-controls="b" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">B</a>
+	<a id="pb" href="#b" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">B</a>
 </li>
 <li class="nav-item">
-	<a id="pc" href="#c" aria-controls="c" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">C</a>
+	<a id="pc" href="#c" class="nav-link border border-secondary" data-toggle="pill" aria-selected="false">C</a>
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">

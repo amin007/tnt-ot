@@ -16,10 +16,10 @@ $tajuk[2] = (empty($dpt_url[2])) ? null
 echo $tajuk[0] . '[' . $tajuk[1] . $tajuk[2] . ']' ;
  ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Nama saya Amin, berasal dari muar, johor.">
 <meta name="keywords" content="idea kreatif inovatif projek link Dunia Imaginasi Saya">
 <meta name="author" content="Amin007 Ledang">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <?php
 if (isset($this->css))
 {

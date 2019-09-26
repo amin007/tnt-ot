@@ -492,12 +492,12 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <p>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Keterangan">Keterangan</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Tuntutan">Tuntutan</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Bayaran">Bayaran</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Tambang">Tambang</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Elaun">Elaun</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#Pengangkutan">Pengangkutan</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Keterangan" data-toggle="collapse" aria-expanded="false">Keterangan</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Tuntutan" data-toggle="collapse" aria-expanded="false">Tuntutan</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Bayaran" data-toggle="collapse" aria-expanded="false">Bayaran</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Tambang" data-toggle="collapse" aria-expanded="false">Tambang</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Elaun" data-toggle="collapse" aria-expanded="false">Elaun</a>
+	<a class="btn btn-outline-secondary rounded-pill" href="#Pengangkutan" data-toggle="collapse" aria-expanded="false">Pengangkutan</a>
 </p>
 <!-- sempadan form-group row -->
 <div class="row"><div class="col">

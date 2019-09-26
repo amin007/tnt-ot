@@ -661,6 +661,10 @@ END;
 					<option>Tambang LRT</option>
 					<option>Tambang Monoril</option>
 					<option>Tambang MRT</option>
+					<option>Tambang Kapal Terbang</option>
+					<option>Tambang Kapal Laut</option>
+					<option>Tambang Bot</option>
+					<option>Tambang Feri</option>
 				</select>
 			</div>
 			<div class="form-group col-md-2">

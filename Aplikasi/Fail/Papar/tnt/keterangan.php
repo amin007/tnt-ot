@@ -535,27 +535,55 @@ END;
 </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
-	<div class="tab-pane fade show active border border-secondary" id="a">
-		Keterangan Daa
-	</div>
+	<div class="tab-pane fade show active" id="a">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Keterangan</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputCity">Keterangan</label>
+				<textarea class="form-control" row="100"></textarea>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="inputZip">&nbsp;</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="b">
 		Tuntutan Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="c">
 		Bayaran Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="d">
 		Tambang Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="e">
 		Elaun Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="f">
 		Pengangkutan Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 	<div class="tab-pane fade border border-secondary" id="c">
 		Bayaran Daa
-	</div>
+	</div><!-- / class="tab-pane fade" -->
 </div>
 <!-- ----------------------------------------------------------------------------------------- --<br>
 <p>

@@ -492,26 +492,62 @@ END;
 		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <p>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01">Pautan 01</a>
-	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan02">Pautan 02</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01">Keterangan</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan02">Tuntutan</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01">Bayaran</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan02">Tambang</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01">Elaun</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan02">Pengangkutan</a>
 </p>
+<!-- sempadan form-group row -->
 <div class="row"><div class="col">
-		<div class="collapse multi-collapse" id="pautan01">
-			<div class="card card-body">
-				Pautan 01
-			</div>
-		</div>
-	</div><!-- / class="col" -->
+	<div class="collapse multi-collapse" id="Keterangan"><div class="card card-body">
+		Keterangan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
 </div><!-- / class="row" -->
+<!-- sempadan form-group row -->
 <div class="row"><div class="col">
-		<div class="collapse multi-collapse" id="pautan02">
-			<div class="card card-body">
-				Pautan 02
-			</div>
-		</div>
-	</div>
-</div>
-
+	<div class="collapse multi-collapse" id="pautan01"><div class="card card-body">
+		Tuntutan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- sempadan form-group row -->
+<div class="row"><div class="col">
+	<div class="collapse multi-collapse" id="Keterangan"><div class="card card-body">
+		Keterangan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- sempadan form-group row -->
+<div class="row"><div class="col">
+	<div class="collapse multi-collapse" id="pautan01"><div class="card card-body">
+		Tuntutan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- sempadan form-group row -->
+<div class="row"><div class="col">
+	<div class="collapse multi-collapse" id="Keterangan"><div class="card card-body">
+		Keterangan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- sempadan form-group row -->
+<div class="row"><div class="col">
+	<div class="collapse multi-collapse" id="pautan01"><div class="card card-body">
+		Tuntutan
+	</div><1-- / class="card card-body" -->
+	</div><!-- . class="collapse multi-collapse" -->
+</div><!-- / class="col" -->
+</div><!-- / class="row" -->
+<!-- sempadan form-group row -->
 <!-- ----------------------------------------------------------------------------------------- -->
 <br>
 END;

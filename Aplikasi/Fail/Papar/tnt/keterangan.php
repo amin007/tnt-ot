@@ -690,8 +690,6 @@ END;
 					<option>*** menaiki kenderaan jabatan</option>
 					<option>dengan menaiki ERL</option>
 					<option>dengan menaiki LRT</option>
-					<option>dengan Teksi</option>
-					<option>dengan Grabcar</option>
 				</select>
 			</div>
 		</div>

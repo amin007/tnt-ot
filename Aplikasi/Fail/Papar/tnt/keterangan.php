@@ -524,6 +524,15 @@ END;
 <li class="btn btn-outline-secondary rounded-pill">
 	<a id="pc" href="#c" class="" data-toggle="pill" aria-selected="false">Bayaran</a>
 </li>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pd" href="#d" class="" data-toggle="pill" aria-selected="false">Tambang</a>
+</li>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pe" href="#e" class="" data-toggle="pill" aria-selected="false">Elaun</a>
+</li>
+<li class="btn btn-outline-secondary rounded-pill">
+	<a id="pf" href="#f" class="" data-toggle="pill" aria-selected="false">Pengangkutan</a>
+</li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active border border-secondary" id="a">
@@ -531,6 +540,18 @@ END;
 	</div>
 	<div class="tab-pane fade border border-secondary" id="b">
 		Tuntutan Daa
+	</div>
+	<div class="tab-pane fade border border-secondary" id="c">
+		Bayaran Daa
+	</div>
+	<div class="tab-pane fade border border-secondary" id="d">
+		Tambang Daa
+	</div>
+	<div class="tab-pane fade border border-secondary" id="e">
+		Elaun Daa
+	</div>
+	<div class="tab-pane fade border border-secondary" id="f">
+		Pengangkutan Daa
 	</div>
 	<div class="tab-pane fade border border-secondary" id="c">
 		Bayaran Daa

@@ -720,9 +720,6 @@ END;
 	<div class="tab-pane fade border border-secondary" id="f">
 		Elaun Daa
 	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade border border-secondary" id="c">
-		Bayaran Daa
-	</div><!-- / class="tab-pane fade" -->
 </div>
 <!-- ----------------------------------------------------------------------------------------- --<br>
 <p>

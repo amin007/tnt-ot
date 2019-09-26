@@ -655,6 +655,7 @@ END;
 					<option>Tambang Bas</option>
 					<option>Tambang Teksi</option>
 					<option>Tambang Grabcar</option>
+					<option>Tambang Kereta Terbang</option>
 					<option>Tambang Keretapi</option>
 					<option>Tambang Komuter</option>
 					<option>Tambang ERL</option>
@@ -662,6 +663,8 @@ END;
 					<option>Tambang Monoril</option>
 					<option>Tambang MRT</option>
 					<option>Tambang Kapal Terbang</option>
+					<option>Tambang Helikopter</option>
+					<option>Tambang Kapal Angkasa</option>
 					<option>Tambang Kapal Laut</option>
 					<option>Tambang Bot</option>
 					<option>Tambang Feri</option>

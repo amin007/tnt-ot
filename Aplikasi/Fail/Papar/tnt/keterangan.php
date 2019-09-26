@@ -726,6 +726,7 @@ END;
 					<option selected>Elaun Loging X RM 40.00</option>
 					<option>Elaun *Loging X RM 35.00</option>
 					<option>Elaun Hotel</option>
+					<option>Servis Caj</option>
 					<option>Elaun Makan X RM 40.00</option>
 					<option>Elaun Harian X RM 20.00</option>
 					<option>Elaun Kerja Luar</option>

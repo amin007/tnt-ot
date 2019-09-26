@@ -484,6 +484,13 @@ END;
 	</div>
 </div>
 <!-- ----------------------------------------------------------------------------------------- --><br>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Keterangan</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Tuntutan</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Bayaran</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Tambang</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Elaun</label>
+		<label data-toggle-"tab" data-target="#tab1"><input type="radio" name="radio01">Pengangkutan</label>
+<!-- ----------------------------------------------------------------------------------------- --><br>
 <p>
 	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01" role="button" aria-expanded="false" aria-controls="pautan01">Pautan 01</a>
 	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01" role="button" aria-expanded="false" aria-controls="pautan02">Pautan 02</a>

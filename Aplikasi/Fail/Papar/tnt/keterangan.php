@@ -483,6 +483,28 @@ END;
 		</div>
 	</div>
 </div>
+<!-- ----------------------------------------------------------------------------------------- --><br>
+<p>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01" role="button" aria-expanded="false" aria-controls="pautan01">Pautan 01</a>
+	<a class="btn btn-outline-secondary rounded-pill" data-toggle="collapse" href="#pautan01" role="button" aria-expanded="false" aria-controls="pautan02">Pautan 02</a>
+</p>
+<div class="row">
+	<div class="col">
+		<div class="collapse multi-collapse" id="pautan01">
+			<div class="card card-body">
+				Pautan 01
+			</div>
+		</div>
+	</div>
+	<div class="col">
+		<div class="collapse multi-collapse" id="pautan02">
+			<div class="card card-body">
+				Pautan 02
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- ----------------------------------------------------------------------------------------- -->
 <br>
 END;

@@ -583,11 +583,10 @@ END;
 			<div class="form-group col-md-3">
 				<label for="inputState">Jenis Tuntutan</label>
 				<select id="inputState" class="form-control">
-				<option selected>Tiada</option>
+				<option value="" selected>Tiada</option>
 				<option>Tuntutan Perbatuan</option>
 				<option>Tuntutan Keretapi</option>
 				<option>Tuntutan Teksi</option>
-				<option>...</option>
 				</select>
 			</div>
 			<div class="form-group col-md-2">

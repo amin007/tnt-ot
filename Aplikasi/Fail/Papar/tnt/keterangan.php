@@ -343,6 +343,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$sampai = $j . '[sampai]';
 		$keterangan = $j . '[keterangan]';
 		$keteranganNamaPejabat = $j . '[keteranganNamaPejabat]';
+		$keteranganKadar = $j . '[keteranganKadar]';
 		$jarak = $j . '[jarak]';
 		$jumlah = $j . '[jumlah]';
 		print <<<END
@@ -459,7 +460,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Jenis Tuntutan</label>
-				<select id="inputState" class="form-control">
+				<select name="$keterangan" id="inputState" class="form-control">
 				<option value="" selected>Tiada</option>
 				<option>Tuntutan Perbatuan</option>
 				<option>Tuntutan Keretapi</option>
@@ -470,7 +471,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input name="$keteranganKadar" type="text" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>

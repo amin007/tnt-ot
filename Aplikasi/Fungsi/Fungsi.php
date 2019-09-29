@@ -142,9 +142,9 @@ function papar_jadual($row, $myTable, $pilih)
 		}// ulang untuk $kira++ ?>
 		<!-- Jadual <?php echo $myTable ?> --><?php
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-	} // tamat if (jadual ==3
-	elseif ($jadual == 4)
-	{ // mula if (jadual==4
+	} // tamat if ($pilih ==3
+	elseif ($pilih == 4)
+	{ // mula if ($pilih==4
 		$bil_tajuk = $row['bil_tajuk'];// => 8
 		$bil_baris = $row['bil_baris']; 
 
@@ -158,12 +158,10 @@ function papar_jadual($row, $myTable, $pilih)
 		</strong></th>
 		</tr></thead>';
 
-		// mula bina jadual
-		$printed_headers = false; 
+		$printed_headers = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < $bil_baris; $kira++)
-		{
-			//print the headers once: 	
+		{	# print the headers once:
 			if ( !$printed_headers ) 
 			{##=============================================================
 			$output .= "\r\t<thead><tr>\r\t<th>#</th>";
@@ -175,7 +173,7 @@ function papar_jadual($row, $myTable, $pilih)
 				$printed_headers = true; 
 			} 
 		#-----------------------------------------------------------------		 
-			//print the data row 
+			# print the data row
 			$output .= "\r\t<tbody><tr>\r\t<td>" . ($kira+1) . '</td>';
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\r\t" . '<td>' . $data . '</td>';

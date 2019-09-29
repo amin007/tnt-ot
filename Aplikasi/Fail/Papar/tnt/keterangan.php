@@ -246,7 +246,8 @@ END;
 		echo "\r<b>$jadual</b>";
 	}
 #-------------------------------------------------------------------------------------------------
-	function borangPerjalanan()
+#-------------------------------------------------------------------------------------------------
+	function borangPerjalananLama()
 	{
 		# https://getbootstrap.com/docs/4.3/components/forms/
 		print <<<END

@@ -32,6 +32,7 @@ $bootstrapCSS_431 = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstr
 ## local
             $sumber = 'sumber/utama/';
       $jquery_local = $sumber . 'jquery/jquery-2.2.3.min.js';
+      $popper_local = null;
  $bootstrapJS_local = $sumber . 'bootstrap/3.3.7/js/bootstrap.min.js';
 $bootstrapCSS_local = $sumber . 'bootstrap/3.3.7/css/bootstrap.min.css'; 
  $fontawesome_local = $sumber . 'font-awesome/4.7.0/css/font-awesome.min.css';

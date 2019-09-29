@@ -224,13 +224,24 @@ END;
 		# print the data row
 			echo  "\n" . '<tbody><tr>';
 			foreach ( $row[$kira] as $key=>$data ) :
-				echo  "\n" . '<td>' . $data . '</td>';
+				echo paparTD($jadual, $key, $data);
 			endforeach;
 			echo  "\n" . '</tr></tbody>';
 		}
 		#-----------------------------------------------------------------
 		echo "\n" . '</table>' . "\n";
 		#
+	}
+#-------------------------------------------------------------------------------------------------
+	function paparTD($jadual, $key, $data)
+	{
+		if($key=='No'):
+			$p = '<a href="#a">' . $data . '</a>';
+		else:
+			$p = $data;
+		endif;
+
+		return "\n" . '<td>' . $p . '</td>';
 	}
 #-------------------------------------------------------------------------------------------------
 	function paparJadual($senarai,$myTable,$row)

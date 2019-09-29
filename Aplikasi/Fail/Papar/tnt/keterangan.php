@@ -584,9 +584,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				</select>
 			</div>
 			<div class="form-group col-md-3">
-				<label for="inputState">Berapa</label>
+				<label for="inputState">Nama Pemandu</label>
 				<div class="input-group input-group">
-					<div class="input-group-prepend"><span class="input-group-text">Nama Pemandu</span></div>
+					<div class="input-group-prepend"><span class="input-group-text">Nama</span></div>
 					<input type="text" class="form-control" id="inputZip">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->

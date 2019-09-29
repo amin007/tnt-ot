@@ -591,7 +591,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputState">Nama Pemandu</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Nama</span></div>
-					<input name="$keteranganNamaPemandu" type="text" class="form-control" id="inputZip">
+					<input name="$keteranganNamaPemandu" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 		</div>
@@ -632,14 +632,14 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputState">Berapa</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
-					<input name="$keteranganHari" type="text" class="form-control" id="inputZip">
+					<input name="$keteranganHari" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-1">
 				<label for="inputState">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input name="$keteranganKadar" type="text" class="form-control" id="inputZip">
+					<input name="$keteranganKadar" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 		</div><!-- / class="form-row -->
@@ -784,14 +784,14 @@ END;
 		<label for="inputState">Berapa</label>
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
-			<input type="text" class="form-control" id="inputZip">
+			<input type="text" class="form-control">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
 	<div class="form-group col-md-1">
 		<label for="inputState">Kadar</label>
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-			<input type="text" class="form-control" id="inputZip">
+			<input type="text" class="form-control">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
 </div><!-- / class="form-row -->
@@ -1153,14 +1153,14 @@ END;
 				<label for="inputState">Berapa</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
-					<input type="text" class="form-control" id="inputZip">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-1">
 				<label for="inputState">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputZip">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 		</div><!-- / class="form-row -->

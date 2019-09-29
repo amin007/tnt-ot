@@ -65,5 +65,5 @@ table.excel tbody td
 </style>
 </head>
 <body<?php
-echo ' style="background-color:black;"'
+//echo ' style="background-color:black;"'
 //echo ' background="' . $lokasi . $this->gambar . '"' ?>>

@@ -1,7 +1,7 @@
 <!-- div class="container" style="background-color:white;opacity:.70;-moz-opacity:.70;filter:alpha(opacity=70);" -->
 <div class="container bg-secondary text-white">
 <div class="hero-unit">
-<h1>Sesat daa</h1>
+<h1 class="btn btn-outline-secondary btn-lg rounded-pill">Sesat daa</h1>
 <p><?php echo $this->mesej; ?></p>
 <pre class="text-white"><?php
 $url = dpt_url_xfilter();

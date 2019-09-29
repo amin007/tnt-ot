@@ -253,6 +253,7 @@ END;
 <button class="btn btn-primary" data-toggle="modal" data-target="#extraLargeModal">Extra Large modal</button>
 <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
+	<form>
 		<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title">Extra Large Modal</h5>
@@ -264,6 +265,7 @@ END;
 					<button type="button" class="btn btn-primary">OK</button>
 				</div>
 		</div>
+	</form>
 	</div>
 </div>
 <!-- ----------------------------------------------------------------------------------------- --><br>

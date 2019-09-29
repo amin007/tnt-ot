@@ -75,10 +75,16 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $a;
 		//$this->papar->senarai['biodata'][] = $this->tanya->biodata();
+		list($t, $m, $c, $s, $p) = $this->tanya->keterangan();
+		list($data,$meta) = $this->tanya->cariSemuaDataMeta//cariSql
+			($t, $m, $c, $s, $p);
+		$this->papar->senarai['keterangan'] = $data;
+		$this->papar->_meta = $meta;
 
 		# Pergi papar kandungan
 		$p = 2; $f = array('index','biodata','keterangan','formula');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
+		//$this->semakPembolehubah($this->papar->_meta,'_meta');# Semak data dulu
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------

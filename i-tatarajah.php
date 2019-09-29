@@ -77,14 +77,16 @@ else
 	define('DB_PASS', '***');
 	# isytihar lokasi folder js
 	define('SUMBER', 'http://' . $_SERVER['SERVER_NAME'] . '/sumberoffline/');
-	define('JQUERY', $jquery_local);
-	define('FONTAWESOME', $fontawesome_local);
-	define('BOOTSTRAPJS', $bootstrapJS_local);
-	define('BOOTSTRAPCSS', $bootstrapCSS_local);
 	define('CSS_ARRAY', serialize(
-		array ($bootstrapCSS_431,$fontawesome_510)
+		array ($bootstrapCSS_local,$fontawesome_local)
 	));
 	define('JS_ARRAY', serialize(
+		array ($jquery_local,$popper_local,$bootstrapJS_local)
+	));
+	define('CSS_ARRAY_CDN', serialize(
+		array ($bootstrapCSS_431,$fontawesome_510)
+	));
+	define('JS_ARRAY_CDN', serialize(
 		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
 	));
 }

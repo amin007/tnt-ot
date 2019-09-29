@@ -188,7 +188,7 @@ function papar_jadual($row, $myTable, $pilih)
 	elseif ($pilih == 5)
 	{// mula if (pilih==5
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-		?><table class="table"><?php
+		?><table class="table table-bordered table-hover"><?php
 		// mula bina jadual
 		$printed_headers = false;
 		#-----------------------------------------------------------------
@@ -196,7 +196,7 @@ function papar_jadual($row, $myTable, $pilih)
 		{	//print the headers once:
 			if ( !$printed_headers ) : ?>
 		<thead><tr>
-		<th>#</th><?php foreach ( array_keys($row[$kira]) as $tajuk ) :
+		<?php foreach ( array_keys($row[$kira]) as $tajuk ) :
 		?><th><?php echo $tajuk ?></th>
 		<?php endforeach; ?>
 		</tr></thead><?php
@@ -205,7 +205,6 @@ function papar_jadual($row, $myTable, $pilih)
 		#-----------------------------------------------------------------
 		//print the data row ?>
 		<tbody><tr>
-		<td><?php echo $kira+1 ?></td>
 		<?php foreach ( $row[$kira] as $key=>$data ) :
 		?><td><?php echo $data ?></td>
 		<?php endforeach; ?>

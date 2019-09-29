@@ -407,12 +407,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -448,12 +448,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -482,12 +482,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -518,12 +518,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -565,12 +565,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -598,17 +598,14 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Elaun</legend>
 		<div class="form-row">
-			<div class="form-group col-md-1">
-					<label>Tarikh</label>
-					<input type="date" class="form-control" id="inputCity">
-			</div><!-- / class="form-group -->
 			<div class="form-group col-md-4">
-				<label for="inputState">Masa</label>
+				<label for="inputState">Tarikh & Masa</label>
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">

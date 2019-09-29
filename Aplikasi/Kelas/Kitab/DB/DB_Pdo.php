@@ -182,6 +182,20 @@ class DB_Pdo extends \PDO
 		# echo sahaja
 	}
 #------------------------------------------------------------------------------------------------------------
+	public static function checkBind($sth,$sql,$array)
+	{
+		if($array == null):
+		else:
+			foreach ($array as $key => $value)
+			{
+				$val = (!empty($value) ? $value : NULL);
+				$type = \Aplikasi\Kitab\DB_Pdo::debugType($key,$val);
+				$sth->bindValue($key, $val, $type);
+			}
+		endif;
+		#
+	}
+#------------------------------------------------------------------------------------------------------------
 	/**
 	 * selectDebug()
 	 * @param string $sql An SQL string
@@ -212,7 +226,7 @@ class DB_Pdo extends \PDO
 	{
 		//echo '<hr><pre>'; print_r($sql); echo '</pre><hr>';
 		$sth = $this->prepare($sql);
-		\Aplikasi\Kitab\DB_Pdo::debugBind($sth,$sql,$array);
+		\Aplikasi\Kitab\DB_Pdo::checkBind($sth,$sql,$array);
 		$sth->execute();
 		# dapatkan jenis medan dalam jadual ini
 		for($mula = 0; $mula < $sth->columnCount(); $mula++):

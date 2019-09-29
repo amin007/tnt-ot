@@ -274,11 +274,17 @@ function dpt_senarai($pilih)
 	# define('MSICBARU', serialize (array()) );
 	if ($pilih == 'TNT_PEGAWAI') :
 		$jadual = unserialize(TNT_PEGAWAI);
-	# kod JS
+	# kod JS/css local dan cdn
 	elseif ($pilih == 'CSS_ARRAY') :
 		$jadual = unserialize(CSS_ARRAY);
 	elseif ($pilih == 'JS_ARRAY') :
 		$jadual = unserialize(JS_ARRAY);
+	elseif ($pilih == 'CSS_ARRAY_CDN') :
+		echo 'Apa khabar ' . $pilih . '<br>';
+		$jadual = unserialize(CSS_ARRAY_CDN);
+	elseif ($pilih == 'JS_ARRAY_CDN') :
+		echo 'Apa khabar ' . $pilih . '<br>';
+		$jadual = unserialize(JS_ARRAY_CDN);
 	# kod login
 	elseif ($pilih == 'jadual_login') :
 		$jadual = unserialize(JADUAL_LOGIN);

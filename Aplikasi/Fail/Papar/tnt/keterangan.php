@@ -343,6 +343,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$sampai = $j . '[sampai]';
 		$keterangan = $j . '[keterangan]';
 		$keteranganNamaPejabat = $j . '[keteranganNamaPejabat]';
+		$keteranganHari = $j . '[keteranganHari]';
 		$keteranganKadar = $j . '[keteranganKadar]';
 		$keteranganNamaPemandu = $j . '[keteranganNamaPemandu]';
 		$jarak = $j . '[jarak]';
@@ -615,7 +616,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputState">Kiraan</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
-					<select id="inputState" class="form-control">
+					<select name="$keterangan" id="inputState" class="form-control">
 					<option selected>Elaun Loging X RM 40.00</option>
 					<option>Elaun *Loging X RM 35.00</option>
 					<option>Elaun Hotel</option>
@@ -631,14 +632,14 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputState">Berapa</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
-					<input type="text" class="form-control" id="inputZip">
+					<input name="$keteranganHari" type="text" class="form-control" id="inputZip">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-1">
 				<label for="inputState">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputZip">
+					<input name="$keteranganKadar" type="text" class="form-control" id="inputZip">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 		</div><!-- / class="form-row -->

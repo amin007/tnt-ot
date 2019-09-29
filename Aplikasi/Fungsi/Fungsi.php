@@ -195,6 +195,37 @@ function papar_jadual($row, $myTable, $pilih)
 		return $output;
 
 	} // tamat if ($jadual == 4
+///////////////////////////////////////////////////////////////////////////////////////////////////
+	elseif ($pilih == 5)
+	{// mula if (pilih==5
+		?><table class="table"><?php
+		// mula bina jadual
+		$printed_headers = false;
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < count($row); $kira++)
+		{	//print the headers once:
+			if ( !$printed_headers ) : ?>
+		<thead><tr>
+		<th>#</th><?php foreach ( array_keys($row[$kira]) as $tajuk ) :
+		?><th><?php echo $tajuk ?></th>
+		<?php endforeach; ?>
+		</tr></thead><?php
+				$printed_headers = true;
+			endif;
+		#-----------------------------------------------------------------
+		//print the data row ?>
+		<tbody><tr>
+		<td><?php echo $kira+1 ?></td>
+		<?php foreach ( $row[$kira] as $key=>$data ) :
+		?><td><?php echo $data ?></td>
+		<?php endforeach; ?>
+		</tr></tbody>
+		<?php
+		}
+		#-----------------------------------------------------------------
+		?></table><!-- Jadual <?php echo $myTable ?> --><?php
+	}// tamat if ($pilih==5
+///////////////////////////////////////////////////////////////////////////////////////////////////
 }
 // tamat untuk kod php+html 
 #------------------------------------------------------------------------------------------

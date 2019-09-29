@@ -171,14 +171,17 @@ class DB_Pdo extends \PDO
 #------------------------------------------------------------------------------------------------------------
 	public static function debugBind($sth,$sql,$array)
 	{
-		echo '<hr><pre>'; print_r($sql);
-		foreach ($array as $key => $value)
-		{
-			$val = (!empty($value) ? $value : NULL);
-			$type = \Aplikasi\Kitab\DB_Pdo::debugType($key,$val);
-			echo "<br>\$sth->bindValue($key, $val, $type)";
-			$sth->bindValue($key, $val, $type);
-		}echo '</pre><hr>';
+		if($array == null):
+		else:
+			echo '<hr><pre>'; print_r($sql);
+			foreach ($array as $key => $value)
+			{
+				$val = (!empty($value) ? $value : NULL);
+				$type = \Aplikasi\Kitab\DB_Pdo::debugType($key,$val);
+				echo "<br>\$sth->bindValue($key, $val, $type)";
+				$sth->bindValue($key, $val, $type);
+			}echo '</pre><hr>';
+		endif;
 		# echo sahaja
 	}
 #------------------------------------------------------------------------------------------------------------

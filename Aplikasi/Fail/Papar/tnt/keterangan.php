@@ -248,6 +248,7 @@ END;
 	function modalBorang()
 	{
 		echo  "\n";?>
+<!-- ----------------------------------------------------------------------------------------- --><br>
 <button class="btn btn-primary" data-toggle="modal" data-target="#extraLargeModal">Extra Large modal</button>
 <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
@@ -266,6 +267,7 @@ END;
 		</div>
 	</div>
 </div>
+<!-- ----------------------------------------------------------------------------------------- --><br>
 <?php	echo  "\n";
 	}
 #-------------------------------------------------------------------------------------------------

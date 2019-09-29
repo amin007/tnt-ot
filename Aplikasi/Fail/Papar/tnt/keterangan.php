@@ -12,9 +12,8 @@
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <?php
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
-//contohBorangBootstrap();
-//borangPerjalanan();
-contohBorang02();
+//contohBorangBootstrap();//contohBorang02();
+borangPerjalanan();
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->

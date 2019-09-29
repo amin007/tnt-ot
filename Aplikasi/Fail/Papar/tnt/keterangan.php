@@ -361,6 +361,41 @@ END;
 	<div class="tab-pane fade" id="b">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Mula/Tamat</legend>
+		<div class="form-row">
+			<div class="form-group col-md-4">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Mula/Tamat</label>
+				<select id="inputState" class="form-control">
+					<option value="" selected>Tiada</option>
+					<option>Dari pejabat {namaPejabat} ke</option>
+					<option>Balik ke {namaPejabat}</option>
+					<option>Dari tempat kediaman ke</option>
+					<option>Balik ke tempat kediaman</option>
+					<option>Dari tempat penginapan ke</option>
+					<option>Balik ke tempat penginapan di </option>
+				</select>
+				<label for="inputCity">namaPejabat</label>
+				<textarea class="form-control" row="100"></textarea>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="inputZip">&nbsp;</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	</div><!-- / class="tab-pane fade" -->

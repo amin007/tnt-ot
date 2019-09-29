@@ -337,6 +337,13 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 #-------------------------------------------------------------------------------------------------
 	function borangPerjalanan()
 	{
+		$j = 'tnt';
+		$tarikh = $j . '[tarikh]';
+		$bertolak = $j . '[bertolak]';
+		$sampai = $j . '[sampai]';
+		$keterangan = $j . '[keterangan]';
+		$jarak = $j . '[jarak]';
+		$jumlah = $j . '[jumlah]';
 		print <<<END
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -369,25 +376,25 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputCity">Keterangan</label>
-				<textarea class="form-control" row="100"></textarea>
+				<textarea name="$keterangan" class="form-control" row="100"></textarea>
 			</div>
 			<div class="form-group col-md-3">
 				<label for="inputZip">&nbsp;</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input name="$jarak" type="text" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input name="$jumlah" type="text" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>

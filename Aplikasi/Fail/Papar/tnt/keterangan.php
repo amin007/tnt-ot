@@ -434,9 +434,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">&nbsp;</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input name="$jarak" type="text" class="form-control" id="inputCity">
 					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input name="$jumlah" type="text" class="form-control" id="inputCity">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>

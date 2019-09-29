@@ -163,13 +163,13 @@ function papar_jadual($row, $myTable, $pilih)
 		for ($kira=0; $kira < $bil_baris; $kira++)
 		{	# print the headers once:
 			if ( !$printed_headers )
-			{##=============================================================
-			$output .= "\r\t<thead><tr>\r\t<th>#</th>";
-			foreach ( array_keys($row[$kira]) as $tajuk ) :
-			$output .= "\r\t" . '<th>' . $tajuk . '</th>';
-			endforeach;
-			$output .= "\r\t" . '</tr></thead>';
-			##=============================================================
+			{##===========================================================
+				$output .= "\r\t<thead><tr>\r\t<th>#</th>";
+				foreach ( array_keys($row[$kira]) as $tajuk ) :
+				$output .= "\r\t" . '<th>' . $tajuk . '</th>';
+				endforeach;
+				$output .= "\r\t" . '</tr></thead>';
+			##============================================================
 				$printed_headers = true;
 			}
 		#-----------------------------------------------------------------
@@ -179,7 +179,7 @@ function papar_jadual($row, $myTable, $pilih)
 			$output .= "\r\t" . '<td>' . $data . '</td>';
 			endforeach;
 			$output .= "\r\t" . '</tr></tbody>';
-		}
+		}#----------------------------------------------------------------
 		$output .= "\r\t" . '</table>';
 
 		return $output;

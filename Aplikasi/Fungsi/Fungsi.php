@@ -188,7 +188,7 @@ function papar_jadual($row, $myTable, $pilih)
 	elseif ($pilih == 5)
 	{// mula if (pilih==5
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-		?><table class="table table-bordered table-hover"><?php
+		?><table class="table table-bordered table-hover table-sm"><?php
 		// mula bina jadual
 		$printed_headers = false;
 		#-----------------------------------------------------------------

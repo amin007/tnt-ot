@@ -217,7 +217,7 @@ END;
 				foreach ( array_keys($row[$kira]) as $tajuk ) :
 					echo  "\n" . '<th>' . $tajuk . '</th>';
 				endforeach;
-				echo  "\n" . '</tr></thead>'
+				echo  "\n" . '</tr></thead>';
 				$printed_headers = true;
 			endif;
 		#-----------------------------------------------------------------

@@ -170,10 +170,11 @@ END;
 			{
 				$mula2 = ($jadual=='***') ? ' active' : '';
 				$tajukjadual = '';
-				echo "\n" . '<div class="tab-pane" id="' . $myTable
+				echo "\n" . '<div class="tab-pane" id="' . $myTable . '">'
 				. "\n" . '<!-- Jadual ' . $myTable
 				. ' ########################################### -->';
-				paparJadual($senarai,$myTable,$row0);
+				//paparJadual($senarai,$myTable,$row0);
+				papar_jadual($row, $myTable, $pilih=5);
 				echo "\n" . '<!-- Jadual ' . $myTable
 				. ' ########################################### -->'
 				. "\n" . '</div>';

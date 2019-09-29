@@ -273,7 +273,6 @@ END;
 	function borangPerjalanan()
 	{
 		print <<<END
-<!-- h1> Ini Template Borang Bootstrap </h1 -->
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 <li>

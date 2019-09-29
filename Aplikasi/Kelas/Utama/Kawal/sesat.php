@@ -10,6 +10,8 @@ class Sesat extends \Aplikasi\Kitab\Kawal
 		//\Aplikasi\Kitab\Kebenaran::kawalKeluar();
 		$this->_tajukAtas = 'Enjin - Sesat';
 		$this->_folder = huruf('kecil', namaClass($this));
+		$this->papar->css = dpt_senarai('CSS_ARRAY_CDN');
+		$this->papar->js = dpt_senarai('JS_ARRAY_CDN');
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}

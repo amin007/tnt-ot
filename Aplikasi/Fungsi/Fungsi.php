@@ -57,11 +57,10 @@ function papar_jadual($row, $myTable, $pilih)
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 		?><!-- Jadual <?php echo $myTable ?> -->
 		<table  border="1" class="excel" id="example"><?php
-		// mula bina jadual
-		$printed_headers = false;
+		$printed_headers = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
-		{	//print the headers once:
+		{	# print the headers once:
 			if ( !$printed_headers ) : ?>
 		<thead><tr>
 		<th>#</th><?php foreach ( array_keys($row[$kira]) as $tajuk ) :
@@ -90,11 +89,10 @@ function papar_jadual($row, $myTable, $pilih)
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 		?><!-- Jadual <?php echo $myTable ?> -->
 		<table  border="1" class="excel" id="example"><?php
-		// mula bina jadual
-		$printed_headers = false;
+		$printed_headers = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
-		{	//print the headers once:
+		{	# print the headers once:
 			if ( !$printed_headers ) : ?>
 		<thead><tr>
 		<th>#</th><?php

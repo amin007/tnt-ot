@@ -236,7 +236,7 @@ END;
 	function paparTD($jadual, $key, $data)
 	{
 		if($key=='No'):
-			$p = '<a href="' . URL . 'tnt/ubahBorang/' .
+			$p = '<a href="' . URL . 'tnt/borangUbah/' .
 			$data . '">' . $data . '</a>';
 		else:
 			$p = $data;

@@ -246,6 +246,263 @@ END;
 		echo "\r<b>$jadual</b>";
 	}
 #-------------------------------------------------------------------------------------------------
+	function borangPerjalanan()
+	{
+		print <<<END
+<!-- h1> Ini Template Borang Bootstrap </h1 -->
+<!-- ----------------------------------------------------------------------------------------- --><br>
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+<li>
+	<a href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a>
+</li>
+<li>
+	<a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a>
+</li>
+<li>
+	<a href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Bayaran</a>
+</li>
+<li>
+	<a href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a>
+</li>
+<li>
+	<a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a>
+</li>
+<li>
+	<a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a>
+</li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+	<div class="tab-pane fade show active" id="a">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Keterangan</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputCity">Keterangan</label>
+				<textarea class="form-control" row="100"></textarea>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="inputZip">&nbsp;</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+	<div class="tab-pane fade" id="b">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Tuntutan</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Jenis Tuntutan</label>
+				<select id="inputState" class="form-control">
+				<option value="" selected>Tiada</option>
+				<option>Tuntutan Perbatuan</option>
+				<option>Tuntutan Keretapi</option>
+				<option>Tuntutan Teksi</option>
+				</select>
+			</div>
+			<div class="form-group col-md-2">
+				<label for="inputZip">Kadar</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+	<div class="tab-pane fade" id="c">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Bayaran</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Bayaran</label>
+				<select id="inputState" class="form-control">
+					<option value="">Bayaran ...</option>
+					<option>Bayaran Tol</option>
+					<option>Bayaran Parkir</option>
+					<option>Bayaran Dobi</option>
+					<option>Bayaran Balik Telefon</option>
+					<option>Bayaran Pos</option>
+				</select>
+			</div>
+			<div class="form-group col-md-2">
+				<label for="inputZip">Kadar</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+	<div class="tab-pane fade" id="d">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Tambang</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Tambang</label>
+				<select id="inputState" class="form-control">
+					<option value="">Tambang ...</option>
+					<option>Tambang Bas</option>
+					<option>Tambang Teksi</option>
+					<option>Tambang Grabcar</option>
+					<option>Tambang Kereta Terbang</option>
+					<option>Tambang Keretapi</option>
+					<option>Tambang Komuter</option>
+					<option>Tambang ERL</option>
+					<option>Tambang LRT</option>
+					<option>Tambang Monoril</option>
+					<option>Tambang MRT</option>
+					<option>Tambang Kapal Terbang</option>
+					<option>Tambang Helikopter</option>
+					<option>Tambang Kapal Angkasa</option>
+					<option>Tambang Kapal Laut</option>
+					<option>Tambang Bot</option>
+					<option>Tambang Feri</option>
+				</select>
+			</div>
+			<div class="form-group col-md-2">
+				<label for="inputZip">Kadar</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
+					<input type="text" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+	<div class="tab-pane fade" id="e">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Pengangkutan</legend>
+		<div class="form-row">
+			<div class="form-group col-md-3">
+				<label for="inputState">Tarikh & Masa</label>
+				<input type="date" class="form-control" id="inputCity">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Cara Pengangkutan</label>
+				<select id="inputState" class="form-control">
+					<option value="" selected>Tiada</option>
+					<option>* memandu kenderaan sendiri</option>
+					<option>** menumpang saudara sendiri</option>
+					<option>*** menaiki kenderaan jabatan</option>
+				</select>
+			</div>
+		</div>
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+	<div class="tab-pane fade" id="f">
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+		<fieldset class="form-group border p-2"><legend class="w-auto">Elaun</legend>
+		<div class="form-row">
+			<div class="form-group col-md-1">
+					<label>Tarikh</label>
+					<input type="date" class="form-control" id="inputCity">
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Masa</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input type="time" class="form-control" id="inputCity">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input type="time" class="form-control" id="inputCity">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-3">
+				<label for="inputState">Kiraan</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
+					<select id="inputState" class="form-control">
+					<option selected>Elaun Loging X RM 40.00</option>
+					<option>Elaun *Loging X RM 35.00</option>
+					<option>Elaun Hotel</option>
+					<option>Servis Caj</option>
+					<option>Elaun Makan X RM 40.00</option>
+					<option>Elaun Harian X RM 20.00</option>
+					<option>Elaun Kerja Luar</option>
+					<option>Elaun Tugas Memandu</option>
+					</select>
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-1">
+				<label for="inputState">Berapa</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">hari</span></div>
+					<input type="text" class="form-control" id="inputZip">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+			<div class="form-group col-md-1">
+				<label for="inputState">Kadar</label>
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
+					<input type="text" class="form-control" id="inputZip">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group -->
+		</div><!-- / class="form-row -->
+		</fieldset>
+	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div><!-- / class="tab-pane fade" -->
+</div>
+<!-- ----------------------------------------------------------------------------------------- --<br>
+END;
+		#		
+	}
 #-------------------------------------------------------------------------------------------------
 	function borangPerjalananLama()
 	{

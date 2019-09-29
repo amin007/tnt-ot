@@ -288,6 +288,9 @@ function dpt_senarai($pilih)
 		$jadual = unserialize(JADUAL_LOGIN);
 	elseif ($pilih == 'jadual_biodata') :
 		$jadual = unserialize(JADUAL_BIODATA);
+	# pilih nama jadual
+	elseif ($pilih == 'jadual_nama') :
+		$jadual = unserialize(JADUAL_NAMA);
 	else : $jadual = array(); //unserialize()
 	endif;
 

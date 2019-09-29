@@ -201,6 +201,31 @@ class DB_Pdo extends \PDO
 			$this->bigError($sth,$problem);//*/
 	}
 #------------------------------------------------------------------------------------------------------------
+	/**
+	 * selectAllMeta
+	 * @param string $sql An SQL string
+	 * @param array $array Paramters to bind
+	 * @param constant $fetchMode A PDO Fetch mode
+	 * @return mixed
+	 */
+	public function selectAllMeta($sql, $array = array(), $fetchMode = \PDO::FETCH_ASSOC)
+	{
+		//echo '<hr><pre>'; print_r($sql); echo '</pre><hr>';
+		$sth = $this->prepare($sql);
+		\Aplikasi\Kitab\DB_Pdo::debugBind($sth,$sql,$array);
+		$sth->execute();
+		# dapatkan jenis medan dalam jadual ini
+		for($mula = 0; $mula < $sth->columnCount(); $mula++):
+			$meta[$mula] = $sth->getColumnMeta($mula);
+		endfor;
+		# semak error jika ada
+		$problem = $sth->errorInfo(); # semak jika ada error
+		if($problem[0]=='00000')# pulangkan pembolehubah
+			return array($sth->fetchAll($fetchMode),$meta);
+		else
+			$this->bigError($sth,$problem);//*/
+	}
+#------------------------------------------------------------------------------------------------------------------
 #============================================================================================================
 }
 

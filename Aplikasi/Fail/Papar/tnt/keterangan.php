@@ -301,6 +301,9 @@ END;
 	<a href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a>
 </li>
 <li>
+	<a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Mula/Tamat</a>
+</li>
+<li>
 	<a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a>
 </li>
 <li>

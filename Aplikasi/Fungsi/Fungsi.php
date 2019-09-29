@@ -145,10 +145,10 @@ function papar_jadual($row, $myTable, $pilih)
 	} // tamat if ($pilih ==3
 	elseif ($pilih == 4)
 	{ // mula if ($pilih==4
-		$bil_tajuk = $row['bil_tajuk'];// => 8
-		$bil_baris = $row['bil_baris']; 
-
-		$output  = null; 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+		$bil_tajuk = $row['bil_tajuk'];
+		$bil_baris = $row['bil_baris'];
+		$output  = null;
 		//$output .= '<br>$bil_tajuk=' . $bil_tajuk;
 		//$output .= '<br>$bil_baris=' . $bil_baris;
 		$output .= '<table border="1" class="excel" id="example">
@@ -162,7 +162,7 @@ function papar_jadual($row, $myTable, $pilih)
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < $bil_baris; $kira++)
 		{	# print the headers once:
-			if ( !$printed_headers ) 
+			if ( !$printed_headers )
 			{##=============================================================
 			$output .= "\r\t<thead><tr>\r\t<th>#</th>";
 			foreach ( array_keys($row[$kira]) as $tajuk ) :
@@ -170,21 +170,20 @@ function papar_jadual($row, $myTable, $pilih)
 			endforeach;
 			$output .= "\r\t" . '</tr></thead>';
 			##=============================================================
-				$printed_headers = true; 
-			} 
-		#-----------------------------------------------------------------		 
+				$printed_headers = true;
+			}
+		#-----------------------------------------------------------------
 			# print the data row
 			$output .= "\r\t<tbody><tr>\r\t<td>" . ($kira+1) . '</td>';
 			foreach ( $row[$kira] as $key=>$data ) :
 			$output .= "\r\t" . '<td>' . $data . '</td>';
-			endforeach; 
+			endforeach;
 			$output .= "\r\t" . '</tr></tbody>';
-		} 
+		}
 		$output .= "\r\t" . '</table>';
 
 		return $output;
-
-	} // tamat if ($jadual == 4
+	} // tamat if ($pilih == 4
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 	elseif ($pilih == 5)
 	{// mula if (pilih==5

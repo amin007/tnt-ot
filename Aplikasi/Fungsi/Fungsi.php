@@ -280,10 +280,8 @@ function dpt_senarai($pilih)
 	elseif ($pilih == 'JS_ARRAY') :
 		$jadual = unserialize(JS_ARRAY);
 	elseif ($pilih == 'CSS_ARRAY_CDN') :
-		echo 'Apa khabar ' . $pilih . '<br>';
 		$jadual = unserialize(CSS_ARRAY_CDN);
 	elseif ($pilih == 'JS_ARRAY_CDN') :
-		echo 'Apa khabar ' . $pilih . '<br>';
 		$jadual = unserialize(JS_ARRAY_CDN);
 	# kod login
 	elseif ($pilih == 'jadual_login') :

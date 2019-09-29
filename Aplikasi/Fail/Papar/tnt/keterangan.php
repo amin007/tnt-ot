@@ -195,12 +195,41 @@ END;
 				echo "\n" . '<!-- Jadual ' . $jadual
 				. ' ########################################### -->';
 				//paparJadual($senarai,$jadual,$row0);
-				papar_jadual($row, $jadual, $pilih=5);
+				//papar_jadual($row, $jadual, $pilih=5);
+				paparJadualAsas($row, $jadual, $pilih=5);
 				echo "\n" . '<!-- Jadual ' . $jadual
 				. ' ########################################### -->'
 				. "\n";
 			}# if ( count($row)==0 )
 		}
+		#
+	}
+#-------------------------------------------------------------------------------------------------
+	function paparJadualAsas($row, $jadual, $pilih)
+	{
+		echo  "\n" . '<table class="table table-bordered table-hover table-sm">';
+		$printed_headers = false;# mula bina jadual
+		#-----------------------------------------------------------------
+		for ($kira=0; $kira < count($row); $kira++)
+		{	# print the headers once:
+			if ( !$printed_headers ) :
+				echo  "\n" . '<thead><tr>';
+				foreach ( array_keys($row[$kira]) as $tajuk ) :
+					echo  "\n" . '<th>' . $tajuk . '</th>';
+				endforeach;
+				echo  "\n" . '</tr></thead>'
+				$printed_headers = true;
+			endif;
+		#-----------------------------------------------------------------
+		# print the data row
+			echo  "\n" . '<tbody><tr>';
+			foreach ( $row[$kira] as $key=>$data ) :
+				echo  "\n" . '<td>' . $data . '</td>';
+			endforeach;
+			echo  "\n" . '</tr></tbody>';
+		}
+		#-----------------------------------------------------------------
+		echo "\n" . '</table>' . "\n";
 		#
 	}
 #-------------------------------------------------------------------------------------------------

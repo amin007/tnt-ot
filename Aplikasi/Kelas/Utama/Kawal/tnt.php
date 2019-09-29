@@ -88,7 +88,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------
-	public function ubahBorang($a=null,$b=null)
+	public function borangUbah($a=null,$b=null)
 	{
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama

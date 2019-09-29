@@ -250,13 +250,13 @@ END;
 	{
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
-<button class="btn btn-primary" data-toggle="modal" data-target="#extraLargeModal">Extra Large modal</button>
+<button class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
 	<form>
 		<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title">Extra Large Modal</h5>
+					<h5 class="modal-title">Pilih Keterangan Perjalanan</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
 				<div class="modal-body"><p><?php borangPerjalanan() ?></p></div>

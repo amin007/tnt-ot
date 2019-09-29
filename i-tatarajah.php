@@ -56,17 +56,18 @@ if ($server == 'laman.web.anda')
 	define('DB_PASS', '***');
 	# isytihar lokasi folder js
 	define('SUMBER', 'http://' . $_SERVER['SERVER_NAME'] . '/sumberonline/');
-	define('JQUERY', $jquery_cdn);
-	define('FONTAWESOME', $fontawesome_cdn);
-	define('BOOTSTRAPJS', $bootstrapJS_cdn);
-	define('BOOTSTRAPCSS', $bootstrapCSS_cdn);
 	define('CSS_ARRAY', serialize(
-		array ($bootstrapCSS_431,$fontawesome_510)
+		array ($bootstrapCSS_local,$fontawesome_local)
 	));
 	define('JS_ARRAY', serialize(
+		array ($jquery_local,$popper_local,$bootstrapJS_local)
+	));
+	define('CSS_ARRAY_CDN', serialize(
+		array ($bootstrapCSS_431,$fontawesome_510)
+	));
+	define('JS_ARRAY_CDN', serialize(
 		array ($jquery_cdn,$popper_cdn,$bootstrapJS_431)
 	));
-
 }
 else 
 {	# isytihar tatarajah mysql

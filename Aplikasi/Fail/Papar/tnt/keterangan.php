@@ -342,6 +342,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$bertolak = $j . '[bertolak]';
 		$sampai = $j . '[sampai]';
 		$keterangan = $j . '[keterangan]';
+		$keteranganNamaPejabat = $j . '[keteranganNamaPejabat]';
 		$jarak = $j . '[jarak]';
 		$jumlah = $j . '[jumlah]';
 		print <<<END
@@ -417,7 +418,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Mula/Tamat</label>
-				<select id="inputState" class="form-control">
+				<select name="$keterangan" id="inputState" class="form-control">
 					<option value="" selected>Tiada</option>
 					<option>Dari pejabat {namaPejabat} ke</option>
 					<option>Balik ke {namaPejabat}</option>
@@ -427,7 +428,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 					<option>Balik ke tempat penginapan di </option>
 				</select>
 				<label for="inputCity">namaPejabat</label>
-				<textarea class="form-control" row="100"></textarea>
+				<textarea name="$keteranganNamaPejabat" class="form-control" row="100"></textarea>
 			</div>
 			<div class="form-group col-md-3">
 				<label for="inputZip">&nbsp;</label>

@@ -321,7 +321,7 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Keterangan</legend>
 		<div class="form-row">
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
@@ -352,7 +352,7 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Tuntutan</legend>
 		<div class="form-row">
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
@@ -386,7 +386,7 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Bayaran</legend>
 		<div class="form-row">
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
@@ -422,7 +422,7 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Tambang</legend>
 		<div class="form-row">
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
@@ -469,7 +469,7 @@ END;
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Pengangkutan</legend>
 		<div class="form-row">
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input type="date" class="form-control" id="inputCity">
 				<div class="input-group input-group">
@@ -500,7 +500,7 @@ END;
 					<label>Tarikh</label>
 					<input type="date" class="form-control" id="inputCity">
 			</div><!-- / class="form-group -->
-			<div class="form-group col-md-3">
+			<div class="form-group col-md-4">
 				<label for="inputState">Masa</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>

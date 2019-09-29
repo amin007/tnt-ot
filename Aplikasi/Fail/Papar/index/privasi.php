@@ -1,4 +1,4 @@
-<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>">
+<h1><a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>">
 <small>Kembali ke pangkal jalan</small></a></h1>
 
 <div class="container bg-light text-dark">
@@ -65,5 +65,5 @@ sila hubungi kami melalui e-mel di al.amin007[at]yahoo[dot]com.
 </p>
 </div><!-- / class="container bg-light text-dark" -->
 
-<h1><a class="btn btn-outline-secondary btn-lg butangBulat" href="<?php echo URL ?>">
+<h1><a class="btn btn-outline-secondary btn-lg rounded-pill" href="<?php echo URL ?>">
 <small>Kembali ke pangkal jalan</small></a></h1>

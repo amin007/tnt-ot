@@ -58,7 +58,7 @@ function papar_jadual($row, $myTable, $pilih)
 		?><!-- Jadual <?php echo $myTable ?> -->
 		<table  border="1" class="excel" id="example"><?php
 		// mula bina jadual
-		$printed_headers = false; 
+		$printed_headers = false;
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
 		{	//print the headers once:
@@ -66,18 +66,18 @@ function papar_jadual($row, $myTable, $pilih)
 		<thead><tr>
 		<th>#</th><?php foreach ( array_keys($row[$kira]) as $tajuk ) :
 		?><th><?php echo $tajuk ?></th>
-		<?php endforeach; ?>  
+		<?php endforeach; ?>
 		</tr></thead>
 		<?php
-				$printed_headers = true; 
+				$printed_headers = true;
 			endif;
-		#-----------------------------------------------------------------		 
+		#-----------------------------------------------------------------
 		//print the data row ?>
 		<tbody><tr>
-		<td><?php echo $kira+1 ?></td>	
-		<?php foreach ( $row[$kira] as $key=>$data ) : 
+		<td><?php echo $kira+1 ?></td>
+		<?php foreach ( $row[$kira] as $key=>$data ) :
 		?><td><?php echo $data ?></td>
-		<?php endforeach; ?>  
+		<?php endforeach; ?>
 		</tr></tbody>
 		<?php
 		}

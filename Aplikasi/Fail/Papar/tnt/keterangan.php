@@ -332,16 +332,6 @@ END;
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
-				<label for="inputState">Mula/Tamat</label>
-				<select id="inputState" class="form-control">
-					<option value="" selected>Tiada</option>
-					<option>Dari pejabat {namaPejabat} ke</option>
-					<option>Balik ke {namaPejabat}</option>
-					<option>Dari tempat kediaman ke</option>
-					<option>Balik ke tempat kediaman</option>
-					<option>Dari tempat penginapan ke</option>
-					<option>Balik ke tempat penginapan di </option>
-				</select>
 				<label for="inputCity">Keterangan</label>
 				<textarea class="form-control" row="100"></textarea>
 			</div>

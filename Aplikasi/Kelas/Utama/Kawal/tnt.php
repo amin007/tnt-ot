@@ -102,8 +102,10 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 
 		# Pergi papar kandungan
 		$p = 2; $f = array('index','biodata','keterangan','formula');
-		$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
-		$this->semakPembolehubah($this->papar->_meta,'_meta');# Semak data dulu
+		$this->semakPembolehubah($a,'a');# Semak data dulu
+		$this->semakPembolehubah($b,'b');# Semak data dulu
+		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
+		//$this->semakPembolehubah($this->papar->_meta,'_meta');# Semak data dulu
 		//$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------

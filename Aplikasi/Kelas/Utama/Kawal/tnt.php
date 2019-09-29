@@ -9,8 +9,8 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//\Aplikasi\Kitab\Kebenaran::kawalMasuk();
 		//\Aplikasi\Kitab\Kebenaran::kawalKeluar();
 		$this->_folder = huruf('kecil', namaClass($this));
-		$this->papar->css = dpt_senarai('CSS_ARRAY');
-		$this->papar->js = dpt_senarai('JS_ARRAY');
+		$this->papar->css = dpt_senarai('CSS_ARRAY_CDN');
+		$this->papar->js = dpt_senarai('JS_ARRAY_CDN');
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}

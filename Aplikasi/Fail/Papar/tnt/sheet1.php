@@ -216,7 +216,8 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>3.</td>
-	<td>Bayaran Tambang Keretapi</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretapi'] ?></td>
+	<!-- td>Bayaran Tambang Keretapi</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretapi'] ?></td -->
+	<td>Tambang Keretapi</td><td id="kotakJumlah"><?php echo $this->claim['tambangKeretapi'] ?></td>
 	<td colspan="2">LRT</td><td id="kotakJumlah"><?php echo $this->claim['tambangLRT'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
@@ -243,7 +244,8 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>5.</td>
-	<td>Bayaran Tambang Kapal/Bot</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalBot'] ?></td>
+	<!-- td>Bayaran Tambang Kapal/Bot</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalBot'] ?></td -->
+	<td>Tambang Kapal/Bot</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalBot'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -259,7 +261,8 @@ table.excel tbody td {
 	<td id="birukanan"></td>
 	<td>&nbsp;</td>
 	<td>6.</td>
-	<td>Bayaran Kapal Terbang</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalTerbang'] ?></td>
+	<!-- td>Bayaran Kapal Terbang</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalTerbang'] ?></td -->
+	<td>Tambang Kapal Terbang</td><td id="kotakJumlah"><?php echo $this->claim['tambangKapalTerbang'] ?></td>
 	<td></td>
 	<td></td>
 	<td></td>

@@ -309,12 +309,13 @@ END;
 #-------------------------------------------------------------------------------------------------
 	function modalBorang()
 	{
+		$mencari = URL . 'tnt/borangBaru';
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <button class="btn btn-outline-primary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
-	<form>
+	<form method="POST" action="<?=$mencari?>" autocomplete="off">
 		<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title">Pilih Keterangan Perjalanan</h5>

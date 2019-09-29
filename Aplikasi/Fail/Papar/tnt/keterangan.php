@@ -261,8 +261,8 @@ END;
 				</div>
 				<div class="modal-body"><p><?php borangPerjalanan() ?></p></div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-					<input type="submit" class="btn btn-primary" value="Simpan">
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Batal</button>
+					<input type="submit" class="btn btn-outline-primary" value="Simpan">
 				</div>
 		</div>
 	</form>

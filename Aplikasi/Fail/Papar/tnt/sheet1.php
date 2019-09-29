@@ -384,7 +384,7 @@ table.excel tbody td {
 	<td id="hitamkanan"></td>
 	<td></td>
 	<td></td>
-	<td colspan=6>Jenis modul: (tandakan di kotak yang berkenaan)</td>
+	<td colspan="6">Jenis modul: (tandakan di kotak yang berkenaan)</td>
 	<td></td>
 	<td></td>
 	<td></td>

@@ -88,17 +88,17 @@ function papar_jadual($row, $myTable, $pilih)
 	elseif ($pilih == 2) 
 	{
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-		?><!-- Jadual <?php echo $myTable ?> -->	
+		?><!-- Jadual <?php echo $myTable ?> -->
 		<table  border="1" class="excel" id="example"><?php
 		// mula bina jadual
-		$printed_headers = false; 
+		$printed_headers = false;
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
-		{	//print the headers once: 	
+		{	//print the headers once:
 			if ( !$printed_headers ) : ?>
 		<thead><tr>
 		<th>#</th><?php
-				foreach ( array_keys($row[$kira]) AS $tajuk ) 
+				foreach ( array_keys($row[$kira]) AS $tajuk )
 				{ 	if ( !is_int($tajuk) ) :
 						$paparTajuk = ($tajuk=='nama') ?
 						$tajuk . '(jadual:' . $myTable . ')'
@@ -107,24 +107,24 @@ function papar_jadual($row, $myTable, $pilih)
 		<?php		endif;
 				}
 		?></tr></thead><?php
-				$printed_headers = true; 
-			endif; 
-		#-----------------------------------------------------------------		 
+				$printed_headers = true;
+			endif;
+		#-----------------------------------------------------------------
 		//print the data row ?>
 		<tbody><tr>
-		<td><?php echo $kira+1 ?></td>	
+		<td><?php echo $kira+1 ?></td>
 		<?php
-			foreach ( $row[$kira] AS $key=>$data ) 
+			foreach ( $row[$kira] AS $key=>$data )
 			{
 				if ($key=='sidap') :
 					$sidap= $data;
-					$ssm = substr($data,0,12); 
+					$ssm = substr($data,0,12);
 				elseif ($key=='nama') :
 					$syarikat = $data;
 				endif;
 				?><td><?php echo $data ?></td>
 		<?php
-			} 
+			}
 			?></tr></tbody>
 		<?php
 		}

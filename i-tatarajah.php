@@ -95,16 +95,20 @@ else
 //echo DB_HOST . "," . DB_USER . "," . DB_PASS . ",," . DB_NAME . "<br>";
 ############################################################################################
 # buat tatasusunan ikut serialize
-define('KAKITANGAN', serialize( 
+define('KAKITANGAN', serialize(
 	array ('abu','bakar','umar','osman','ali','hasan')
 	));
-define('ALAMAT_IP', serialize( 
+define('ALAMAT_IP', serialize(
 	array ('8.8.8.8','1.1.1.1')
 	));
 ## data dalam database lain
 # namaPenuh,namaPendek,kataLaluan,level 
 $loginMedan01 = '`full_name` as namaPenuh,`user` as namaPendek,'
 . '`password`,`level`';	
-define('JADUAL_LOGIN', serialize( 
+define('JADUAL_LOGIN', serialize(
 	array ('biodata','email','password',$loginMedan01)
+	));
+# jenis jadual yang ada
+define('JADUAL_NAMA', serialize(
+	array ('A','B')
 	));

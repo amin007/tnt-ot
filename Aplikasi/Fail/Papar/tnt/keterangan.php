@@ -380,12 +380,12 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -396,9 +396,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">&nbsp;</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input name="$jarak" type="text" class="form-control" id="inputCity">
+					<input name="$jarak" type="text" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-					<input name="$jumlah" type="text" class="form-control" id="inputCity">
+					<input name="$jumlah" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -411,17 +411,17 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Mula/Tamat</label>
-				<select name="$keterangan" id="inputState" class="form-control">
+				<select name="$keterangan" class="form-control">
 					<option value="" selected>Tiada</option>
 					<option>Dari pejabat {namaPejabat} ke</option>
 					<option>Balik ke {namaPejabat}</option>
@@ -437,9 +437,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">&nbsp;</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input name="$jarak" type="text" class="form-control" id="inputCity">
+					<input name="$jarak" type="text" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-					<input name="$jumlah" type="text" class="form-control" id="inputCity">
+					<input name="$jumlah" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -452,17 +452,17 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Jenis Tuntutan</label>
-				<select name="$keterangan" id="inputState" class="form-control">
+				<select name="$keterangan" class="form-control">
 				<option value="" selected>Tiada</option>
 				<option>Tuntutan Perbatuan</option>
 				<option>Tuntutan Keretapi</option>
@@ -473,7 +473,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input name="$keteranganKadar" type="text" class="form-control" id="inputCity">
+					<input name="$keteranganKadar" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -486,17 +486,17 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Bayaran</label>
-				<select name="$keterangan" id="inputState" class="form-control">
+				<select name="$keterangan" class="form-control">
 					<option value="">Bayaran ...</option>
 					<option>Bayaran Tol</option>
 					<option>Bayaran Parkir</option>
@@ -509,7 +509,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input name="$keteranganKadar" type="text" class="form-control" id="inputCity">
+					<input name="$keteranganKadar" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -522,17 +522,17 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Tambang</label>
-				<select name="$keterangan" id="inputState" class="form-control">
+				<select name="$keterangan" class="form-control">
 					<option value="">Tambang ...</option>
 					<option>Tambang Bas</option>
 					<option>Tambang Teksi</option>
@@ -556,7 +556,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input name="$keteranganKadar" type="text" class="form-control" id="inputCity">
+					<input name="$keteranganKadar" type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -569,17 +569,17 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Cara Pengangkutan</label>
-				<select name="$keterangan" id="inputState" class="form-control">
+				<select name="$keterangan" class="form-control">
 					<option value="" selected>Tiada</option>
 					<option>* memandu kenderaan sendiri</option>
 					<option>** menumpang saudara sendiri</option>
@@ -604,19 +604,19 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		<div class="form-row">
 			<div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control" id="inputCity">
+				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control" id="inputCity">
+					<input name="$bertolak" type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control" id="inputCity">
+					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Kiraan</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
-					<select name="$keterangan" id="inputState" class="form-control">
+					<select name="$keterangan" class="form-control">
 					<option selected>Elaun Loging X RM 40.00</option>
 					<option>Elaun *Loging X RM 35.00</option>
 					<option>Elaun Hotel</option>
@@ -701,12 +701,12 @@ END;
 <div class="form-row">
 	<div class="form-group col-md-3">
 		<label for="inputState">Tarikh & Masa</label>
-		<input type="date" class="form-control" id="inputCity">
+		<input type="date" class="form-control">
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-			<input type="time" class="form-control" id="inputCity">
+			<input type="time" class="form-control">
 			<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-			<input type="time" class="form-control" id="inputCity">
+			<input type="time" class="form-control">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
 	<div class="form-group col-md-3">
@@ -715,7 +715,7 @@ END;
 	</div>
 	<div class="form-group col-md-3">
 		<label for="inputState">Jenis Tuntutan</label>
-		<select id="inputState" class="form-control">
+		<select class="form-control">
 		<option selected>Tiada</option>
 		<option>Tuntutan Perbatuan</option>
 		<option>Tuntutan Keretapi</option>
@@ -723,7 +723,7 @@ END;
 		<option>...</option>
 		</select>
 		<label for="inputState">Cara Pengangkutan</label>
-		<select id="inputState" class="form-control">
+		<select class="form-control">
 		<option selected>Tiada</option>
 		<option>dengan memandu kenderaan sendiri</option>
 		<option>dengan menaiki ERL</option>
@@ -739,9 +739,9 @@ END;
 		<label for="inputZip">&nbsp;</label>
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-			<input type="text" class="form-control" id="inputCity">
+			<input type="text" class="form-control">
 			<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-			<input type="text" class="form-control" id="inputCity">
+			<input type="text" class="form-control">
 		</div><!-- / "input-group input-group" -->
 	</div>
 </div>
@@ -751,22 +751,22 @@ END;
 <div class="form-row">
 	<div class="form-group col-md-1">
 			<label>Tarikh</label>
-			<input type="date" class="form-control" id="inputCity">
+			<input type="date" class="form-control">
 	</div><!-- / class="form-group -->
 	<div class="form-group col-md-3">
 		<label for="inputState">Masa</label>
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-			<input type="time" class="form-control" id="inputCity">
+			<input type="time" class="form-control">
 			<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-			<input type="time" class="form-control" id="inputCity">
+			<input type="time" class="form-control">
 		</div><!-- / "input-group input-group" -->
 	</div><!-- / class="form-group -->
 	<div class="form-group col-md-3">
 		<label for="inputState">Kiraan</label>
 		<div class="input-group input-group">
 			<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
-			<select id="inputState" class="form-control">
+			<select class="form-control">
 			<option selected>Elaun Loging X RM 40.00</option>
 			<option>Elaun *Loging X RM 35.00</option>
 			<option>Elaun Hotel</option>
@@ -947,12 +947,12 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-3">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
@@ -963,9 +963,9 @@ END;
 				<label for="inputZip">&nbsp;</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Jarak KM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input type="text" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Jum RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -978,17 +978,17 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-3">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Jenis Tuntutan</label>
-				<select id="inputState" class="form-control">
+				<select class="form-control">
 				<option value="" selected>Tiada</option>
 				<option>Tuntutan Perbatuan</option>
 				<option>Tuntutan Keretapi</option>
@@ -999,7 +999,7 @@ END;
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -1012,17 +1012,17 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-3">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Bayaran</label>
-				<select id="inputState" class="form-control">
+				<select class="form-control">
 					<option value="">Bayaran ...</option>
 					<option>Bayaran Tol</option>
 					<option>Bayaran Parkir</option>
@@ -1035,7 +1035,7 @@ END;
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -1048,17 +1048,17 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-3">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Tambang</label>
-				<select id="inputState" class="form-control">
+				<select class="form-control">
 					<option value="">Tambang ...</option>
 					<option>Tambang Bas</option>
 					<option>Tambang Teksi</option>
@@ -1082,7 +1082,7 @@ END;
 				<label for="inputZip">Kadar</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">RM</span></div>
-					<input type="text" class="form-control" id="inputCity">
+					<input type="text" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div>
 		</div>
@@ -1095,17 +1095,17 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-3">
 				<label for="inputState">Tarikh & Masa</label>
-				<input type="date" class="form-control" id="inputCity">
+				<input type="date" class="form-control">
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Cara Pengangkutan</label>
-				<select id="inputState" class="form-control">
+				<select class="form-control">
 					<option value="" selected>Tiada</option>
 					<option>* memandu kenderaan sendiri</option>
 					<option>** menumpang saudara sendiri</option>
@@ -1122,22 +1122,22 @@ END;
 		<div class="form-row">
 			<div class="form-group col-md-1">
 					<label>Tarikh</label>
-					<input type="date" class="form-control" id="inputCity">
+					<input type="date" class="form-control">
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Masa</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input type="time" class="form-control" id="inputCity">
+					<input type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group -->
 			<div class="form-group col-md-3">
 				<label for="inputState">Kiraan</label>
 				<div class="input-group input-group">
 					<div class="input-group-prepend"><span class="input-group-text">Elaun</span></div>
-					<select id="inputState" class="form-control">
+					<select class="form-control">
 					<option selected>Elaun Loging X RM 40.00</option>
 					<option>Elaun *Loging X RM 35.00</option>
 					<option>Elaun Hotel</option>

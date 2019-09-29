@@ -14,7 +14,7 @@
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 //contohBorangBootstrap();//contohBorang02();//borangPerjalanan();
 modalBorang();
-
+ulangJadualAsas($this->senarai);
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->
@@ -183,6 +183,25 @@ END;
 		#
 		echo "\n" . '</div><!-- class="tab-content" -->';
 		echo "\n" . '</div><!-- /tabbable -->';
+	}
+#-------------------------------------------------------------------------------------------------
+	function ulangJadualAsas($senarai)
+	{
+		foreach ($senarai as $jadual => $row)
+		{
+			if ( count($row)==0 ) echo '';
+			else
+			{
+				echo "\n" . '<!-- Jadual ' . $jadual
+				. ' ########################################### -->';
+				//paparJadual($senarai,$jadual,$row0);
+				papar_jadual($row, $jadual, $pilih=5);
+				echo "\n" . '<!-- Jadual ' . $jadual
+				. ' ########################################### -->'
+				. "\n";
+			}# if ( count($row)==0 )
+		}
+		#
 	}
 #-------------------------------------------------------------------------------------------------
 	function paparJadual($senarai,$myTable,$row)

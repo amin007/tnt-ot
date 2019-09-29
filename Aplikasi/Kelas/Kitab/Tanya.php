@@ -213,6 +213,17 @@ class Tanya
 		return $result;
 	}
 	#---------------------------------------------------------------------------------------------
+	public function cariSemuaDataMeta($t, $m, $c, $s, $p)
+	{
+		# t=Table, m=medan, c=carian, s=susun, p=pencam
+		$sql = $this->sql->bentukSqlSelect($t, $m, $c, $s);
+		list($result,$meta) = $this->db->selectAllMeta($sql,$p);
+		//echo '<pre>$sql::' . htmlentities($sql) . '</pre><br>';
+		//echo '<pre>$result::'; print_r($result); echo '</pre><br>';
+
+		return array($result,$meta);
+	}
+	#---------------------------------------------------------------------------------------------
 	public function cariArahanSql($myTable, $medan, $carian, $susun)
 	{
 		$sql = $this->sql->bentukSqlSelect($myTable, $medan, $carian, $susun);

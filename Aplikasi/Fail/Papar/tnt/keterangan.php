@@ -245,6 +245,30 @@ END;
 		echo "\r<b>$jadual</b>";
 	}
 #-------------------------------------------------------------------------------------------------
+	function modalBorang()
+	{
+		echo  "\n";?>
+<button class="btn btn-primary" data-toggle="modal" data-target="#extraLargeModal">Extra Large modal</button>
+<div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Extra Large Modal</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Add the <code>.modal-xl</code> class on <code>.modal-dialog</code> to create this extra large modal.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">OK</button>
+				</div>
+		</div>
+	</div>
+</div>
+<?php	echo  "\n";
+	}
+#-------------------------------------------------------------------------------------------------
 	function borangPerjalanan()
 	{
 		print <<<END

@@ -56,7 +56,7 @@ function papar_jadual($row, $myTable, $pilih)
 	{
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 		?><!-- Jadual <?php echo $myTable ?> -->
-		<table  border="1" class="excel" id="example"><?php
+		<table border="1" class="excel" id="example"><?php
 		$printed_headers = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
@@ -88,7 +88,7 @@ function papar_jadual($row, $myTable, $pilih)
 	{
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 		?><!-- Jadual <?php echo $myTable ?> -->
-		<table  border="1" class="excel" id="example"><?php
+		<table border="1" class="excel" id="example"><?php
 		$printed_headers = false;# mula bina jadual
 		#-----------------------------------------------------------------
 		for ($kira=0; $kira < count($row); $kira++)
@@ -114,12 +114,6 @@ function papar_jadual($row, $myTable, $pilih)
 		<?php
 			foreach ( $row[$kira] AS $key=>$data )
 			{
-				if ($key=='sidap') :
-					$sidap= $data;
-					$ssm = substr($data,0,12);
-				elseif ($key=='nama') :
-					$syarikat = $data;
-				endif;
 				?><td><?php echo $data ?></td>
 		<?php
 			}

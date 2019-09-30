@@ -136,7 +136,8 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'kmRM04' => '',
 			# ms3 - tambang awam
 			'tambangAwamLain2' => '',
-			'jumTambangAwam' => '123.00'
+			'jumTambangAwam' => '123.00',
+			# ms3 - tuntutan perbagai
 		); # dapatkan medan terlibat
 		$kira = 1; # kira jumlah data
 

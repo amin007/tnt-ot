@@ -63,6 +63,11 @@ class Tanya
 		# buat where
 		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => ':table_name');
 		$p['table_name'] = $myTable;
+		if($dbType == 'mysql')
+		{
+			$c[] = array('fix' => ':=','atau' => 'AND','medan' => 'table_schema','apa' => ':table_schema');
+			$p['table_schema'] = $database;
+		}
 		$dimana = $this->sql->dimana($c);
 		# bentuk sql
 		$sql  = ' SELECT' . $m . "\r";

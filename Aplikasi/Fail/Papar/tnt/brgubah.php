@@ -14,7 +14,11 @@
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 //contohBorangBootstrap();//contohBorang02();//borangPerjalanan();
 //ulangJadualAsas($this->senarai);
-ulangJadualAsas($this->_meta);
+//ulangJadualAsas($this->_meta);
+
+foreach($this->senarai as $myTable=>$row):
+	paparJadual($this->meta['jadual'],$this->senarai,$myTable,$row);
+endforeach;
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="col-sm-7" -->
@@ -245,7 +249,7 @@ END;
 		return "\n" . '<td>' . $p . '</td>';
 	}
 #-------------------------------------------------------------------------------------------------
-	function paparJadual($senarai,$myTable,$row)
+	function paparJadual($meta,$senarai,$myTable,$row)
 	{
 		# set pembolehubah utama
 		$method = $cariID = $_jadual = $carian = null;

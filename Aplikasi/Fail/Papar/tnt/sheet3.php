@@ -619,7 +619,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<td align="right"> (d)</td>
 	<td colspan="1">&nbsp;panggilan telefon sebanyak RM</td>
-	<td colspan="3" id="kotakSolid"><?php echo $this->claim['bayaranBalikTel'] ?></td>
+	<td colspan="3" id="kotakSolid" align="center"><?php echo $this->claim['bayaranBalikTel'] ?></td>
 	<td colspan="4">&nbsp;dibuat atas urusan rasmi ; dan</td>
 	<td>&nbsp;</td>
 	<td id="garis2Kanan">10</td>

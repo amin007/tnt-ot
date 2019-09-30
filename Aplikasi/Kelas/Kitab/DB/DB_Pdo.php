@@ -40,13 +40,13 @@ class DB_Pdo extends \PDO
 	}
 #------------------------------------------------------------------------------------------------------------
 	/**
-	 * selectAll
+	 * selectSql
 	 * @param string $sql An SQL string
 	 * @param array $array Paramters to bind
 	 * @param constant $fetchMode A PDO Fetch mode
 	 * @return mixed
 	 */
-	public function selectAll($sql, $array = array(), $fetchMode = \PDO::FETCH_ASSOC)
+	public function selectSql($sql, $array = array(), $fetchMode = \PDO::FETCH_ASSOC)
 	{
 		echo '<hr><pre>'; print_r($sql);
 		$sth = $this->prepare($sql);

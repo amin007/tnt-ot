@@ -24,9 +24,9 @@ class Sql
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		//array(':=',':like:',':like')
 		if($fix==':=')
-			$jika .= " $di`$medan` = $cariApa $akhir\r";
+			$jika .= " $di$medan = $cariApa $akhir\r";
 		elseif($fix==':like:')
-			$jika .= " $di`$medan` like CONCAT('%', $cariApa, '%') $akhir\r";
+			$jika .= " $di$medan like CONCAT('%', $cariApa, '%') $akhir\r";
 
 		return $jika; //echo '<br>' . $jika;
 	}

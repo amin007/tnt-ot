@@ -189,7 +189,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		$m = '*';// nama medan = m
 		$c = $s = $p = null;// carian = c | susun = s | pencam = p
 		# semak table
-		$c[] = array('fix' => 'x=', # cari x= / %like% / xlike
+		$c[] = array('fix' => ':=', # cari := | :like:
 			'atau' => 'WHERE', # WHERE / OR / AND
 			'medan' => 'no', # cari dalam medan apa
 			'apa' => ':no'); # benda yang dicari//*/

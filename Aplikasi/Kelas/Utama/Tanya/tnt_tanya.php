@@ -138,6 +138,8 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'tambangAwamLain2' => '',
 			'jumTambangAwam' => '123.00',
 			# ms3 - tuntutan perbagai
+			'bayaranDobi' => '',
+			'bayaranPos' => ''
 		); # dapatkan medan terlibat
 		$kira = 1; # kira jumlah data
 

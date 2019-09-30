@@ -268,14 +268,12 @@ END;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				$tx = $meta['jadual'][$i++]['type'];//$type = 'VAR_STRING';
 				//$k0 = "$key|$tx";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
 				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
-				$name = 'name="' . $myTable . '[' .$key . ']"';
-				$semua = array($jenis,$myTable,$kira,$key,$data,$name);
+				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
 				$paparData = $html->ubahInput2($key,$data, $tx, $semua);
 				echo $paparData . "\n\t";
 				#
@@ -285,6 +283,16 @@ END;
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
 		//ulangJadualAsas($meta);
+	}
+#-------------------------------------------------------------------------------------------------
+	function setPencam($i,$kira,$meta,$myTable,$key,$data)
+	{
+		$jenis = null;
+		$tx = $meta['jadual'][$i]['type'];//$type = 'VAR_STRING';
+		$name = 'name="' . $myTable . '[' .$key . ']"';
+		$semua = array($jenis,$myTable,$kira,$key,$data,$name);
+
+		return array($tx,$semua);
 	}
 #-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)

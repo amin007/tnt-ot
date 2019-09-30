@@ -37,10 +37,13 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 	function godekData($semuaData)
 	{
 		list($data,$meta) = $semuaData;
-		foreach($meta as $k=>$v):
-			//echo "array_insert_after($k,'name','data',".$data[$k]['No'].")<br>\r";
-			//$this->array_insert_after($k,'name',$meta[$k],'data',$v);
-		endforeach;
+		foreach($meta as $k=>$v):foreach($v as $k1=>$v1):
+			//echo ($k1 == 'flags') ? '' : "$k $k1 $v1 <br>\r";
+			if($k1 == 'name'):
+				$p = $data[0][$v1];
+				echo "$k $k1 $v1 = $p <br>\r";
+			endif;
+		endforeach; echo '<hr>'; endforeach;
 		#
 		return array($data,$meta);
 	}

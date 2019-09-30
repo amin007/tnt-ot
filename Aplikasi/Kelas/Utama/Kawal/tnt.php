@@ -33,7 +33,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		return FALSE;
 	}
 ##------------------------------------------------------------------------------------------
-	function godekData($semuaData)
+	function godekData($t,$semuaData)
 	{
 		list($data,$meta) = $semuaData;
 		foreach($meta as $k=>$v): foreach($v as $k1=>$v1):
@@ -51,7 +51,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			unset($meta[$k]['native_type']);
 		endforeach;//*/
 		#
-		$meta2 = $this->tanya->paparMedan02($myTable);
+		$meta2 = $this->tanya->paparMedan02($t);
 		#
 		return array($data,$meta,$meta2);
 	}

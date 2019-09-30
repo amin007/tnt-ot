@@ -16,6 +16,7 @@ class Tanya
 	{
 		//return $this->db->select('SHOW COLUMNS FROM ' . $myTable);
 		$sql = 'SHOW COLUMNS FROM ' . $myTable;
+		echo htmlentities($sql) . '<br>';
 		return $this->db->selectAll($sql);
 	}
 #-------------------------------------------------------------------------------------------------
@@ -23,6 +24,7 @@ class Tanya
 	{
 		//return $this->db->select('SHOW COLUMNS FROM ' . $myTable);
 		$sql = 'DESCRIBE ' . $myTable;
+		echo htmlentities($sql) . '<br>';
 		return $this->db->selectAll($sql);
 	}
 #-------------------------------------------------------------------------------------------------

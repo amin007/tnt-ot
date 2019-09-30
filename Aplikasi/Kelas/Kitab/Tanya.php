@@ -51,8 +51,8 @@ class Tanya
 		# pilih db ikut yang popular di pasaran
 		$medan['oracle'] = ' COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
 		$table['oracle'] = 'user_tab_cols';
-		$medan['postgres'] = ' CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE, COLUMN_DEFAULT,' . "\r"
-			. ' NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
+		$medan['postgres'] = ' CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE,' . "\r"
+			. ' COLUMN_DEFAULT, NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
 		$table['postgres'] = 'INFORMATION_SCHEMA.COLUMNS';
 		$medan['mysql'] = ' COLUMN_NAME, DATA_TYPE,' . "\r"
 			. ' concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO,' . "\r"
@@ -61,12 +61,12 @@ class Tanya
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
 		# buat where
-		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => ':table_name');
-		$p['table_name'] = $myTable;
+		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => ':tn');
+		$p['tn'] = $myTable;
 		if($dbType == 'mysql')
 		{
-			$c[] = array('fix' => ':=','atau' => 'AND','medan' => 'table_schema','apa' => ':table_schema');
-			$p['table_schema'] = $database;
+			$c[] = array('fix' => ':=','atau' => 'AND','medan' => 'table_schema','apa' => ':ts');
+			$p['ts'] = $database;
 		}
 		$dimana = $this->sql->dimana($c);
 		# bentuk sql

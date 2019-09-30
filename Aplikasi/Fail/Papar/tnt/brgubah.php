@@ -17,7 +17,7 @@
 //ulangJadualAsas($this->_meta);
 
 foreach($this->senarai as $myTable=>$row):
-	paparJadual($this->meta['jadual'],$this->senarai,$myTable,$row);
+	paparJadual($this->_meta,$this->senarai,$myTable,$row);
 endforeach;
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -282,6 +282,7 @@ END;
 			}## --------------------------------------------------------------------------
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
+		ulangJadualAsas($meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)

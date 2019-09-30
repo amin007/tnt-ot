@@ -49,14 +49,14 @@ class Tanya
 	public function pilihMedan01($myTable, $dbType = 'mysql', $database = DB_NAME)
 	{# https://stackoverflow.com/questions/3157831/how-can-i-determine-the-column-type-with-pdo
 		# pilih db ikut yang popular di pasaran
-		$medan['oracle'] = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
+		$medan['oracle'] = ' COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
 		$table['oracle'] = 'user_tab_cols';
-		$medan['postgres'] = 'CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE, COLUMN_DEFAULT, ' . "\r"
-			. 'NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
+		$medan['postgres'] = ' CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE, COLUMN_DEFAULT,' . "\r"
+			. ' NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
 		$table['postgres'] = 'INFORMATION_SCHEMA.COLUMNS';
-		$medan['mysql'] = 'COLUMN_NAME, DATA_TYPE, ' . "\r"
-			. 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
-			. 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
+		$medan['mysql'] = ' COLUMN_NAME, DATA_TYPE,' . "\r"
+			. ' concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO,' . "\r"
+			. ' COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$table['mysql'] = 'INFORMATION_SCHEMA.COLUMNS';
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
@@ -64,7 +64,7 @@ class Tanya
 		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => $myTable);
 
 		# bentuk sql
-		$sql .= ' SELECT ' . "\r" . $m . "\r";
+		$sql  = ' SELECT' . $m . "\r";
 		$sql .= ' FROM ' . $t . "\r";
 		$sql .= ' WHERE table_name = "' . $myTable . '"';
 

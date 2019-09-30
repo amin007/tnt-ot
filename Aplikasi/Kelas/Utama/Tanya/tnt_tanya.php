@@ -180,5 +180,23 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		return array($t, $m, $c, $s, $p); # pulangkan nilai
 	}
 #------------------------------------------------------------------------------------------------#
+	public function cariKeterangan($apa)
+	{
+		//echo '<hr>Nama class :' . __METHOD__ . '()<hr>';
+		//list($idUser,$namaPendek) = $this->tanyaDataSesi();
+		$table = dpt_senarai('jadual_nama');
+		$t = $table[1];// nama table = t
+		$m = '*';// nama medan = m
+		$c = $s = $p = null;// carian = c | susun = s | pencam = p
+		# semak table
+		$c[] = array('fix' => 'x=', # cari x= / %like% / xlike
+			'atau' => 'WHERE', # WHERE / OR / AND
+			'medan' => 'no', # cari dalam medan apa
+			'apa' => ':no'); # benda yang dicari//*/
+		# pilih pembolehubah = p
+		$p['no'] = $apa;
+		return array($t, $m, $c, $s, $p); # pulangkan nilai
+	}
+#------------------------------------------------------------------------------------------------#
 #=================================================================================================
 }

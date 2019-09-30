@@ -91,7 +91,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		$data = array(
 			'bulan' => date('F'),
 			'tahun' => date('Y'),
-			'tarikh' => date('d F y'),
+			'tarikh' => date('d F Y'),
 			'noInvois' => 'URKTNT-' . date('m') . '/' . date('y') . '-POLAN',
 			'elaunMakan' => '40.00',
 			'elaunHarian' => null,

@@ -56,9 +56,9 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		return array($data,$meta,$meta2);
 	}
 ##------------------------------------------------------------------------------------------
-	function dataMeta($myTable,$semuaData)
+	function dataMeta($t,$semuaData)
 	{
-		list($data,$meta,$meta2) = $this->godekData($semuaData);
+		list($data,$meta,$meta2) = $this->godekData($t,$semuaData);
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/
 		# Semak data dulu

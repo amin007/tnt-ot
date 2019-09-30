@@ -80,6 +80,8 @@ END;
 			$input = $this->inputPrimaryKey($semua);
 		elseif( in_array($key,array('nohp')) )
 			$input = $this->inputBiodata($semua);
+		elseif(in_array($dataType,array('STRING')))
+			$input = $this->inputTeksKecil($semua);
 		elseif(in_array($dataType,array('VAR_STRING')))
 			$input = $this->inputTeksBesar($semua);
 		elseif(in_array($dataType,array('BLOB')))

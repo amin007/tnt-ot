@@ -15,7 +15,7 @@
 
 //ulangJadual($this->senarai);
 foreach($this->senarai as $jadual => $row):
-	paparJadual($this->senarai, $jadual, $row);
+	paparJadual(null,$this->senarai, $jadual, $row);
 endforeach;
 #
 ?>

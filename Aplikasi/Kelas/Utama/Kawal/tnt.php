@@ -57,18 +57,18 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//list($meta2,$x2) = $this->tanya->pilihMedan($t);
 		//list($meta2,$x2) = $this->tanya->pilihMedan01($t);
 		//list($meta2,$x2) = $this->tanya->pilihMedan02($t);# tidak boleh pakai
+		$this->semakPembolehubah($meta2,'meta2');
 		#
 		return array($data,$meta,$meta2);
 	}
 ##------------------------------------------------------------------------------------------
 	function dataMeta($t,$semuaData)
 	{
-		list($data,$meta,$meta2) = $this->godekData($t,$semuaData);
+		list($data,$meta) = $this->godekData($t,$semuaData);
 		# masukkan dalam $this->papar
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/
 		# Semak data dulu
-		$this->semakPembolehubah($meta2,'meta2');
 		$this->semakPembolehubah($data,'data');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');
 		$this->semakPembolehubah($this->papar->_meta,'_meta');

@@ -56,7 +56,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		return array($data,$meta,$meta2);
 	}
 ##------------------------------------------------------------------------------------------
-	function dataMeta($semuaData)
+	function dataMeta($myTable,$semuaData)
 	{
 		list($data,$meta,$meta2) = $this->godekData($semuaData);
 		$this->papar->senarai['keterangan'] = $data;
@@ -171,7 +171,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		list($t, $m, $c, $s, $p) = $this->tanya->cariKeterangan($a);
 		$semuaData = $this->tanya->cariSemuaDataMeta//cariSql
 			($t, $m, $c, $s, $p);
-		$this->dataMeta($semuaData);
+		$this->dataMeta($t,$semuaData);
 
 		# Pergi papar kandungan
 		$p = 2; $f = array('index','biodata','keterangan','formula');

@@ -94,7 +94,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//$this->semakPembolehubah($b,'b');# Semak data dulu
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $a;
-		list($t, $m, $c, $s, $p) = $this->tanya->cariKeterangan($b);
+		/*list($t, $m, $c, $s, $p) = $this->tanya->cariKeterangan($b);
 		list($data,$meta) = $this->tanya->cariSemuaDataMeta//cariSql
 			($t, $m, $c, $s, $p);
 		$this->papar->senarai['keterangan'] = $data;

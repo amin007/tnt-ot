@@ -105,6 +105,16 @@ endforeach;
 		//ulangJadualAsas($meta);
 	}
 #-------------------------------------------------------------------------------------------------
+	function setPencam($i,$kira,$meta,$myTable,$key,$data)
+	{
+		$jenis = null;
+		$tx = $meta['jadual'][$i]['type'];//$type = 'VAR_STRING';
+		$name = 'name="' . $myTable . '[' .$key . ']"';
+		$semua = array($jenis,$myTable,$kira,$key,$data,$name);
+
+		return array($tx,$semua);
+	}
+#-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)
 	{
 		#

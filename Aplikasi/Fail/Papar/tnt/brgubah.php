@@ -254,6 +254,7 @@ END;
 		# set pembolehubah utama
 		$method = $cariID = $_jadual = $carian = null;
 		$jenis = $jadual = null;
+		$i = 0;
 		#
 		$html = new Aplikasi\Kitab\BrgBaru01;
 		$aksi = URL . $method . '/ubahSimpan/' . $carian;
@@ -268,9 +269,9 @@ END;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				//$tx = $meta['jadual'][$key]['name'];//'VAR_STRING'
+				$tx = $meta['jadual'][$i++]['type'];//'VAR_STRING'
 				$type = 'VAR_STRING';
-				$k0 = "$key";
+				$k0 = "$key|$tx";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
 				. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';

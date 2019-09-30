@@ -252,10 +252,9 @@ END;
 	function paparJadual($meta,$senarai,$myTable,$row)
 	{
 		# set pembolehubah utama
-		$method = $cariID = $_jadual = $carian = null;
-		$jenis = $jadual = null;
+		$method = $cariID = $_jadual = $carian = $jenis = $jadual = null;
 		$i = 0;
-		#
+		# panggil class
 		$html = new Aplikasi\Kitab\BrgBaru01;
 		$aksi = URL . $method . '/ubahSimpan/' . $carian;
 		$class1 = 'col-sm-7'; # untuk tajuk dan hantar
@@ -263,7 +262,7 @@ END;
 		$html->medanCarian(
 			array($method, $myTable, $senarai, $cariID, $_jadual)
 		);
-		#
+		# mula papar html5
 		echo  "\n" . '<form method="POST" action="'.$aksi
 		. '" class="bg-light text-dark">';
 		for ($kira=0; $kira < count($row); $kira++)

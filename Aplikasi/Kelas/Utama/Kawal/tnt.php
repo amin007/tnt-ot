@@ -39,9 +39,8 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		foreach($meta as $k=>$v):foreach($v as $k1=>$v1):
 			//echo ($k1 == 'flags') ? '' : "$k $k1 $v1 <br>\r";
 			if($k1 == 'name'):
-				$p = $data[0][$v1];
-				$meta[$k]['data'] = $p;
-				//echo "$k $k1 $v1 = $p <br>\r";
+				$meta[$k]['data'] = $data[0][$v1];
+			else:
 			endif;
 		endforeach; echo '<hr>'; endforeach;//*/
 		#

@@ -61,11 +61,11 @@ class Tanya
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
 		# buat where
-		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => ':tn');
+		$c[] = array('fix'=>':=','atau'=>'WHERE','medan'=>'table_name','apa'=>':tn');
 		$p['tn'] = $myTable;
 		if($dbType == 'mysql')
 		{
-			$c[] = array('fix' => ':=','atau' => 'AND','medan' => 'table_schema','apa' => ':ts');
+			$c[] = array('fix'=>':=','atau'=>'AND','medan'=>'table_schema','apa'=>':ts');
 			$p['ts'] = $database;
 		}
 		$dimana = $this->sql->dimana($c);

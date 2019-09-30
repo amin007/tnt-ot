@@ -33,6 +33,16 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		return FALSE;
 	}
 ##------------------------------------------------------------------------------------------
+	function dataMeta($semuaData)
+	{
+		list($data,$meta) = $semuaData;
+		$this->papar->senarai['keterangan'] = $data;
+		$this->papar->_meta = $meta;//*/
+		# Semak data dulu
+		$this->semakPembolehubah($this->papar->senarai,'senarai');
+		$this->semakPembolehubah($this->papar->_meta,'_meta');
+	}
+##------------------------------------------------------------------------------------------
 	function logout()
 	{
 		//echo '<pre>sebelum:'; print_r($_SESSION); echo '</pre>';
@@ -134,15 +144,12 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		# Set pemboleubah utama
 		$this->papar->Tajuk_Muka_Surat = $a;
 		list($t, $m, $c, $s, $p) = $this->tanya->cariKeterangan($a);
-		list($data,$meta) = $this->tanya->cariSemuaDataMeta//cariSql
+		$semuaData = $this->tanya->cariSemuaDataMeta//cariSql
 			($t, $m, $c, $s, $p);
-		$this->papar->senarai['keterangan'] = $data;
-		$this->papar->_meta = $meta;//*/
+		$this->dataMeta($semuaData);
 
 		# Pergi papar kandungan
 		$p = 2; $f = array('index','biodata','keterangan','formula');
-		$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
-		$this->semakPembolehubah($this->papar->_meta,'_meta');# Semak data dulu
 		//$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------

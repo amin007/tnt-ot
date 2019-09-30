@@ -51,7 +51,10 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			unset($meta[$k]['native_type']);
 		endforeach;//*/
 		#
-		$meta2 = $this->tanya->paparMedan02($t);
+		//$meta2 = $this->tanya->paparMedan($t);
+		//$meta2 = $this->tanya->paparMedan02($t);
+		$meta2 = $this->tanya->pilihMedan($t);
+		//$meta2 = $this->tanya->pilihMedan02($t);# tidak boleh pakai
 		#
 		return array($data,$meta,$meta2);
 	}

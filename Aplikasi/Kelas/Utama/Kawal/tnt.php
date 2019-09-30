@@ -180,8 +180,8 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->dataMeta($t,$semuaData);
 
 		# Pergi papar kandungan
-		$p = 2; $f = array('index','biodata','keterangan','formula');
-		//$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
+		$p = 3; $f = array('index','biodata','keterangan','brgubah','formula');
+		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------
 	public function cetak($p=1)

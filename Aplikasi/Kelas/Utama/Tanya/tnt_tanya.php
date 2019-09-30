@@ -124,7 +124,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			# Pergerakan Modul 1GFMAS
 			'kodPejabat' => 'UTK-DAA',
 			'kodModul' => 'BDP-AP01',
-			# ms3
+			# ms3 - km
 			'km01' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
 			'km02' => '',
 			'km03' => '',
@@ -134,6 +134,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'kmRM02' => '',
 			'kmRM03' => '',
 			'kmRM04' => '',
+			# ms3 - tambang awam
 			'tambangAwamLain2' => '',
 			'jumTambangAwam' => '123.00'
 		); # dapatkan medan terlibat

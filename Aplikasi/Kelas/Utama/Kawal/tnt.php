@@ -23,9 +23,9 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			$new = array();
 			foreach ($array as $k => $value)
 			{
-				$new[$k] = $value;
+				$new[$no][$k] = $value;
 				if ($k === $key)
-					$new[$new_key] = $new_value;
+					$new[$no][$new_key] = $new_value;
 			}
 			return $new;
 		}

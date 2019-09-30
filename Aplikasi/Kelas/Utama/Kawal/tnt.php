@@ -34,6 +34,14 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		return FALSE;
 	}
 ##------------------------------------------------------------------------------------------
+	function godekData($semuaData)
+	{
+		list($data,$meta) = $semuaData;
+		foreach($data as $k=>$v)
+			echo "array_insert_after($k,'name','data',$v)<br>\r";
+			//$this->array_insert_after($k,'name',$meta[$k],'data',$v);
+	}
+##------------------------------------------------------------------------------------------
 	function dataMeta($semuaData)
 	{
 		list($data,$meta) = $this->godekData($semuaData);

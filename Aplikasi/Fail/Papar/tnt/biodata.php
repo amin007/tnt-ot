@@ -69,12 +69,12 @@ endforeach;
 		echo "\n" . '</div><!-- /tabbable -->';
 	}
 #-------------------------------------------------------------------------------------------------
-	function paparJadual($senarai,$myTable,$row)
+	function paparJadual($meta,$senarai,$myTable,$row)
 	{
 		# set pembolehubah utama
-		$method = $cariID = $_jadual = $carian = null;
-		$jenis = $jadual = null;
-		#
+		$method = $cariID = $_jadual = $carian = $jadual = null;
+		$i = 0;
+		# panggil class
 		$html = new Aplikasi\Kitab\BrgBaru01;
 		$aksi = URL . $method . '/ubahSimpan/' . $carian;
 		$class1 = 'col-sm-7'; # untuk tajuk dan hantar
@@ -82,19 +82,19 @@ endforeach;
 		$html->medanCarian(
 			array($method, $myTable, $senarai, $cariID, $_jadual)
 		);
-		#
-		echo  "\n" . '<form method="POST" action="'.$aksi
+		# mula papar html5
+		echo  "\n" . '<form method="POST" action="' . $aksi
 		. '" class="bg-light text-dark">';
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
+				//$k0 = "$key|$tx";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
 				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
-				$name = 'name="' . $myTable . '[' .$key . ']"';
-				$semua = array($jenis,$myTable,$kira,$key,$data,$name);
-				$paparData = $html->ubahInput2($key,$data, 'VAR_STRING', $semua);
+				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
+				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
 				echo $paparData . "\n\t";
 				#
 				echo '</div><!-- / class="'.$class2.'" -->' . "\n"
@@ -102,6 +102,7 @@ endforeach;
 			}## --------------------------------------------------------------------------
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
+		//ulangJadualAsas($meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)

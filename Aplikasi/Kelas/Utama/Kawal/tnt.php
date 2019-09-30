@@ -44,6 +44,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			$meta[$k]['type'] = $meta[$k]['native_type'];
 			$meta[$k]['length'] = $meta[$k]['len'];
 			# buang nilai element
+			unset($meta[$k]['len']);
 			unset($meta[$k]['flags']);
 			unset($meta[$k]['pdo_type']);
 			unset($meta[$k]['precision']);

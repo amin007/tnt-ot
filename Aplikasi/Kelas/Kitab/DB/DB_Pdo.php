@@ -8,7 +8,8 @@ class DB_Pdo extends \PDO
 	{
 		try
 		{
-			parent::__construct($DB_TYPE . ':host=' . $DB_HOST . ';dbname=' . $DB_NAME, $DB_USER, $DB_PASS);
+			parent::__construct($DB_TYPE . ':host=' . $DB_HOST . ';dbname='
+			. $DB_NAME, $DB_USER, $DB_PASS);
 			//parent::setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTIONS);
 		}
 		catch (PDOException $e)
@@ -124,7 +125,8 @@ class DB_Pdo extends \PDO
 		}
 		catch(PDOException $pe)
 		{
-			trigger_error('Could not connect to MySQL database. ' . $pe->getMessage() , E_USER_ERROR);
+			trigger_error('Could not connect to MySQL database. '
+			. $pe->getMessage() , E_USER_ERROR);
 		}
 	}
 #------------------------------------------------------------------------------------------------------------

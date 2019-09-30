@@ -263,7 +263,7 @@ END;
 			array($method, $myTable, $senarai, $cariID, $_jadual)
 		);
 		# mula papar html5
-		echo  "\n" . '<form method="POST" action="'.$aksi
+		echo  "\n" . '<form method="POST" action="' . $aksi
 		. '" class="bg-light text-dark">';
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
@@ -274,7 +274,7 @@ END;
 				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
 				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
-				$paparData = $html->ubahInput2($key,$data, $tx, $semua);
+				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
 				echo $paparData . "\n\t";
 				#
 				echo '</div><!-- / class="'.$class2.'" -->' . "\n"

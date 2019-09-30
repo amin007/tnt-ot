@@ -15,6 +15,24 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
 ##------------------------------------------------------------------------------------------
+	function array_insert_after($key, array &$array, $new_key, $new_value)
+	{
+		# http://eosrei.net/comment/287
+		if (array_key_exists($key, $array))
+		{
+			$new = array();
+			foreach ($array as $k => $value)
+			{
+				$new[$k] = $value;
+				if ($k === $key)
+					$new[$new_key] = $new_value;
+			}
+			return $new;
+		}
+
+		return FALSE;
+	}
+##------------------------------------------------------------------------------------------
 	function logout()
 	{
 		//echo '<pre>sebelum:'; print_r($_SESSION); echo '</pre>';

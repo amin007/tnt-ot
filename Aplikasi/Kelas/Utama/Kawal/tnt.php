@@ -36,10 +36,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 ##------------------------------------------------------------------------------------------
 	function dataMeta($semuaData)
 	{
-		list($data,$meta) = $semuaData;
-		foreach($data as $k=>$v)
-			echo "array_insert_after($k,'name',$meta[$k],'data',$v)<br>\r";
-			//$this->array_insert_after($k,'name',$meta[$k],'data',$v);
+		list($data,$meta) = $this->godekData($semuaData);
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/
 		# Semak data dulu

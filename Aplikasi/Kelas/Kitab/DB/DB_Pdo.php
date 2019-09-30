@@ -238,7 +238,6 @@ class DB_Pdo extends \PDO
 		# semak error jika ada
 		$problem = $sth->errorInfo(); # semak jika ada error
 		if($problem[0]=='00000')# pulangkan pembolehubah
-			//return array($sth->fetchAll($fetchMode),$meta);
 			return array($sth->fetchAll($fetchMode),$meta);
 		else
 			$this->bigError($sth,$problem);//*/

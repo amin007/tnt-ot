@@ -121,12 +121,12 @@ class Sql
 		$jika = null; //echo "\r($fix) +> $di $medan -> '$cariApa' |";
 		# jika tiada `` pada $medan
 		//array('z%like%','z1','z2','z2x','z3x','zin','zxin')
-		if($fix=='z%like%')
-			$jika .= " $di$medan like '%$cariApa%' $akhir\r";
-		elseif($fix=='z1')
+		if($fix=='z1')
 			$jika .= " $di$medan = $cariApa $akhir\r";
 		elseif($fix=='z2')
 			$jika .= " $di$medan like '$cariApa' $akhir\r";
+		elseif($fix=='z%like%')
+			$jika .= " $di$medan like '%$cariApa%' $akhir\r";
 		elseif($fix=='z2x')
 			$jika .= " $di$medan not like '$cariApa' $akhir\r";
 		elseif($fix=='z3x')

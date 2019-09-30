@@ -61,13 +61,11 @@ class Tanya
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
 		# buat where
-		$c[] = array('fix'=>':=','atau'=>'WHERE','medan'=>':m01','apa'=>':tn');
-		$p['m01'] = 'table_name';
+		$c[] = array('fix'=>':=','atau'=>'WHERE','medan'=>'table_name','apa'=>':tn');
 		$p['tn'] = $myTable;
 		if($dbType == 'mysql')
 		{
-			$c[] = array('fix'=>':=','atau'=>'AND','medan'=>':m02','apa'=>':ts');
-			$p['m02'] = 'table_schema';
+			$c[] = array('fix'=>':=','atau'=>'AND','medan'=>'table_schema','apa'=>':ts');
 			$p['ts'] = $database;
 		}
 		# bentuk sql

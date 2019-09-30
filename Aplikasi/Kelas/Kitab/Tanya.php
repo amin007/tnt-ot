@@ -274,11 +274,12 @@ class Tanya
 		echo '<pre>' . htmlentities($sql) . '</pre><br>';
 	}
 	#---------------------------------------------------------------------------------------------
-	public function paparSql($myTable, $medan, $carian, $susun)
+	public function paparSqlCariData($myTable, $medan = '*', $carian, $susun)
 	{
 		$sql = $this->sql->bentukSqlSelect($myTable, $medan, $carian, $susun);
 
 		echo '<pre>$sql->' . htmlentities($sql) . '</pre><br>';
+		$result = $this->db->selectAll($sql,null);
 	}
 	#---------------------------------------------------------------------------------------------
 ## tamat - untuk select sql

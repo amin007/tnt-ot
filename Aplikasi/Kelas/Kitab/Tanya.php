@@ -68,7 +68,8 @@ class Tanya
 		$sql .= ' FROM ' . $t . "\r";
 		$sql .= ' WHERE table_name = "' . $myTable . '"';
 
-		echo htmlentities($sql) . '<br>';
+		//echo htmlentities($sql) . '<br>';
+		echo '$sql-><pre>'; print_r($sql); echo '</pre>';
 		return $this->db->selectAll($sql);
 	}
 #-------------------------------------------------------------------------------------------------

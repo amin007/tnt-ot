@@ -269,12 +269,11 @@ END;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				$tx = $meta['jadual'][$i++]['type'];//'VAR_STRING'
-				//$type = 'VAR_STRING';
-				$k0 = "$key|$tx";
+				$tx = $meta['jadual'][$i++]['type'];//$type = 'VAR_STRING';
+				//$k0 = "$key|$tx";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-				. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';
+				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
 				$name = 'name="' . $myTable . '[' .$key . ']"';
 				$semua = array($jenis,$myTable,$kira,$key,$data,$name);
@@ -286,7 +285,7 @@ END;
 			}## --------------------------------------------------------------------------
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
-		ulangJadualAsas($meta);
+		//ulangJadualAsas($meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)

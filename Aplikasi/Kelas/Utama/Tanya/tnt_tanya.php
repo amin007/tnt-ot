@@ -113,10 +113,10 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'b0221106' => '',
 			'elaunKerjaLuar' => '',
 			'b0221107' => '',
-			'bayaranTol' => null,
-			'bayaranParkir' => null,
+			'bayaranTol' => '50.00',
+			'bayaranParkir' => '8.00',
 			'b0221199' => null,
-			'bayaranBalikTel' => null,
+			'bayaranBalikTel' => '23.50',
 			'b0223102' => null,
 			'elaunTugasMemandu' => null,
 			'b0115199' => null,
@@ -138,8 +138,8 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'tambangAwamLain2' => '',
 			'jumTambangAwam' => '123.00',
 			# ms3 - tuntutan perbagai
-			'bayaranDobi' => '',
-			'bayaranPos' => ''
+			'bayaranDobi' => '0.60',
+			'bayaranPos' => '0.60'
 		); # dapatkan medan terlibat
 		$kira = 1; # kira jumlah data
 

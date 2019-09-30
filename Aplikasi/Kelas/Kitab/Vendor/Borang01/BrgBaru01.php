@@ -261,6 +261,28 @@ END;
 		. '';
 	}
 #------------------------------------------------------------------------------------------
+	function inputMasa($semua)
+	{
+		list($tab2,$tab3,$tab4,$birutua,$birumuda,$merah,
+			$classInput,$komenInput) = $this->ccs();
+		list($jenis,$jadual,$kira,$key,$data,$name) = $semua;
+		#terima - style="font-family:sans-serif;font-size:10px;"
+		$X = 'name="' . $jadual . '[' . $key . 'X]"';
+		$dataX = ($key=='hantar_prosesan') ?
+			'<input type="checkbox" ' . $X . ' value="x"> Utk Prosesan : ' . $data
+			: '<input type="checkbox" ' . $X . ' value="x"> ' . $data;
+
+		return '<div class="input-group input-group-sm">' . $tab3
+		. $this->labelTeks($dataX) . $tab3
+		. '<input type="time" ' . $name
+		. ' value="' . $data . '"'
+		. $tab3 . ' class="form-control"'
+		. $tab3 . ' placeholder="Cth: 08:00 AM"'
+		. $tab3 . ' id="time' . $key . '">'
+		. $tab2 . '</div>' . $komenInput
+		. '';
+	}
+#------------------------------------------------------------------------------------------
 	function inputAlamatBaru($semua)
 	{
 		list($tab2,$tab3,$tab4,$birutua,$birumuda,$merah,

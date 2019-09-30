@@ -60,8 +60,10 @@ class Tanya
 		$table['mysql'] = 'INFORMATION_SCHEMA.COLUMNS';
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
-		$sql = ' SELECT ' . "\r" . $m . "\r" . ' FROM ' . $t . "\r"
-			 . ' WHERE table_name = "' . $myTable . '"';
+		# bentuk sql
+		$sql .= ' SELECT ' . "\r" . $m . "\r";
+		$sql .= ' FROM ' . $t . "\r";
+		$sql .= ' WHERE table_name = "' . $myTable . '"';
 
 		echo htmlentities($sql) . '<br>';
 		return $this->db->selectAll($sql);

@@ -65,7 +65,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 	{
 		list($data,$meta,$meta2) = $this->godekData($t,$semuaData);
 		# bentuk sql yang biasa
-		$sql2 = $this->tanya->paparSqlCariData($t);
+		list($sql2,$x) = $this->tanya->paparSqlCariData($t);
 		# masukkan dalam $this->papar
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/

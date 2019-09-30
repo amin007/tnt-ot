@@ -268,13 +268,16 @@ END;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
+				//$tx = $meta['jadual'][$key]['name'];//'VAR_STRING'
+				$type = 'VAR_STRING';
+				$k0 = "$key";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
+				. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
 				$name = 'name="' . $myTable . '[' .$key . ']"';
 				$semua = array($jenis,$myTable,$kira,$key,$data,$name);
-				$paparData = $html->ubahInput2($key,$data, 'VAR_STRING', $semua);
+				$paparData = $html->ubahInput2($key,$data, $type, $semua);
 				echo $paparData . "\n\t";
 				#
 				echo '</div><!-- / class="'.$class2.'" -->' . "\n"

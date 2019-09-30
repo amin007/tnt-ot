@@ -107,8 +107,8 @@ endforeach;
 #-------------------------------------------------------------------------------------------------
 	function setPencam($i,$kira,$meta,$myTable,$key,$data)
 	{
-		$jenis = null;
-		$tx = $meta['jadual'][$i]['type'];//$type = 'VAR_STRING';
+		$jenis = $tx = null;
+		//$tx = $meta['jadual'][$i]['type'];//$tx = 'VAR_STRING';
 		$name = 'name="' . $myTable . '[' .$key . ']"';
 		$semua = array($jenis,$myTable,$kira,$key,$data,$name);
 

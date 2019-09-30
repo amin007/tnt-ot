@@ -52,11 +52,11 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		endforeach;//*/
 		#
 		$meta2 = null;
-		//$meta2 = $this->tanya->paparMedan($t);
-		//$meta2 = $this->tanya->paparMedan02($t);
-		//$meta2 = $this->tanya->pilihMedan($t);
-		//$meta2 = $this->tanya->pilihMedan01($t);
-		//$meta2 = $this->tanya->pilihMedan02($t);# tidak boleh pakai
+		list($meta2,$x2) = $this->tanya->paparMedan($t);
+		//list($meta2,$x2) = $this->tanya->paparMedan02($t);
+		//list($meta2,$x2) = $this->tanya->pilihMedan($t);
+		//list($meta2,$x2) = $this->tanya->pilihMedan01($t);
+		//list($meta2,$x2) = $this->tanya->pilihMedan02($t);# tidak boleh pakai
 		#
 		return array($data,$meta,$meta2);
 	}

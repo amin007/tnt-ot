@@ -58,8 +58,8 @@ class Tanya
 			. 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
 			. 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$table['mysql'] = 'INFORMATION_SCHEMA.COLUMNS';
-		$medan = huruf('Besar_Depan', $medan[$dbType]);
-		$table = huruf('Besar_Depan', $t[$dbType]);
+		$m = huruf('Besar_Depan', $medan[$dbType]);
+		$t = huruf('Besar_Depan', $table[$dbType]);
 		$sql = ' SELECT ' . "\r" . $medan . "\r"
 			 . ' FROM ' . "\r"
 			 . ' WHERE table_name = "' . $myTable . '"';

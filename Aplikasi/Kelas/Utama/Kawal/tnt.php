@@ -170,7 +170,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 #------------------------------------------------------------------------------------------
 	public function borangUbah($a=null,$b=null)
 	{
-		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		//$this->semakPembolehubah($a,'a');# Semak data dulu
 		//$this->semakPembolehubah($b,'b');# Semak data dulu
 		# Set pemboleubah utama

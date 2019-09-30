@@ -50,6 +50,7 @@ class Tanya
 	{# https://stackoverflow.com/questions/3157831/how-can-i-determine-the-column-type-with-pdo
 		# pilih db ikut yang popular di pasaran
 		$medan['oracle'] = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
+		$t['oracle'] = 'user_tab_cols';
 		$medan['postgres'] = 'CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE, COLUMN_DEFAULT, ' . "\r"
 			   . 'NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
 		$medan['mysql'] = 'COLUMN_NAME, DATA_TYPE, ' . "\r"
@@ -57,7 +58,7 @@ class Tanya
 			   . 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$medan = huruf('Besar_Depan', $medan[$dbType]);
 		$sql = ' SELECT ' . "\r" . $medan . "\r"
-			 . ' FROM user_tab_cols' . "\r"
+			 . ' FROM ' . "\r"
 			 . ' WHERE table_name = "' . $myTable . '"';
 
 		echo htmlentities($sql) . '<br>';

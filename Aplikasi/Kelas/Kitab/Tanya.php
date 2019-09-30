@@ -60,6 +60,9 @@ class Tanya
 		$table['mysql'] = 'INFORMATION_SCHEMA.COLUMNS';
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
+		# buat where
+		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => $myTable);
+
 		# bentuk sql
 		$sql .= ' SELECT ' . "\r" . $m . "\r";
 		$sql .= ' FROM ' . $t . "\r";

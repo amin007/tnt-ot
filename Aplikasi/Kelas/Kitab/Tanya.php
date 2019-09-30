@@ -49,12 +49,12 @@ class Tanya
 	public function pilihMedan01($myTable, $dbType = 'mysql', $database = DB_NAME)
 	{# https://stackoverflow.com/questions/3157831/how-can-i-determine-the-column-type-with-pdo
 		# pilih db ikut yang popular di pasaran
-		$medan['oracle'] = ' COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
+		$medan['oracle'] = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
 		$table['oracle'] = 'user_tab_cols';
-		$medan['postgres'] = ' CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE,' . "\r"
+		$medan['postgres'] = 'CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE,' . "\r"
 			. ' COLUMN_DEFAULT, NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
 		$table['postgres'] = 'INFORMATION_SCHEMA.COLUMNS';
-		$medan['mysql'] = ' COLUMN_NAME, DATA_TYPE,' . "\r"
+		$medan['mysql'] = 'COLUMN_NAME, DATA_TYPE,' . "\r"
 			. ' concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO,' . "\r"
 			. ' COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$table['mysql'] = 'INFORMATION_SCHEMA.COLUMNS';
@@ -70,12 +70,8 @@ class Tanya
 			$p['m02'] = 'table_schema';
 			$p['ts'] = $database;
 		}
-		$dimana = $this->sql->dimana($c);
 		# bentuk sql
-		$sql  = ' SELECT' . $m . "\r";
-		$sql .= ' FROM ' . $t . "\r";
-		$sql .= $dimana . "\r";
-		//$sql .= ' WHERE table_name = "' . $myTable . '"';
+		$sql = $this->sql->bentukSqlSelect($t,$m,$c);
 
 		//echo htmlentities($sql) . '<br>';
 		echo '$sql-><pre>'; print_r($sql); echo '</pre>';

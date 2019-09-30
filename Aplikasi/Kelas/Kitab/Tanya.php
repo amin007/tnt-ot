@@ -46,7 +46,7 @@ class Tanya
 		return $this->db->selectAll($sql);
 	}
 #-------------------------------------------------------------------------------------------------
-	public function pilihMedan01($myTable, $database = DB_NAME)
+	public function pilihMedan01($myTable, $dbType = 'Mysql', $database = DB_NAME)
 	{# https://stackoverflow.com/questions/3157831/how-can-i-determine-the-column-type-with-pdo
 		# untuk oracle sahaja
 		$medan = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';

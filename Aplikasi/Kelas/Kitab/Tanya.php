@@ -44,13 +44,10 @@ class Tanya
 		$c[] = array('fix'=>':=','atau'=>'AND','medan'=>'table_schema','apa'=>':ts');
 		$p['ts'] = $database;
 		# bentuk sql
-		$sql = ' SELECT ' . "\r" . $medan . "\r"
-			 . ' FROM INFORMATION_SCHEMA.COLUMNS' . "\r"
-			 . ' WHERE table_schema = "' . $database . '"' . "\r"
-			 . ' AND table_name = "' . $myTable . '"';
+		$sql = $this->sql->bentukSqlSelect($table,$medan,$c);
 
 		echo htmlentities($sql) . '<br>';
-		return $this->db->selectAll($sql);
+		return $this->db->selectAll($sql,$p);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function pilihMedan01($myTable, $dbType = 'mysql', $database = DB_NAME)

@@ -1,0 +1,179 @@
+$data=>
+Array
+(
+    [0] => Array
+        (
+            [No] => 1
+            [Tarikh] => 2019-09-29
+            [Bertolak] => 15:27:35
+            [Sampai] => 15:27:35
+            [A04] => null
+            [A05] => cubaan 1
+            [A06] => null
+            [A07] => null
+            [A08] => null
+            [Jarak(KM)] => null
+            [Jumlah(RM)] => null
+        )
+
+)
+$_meta=>
+Array
+(
+    [0] => Array
+        (
+            [native_type] => LONG
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                    [0] => not_null
+                    [1] => primary_key
+                )
+
+            [table] => keterangan01
+            [name] => No
+            [len] => 11
+            [precision] => 0
+        )
+
+    [1] => Array
+        (
+            [native_type] => DATE
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => Tarikh
+            [len] => 10
+            [precision] => 0
+        )
+
+    [2] => Array
+        (
+            [native_type] => TIME
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => Bertolak
+            [len] => 10
+            [precision] => 0
+        )
+
+    [3] => Array
+        (
+            [native_type] => TIME
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => Sampai
+            [len] => 10
+            [precision] => 0
+        )
+
+    [4] => Array
+        (
+            [native_type] => VAR_STRING
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => A04
+            [len] => 200
+            [precision] => 0
+        )
+
+    [5] => Array
+        (
+            [native_type] => VAR_STRING
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => A05
+            [len] => 200
+            [precision] => 0
+        )
+
+    [6] => Array
+        (
+            [native_type] => VAR_STRING
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => A06
+            [len] => 200
+            [precision] => 0
+        )
+
+    [7] => Array
+        (
+            [native_type] => VAR_STRING
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => A07
+            [len] => 200
+            [precision] => 0
+        )
+
+    [8] => Array
+        (
+            [native_type] => VAR_STRING
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => A08
+            [len] => 200
+            [precision] => 0
+        )
+
+    [9] => Array
+        (
+            [native_type] => NEWDECIMAL
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => Jarak(KM)
+            [len] => 12
+            [precision] => 2
+        )
+
+    [10] => Array
+        (
+            [native_type] => NEWDECIMAL
+            [pdo_type] => 2
+            [flags] => Array
+                (
+                )
+
+            [table] => keterangan01
+            [name] => Jumlah(RM)
+            [len] => 12
+            [precision] => 2
+        )
+
+)

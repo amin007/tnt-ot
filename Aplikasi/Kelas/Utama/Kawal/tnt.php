@@ -39,8 +39,9 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		foreach($meta as $k=>$v): foreach($v as $k1=>$v1):
 			if($k1=='name') $meta[$k]['data'] = $data[0][$v1];
 		endforeach;
-			$meta[$k]['primary_key'] = (!empty(array_filter($meta[$k]['flags']))) ?
-				'yes':'no';
+			//$meta[$k]['primary_key']
+			if(!empty(array_filter($meta[$k]['flags'])))
+				$meta[$k]['native_type'] = 'primary_key';
 			$meta[$k]['type'] = $meta[$k]['native_type'];
 			$meta[$k]['length'] = $meta[$k]['len'];
 			# buang nilai element

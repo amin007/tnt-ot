@@ -480,7 +480,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +40 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
-	<td colspan="3">Dobi [ Resit ]</td>
+	<td colspan="3">Telefon</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
@@ -492,7 +492,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +41 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
-	<td colspan="3">Telefon</td>
+	<td colspan="3">Dobi [ Resit ]</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>

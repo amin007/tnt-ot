@@ -41,7 +41,10 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			//echo ($k1 == 'flags') ? '' : "$k $k1 $v1 <br>\r";
 			if($k1 == 'name'):
 				$p = $data[0][$v1];
-				echo "($k,$k1,, 'data', $p)<br>\n";
+				$this->array_insert_after($k,'name', $meta,
+				'data', $p);
+				//$meta[$k]['data'] = $p;
+				//echo "($k,$k1,, 'data', $p)<br>\n";
 				//echo "$k $k1 $v1 = $p <br>\r";
 			endif;
 		endforeach; echo '<hr>'; endforeach;//*/

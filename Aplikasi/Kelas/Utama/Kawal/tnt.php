@@ -40,7 +40,8 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/
 		# Semak data dulu
-		$this->semakPembolehubah($this->papar->senarai,'senarai');
+		$this->semakPembolehubah($data,'data');
+		//$this->semakPembolehubah($this->papar->senarai,'senarai');
 		$this->semakPembolehubah($this->papar->_meta,'_meta');
 	}
 ##------------------------------------------------------------------------------------------

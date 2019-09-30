@@ -88,6 +88,8 @@ END;
 			$input = $this->inputTextarea($semua); #kod utk textarea
 		elseif ( in_array($dataType,array('DATE')) )
 			$input = $this->inputTarikh($semua);
+		elseif ( in_array($dataType,array('TIME')) )
+			$input = $this->inputMasa($semua);
 		elseif(in_array($dataType,array('NUMBER','LONG')))
 			$input = $this->inputNumber($semua);
 		elseif(in_array($dataType,array('NEWDECIMAL')))

@@ -36,13 +36,14 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 	function godekData($semuaData)
 	{
 		list($data,$meta) = $semuaData;
-		foreach($meta as $k=>$v):foreach($v as $k1=>$v1):
-			//echo ($k1 == 'flags') ? '' : "$k $k1 $v1 <br>\r";
-			if($k1 == 'name'):
-				$meta[$k]['data'] = $data[0][$v1];
-			else:
-			endif;
-		endforeach; echo '<hr>'; endforeach;//*/
+		foreach($meta as $k=>$v):
+			$meta[$k]['primary_key'] = (!empty(array_filter($meta[$k]['flags']))) ?
+				'yes':'no';
+			unset($meta[$k]['flags']);
+			unset($meta[$k]['precision']);
+		foreach($v as $k1=>$v1):
+			if($k1=='name') $meta[$k]['data'] = $data[0][$v1];
+		endforeach; endforeach;//*/
 		#
 		return array($data,$meta);
 	}

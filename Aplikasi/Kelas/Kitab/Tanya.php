@@ -61,16 +61,18 @@ class Tanya
 		$m = huruf('Besar_Depan', $medan[$dbType]);
 		$t = huruf('Besar_Depan', $table[$dbType]);
 		# buat where
-		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => $myTable);
-
+		$c[] = array('fix' => ':=','atau' => 'WHERE','medan' => 'table_name','apa' => ':table_name');
+		$p['table_name'] = $myTable;
+		$dimana = $this->sql->dimana($c);
 		# bentuk sql
 		$sql  = ' SELECT' . $m . "\r";
 		$sql .= ' FROM ' . $t . "\r";
-		$sql .= ' WHERE table_name = "' . $myTable . '"';
+		$sql .= $dimana . "\r";
+		//$sql .= ' WHERE table_name = "' . $myTable . '"';
 
 		//echo htmlentities($sql) . '<br>';
 		echo '$sql-><pre>'; print_r($sql); echo '</pre>';
-		return $this->db->selectAll($sql);
+		return $this->db->selectAll($sql,$p);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function pilihMedan02($myTable)

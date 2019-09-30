@@ -268,12 +268,12 @@ END;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				//$k0 = "$key|$tx";
+				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
+				$k0 = "$key|$tx";
 				echo  "\n" . '<div class="form-group row">' . "\n\t"
 				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
+				. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';
 				#
-				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
 				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
 				echo $paparData . "\n\t";
 				#

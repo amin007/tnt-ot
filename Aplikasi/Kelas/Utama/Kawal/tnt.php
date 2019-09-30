@@ -15,7 +15,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		//echo '<hr>Nama function :' .__FUNCTION__ . '<hr>';
 	}
 ##------------------------------------------------------------------------------------------
-	function array_insert_after($key, array &$array, $new_key, $new_value)
+	function array_insert_after($no,$key, array &$array, $new_key, $new_value)
 	{
 		# http://eosrei.net/comment/287
 		if (array_key_exists($key, $array))
@@ -36,6 +36,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 	function dataMeta($semuaData)
 	{
 		list($data,$meta) = $semuaData;
+		$this->array_insert_after('0','name',$meta[0],'data',$data[0]['A05']);
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;//*/
 		# Semak data dulu

@@ -67,7 +67,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		list($data,$meta) = $this->godekData($t,$semuaData);
 		# masukkan dalam $this->papar
 		$this->papar->senarai['keterangan'] = $data;
-		$this->papar->_meta['keterangan'] = $meta;//*/
+		$this->papar->_meta['jadual'] = $meta;//*/
 		# Semak data dulu
 		//$this->semakPembolehubah($data,'data');
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');

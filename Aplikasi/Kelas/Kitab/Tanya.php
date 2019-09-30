@@ -17,7 +17,9 @@ class Tanya
 		//return $this->db->select('SHOW COLUMNS FROM ' . $myTable);
 		$sql = 'SHOW COLUMNS FROM ' . $myTable;
 		echo htmlentities($sql) . '<br>';
-		return $this->db->selectAll($sql,null);
+		list($result,$meta) = $this->db->selectAll($sql,null);
+
+		return array($result,$meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function paparMedan02($myTable)
@@ -25,7 +27,9 @@ class Tanya
 		//return $this->db->select('SHOW COLUMNS FROM ' . $myTable);
 		$sql = 'DESCRIBE ' . $myTable;
 		echo htmlentities($sql) . '<br>';
-		return $this->db->selectAll($sql,null);
+		list($result,$meta) = $this->db->selectAll($sql,null);
+
+		return array($result,$meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function pilihMedan($myTable, $database = DB_NAME)
@@ -49,7 +53,9 @@ class Tanya
 		$sql = $this->sql->bentukSqlSelect($table,$medan,$c);
 
 		echo htmlentities($sql) . '<br>';
-		return $this->db->selectAll($sql,$p);
+		list($result,$meta) = $this->db->selectAll($sql,$p);
+
+		return array($result,$meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function pilihMedan01($myTable, $dbType = 'mysql', $database = DB_NAME)
@@ -79,7 +85,9 @@ class Tanya
 
 		//echo htmlentities($sql) . '<br>';
 		echo '$sql-><pre>'; print_r($sql); echo '</pre>';
-		return $this->db->selectAll($sql,$p);
+		list($result,$meta) = $this->db->selectAll($sql,$p);
+
+		return array($result,$meta);
 	}
 #-------------------------------------------------------------------------------------------------
 	public function pilihMedan02($myTable)

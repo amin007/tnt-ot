@@ -55,7 +55,7 @@ class Tanya
 		$medan['mysql'] = 'COLUMN_NAME, DATA_TYPE, ' . "\r"
 			   . 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
 			   . 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
-		$medan = huruf('Besar_Depan', $medan);
+		$medan = huruf('Besar_Depan', $medan[$dbType]);
 		$sql = ' SELECT ' . "\r" . $medan . "\r"
 			 . ' FROM user_tab_cols' . "\r"
 			 . ' WHERE table_name = "' . $myTable . '"';

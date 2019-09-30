@@ -252,7 +252,7 @@ END;
 	function paparJadual($meta,$senarai,$myTable,$row)
 	{
 		# set pembolehubah utama
-		$method = $cariID = $_jadual = $carian = $jenis = $jadual = null;
+		$method = $cariID = $_jadual = $carian = $jadual = null;
 		$i = 0;
 		# panggil class
 		$html = new Aplikasi\Kitab\BrgBaru01;

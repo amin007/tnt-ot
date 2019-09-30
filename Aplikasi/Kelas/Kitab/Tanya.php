@@ -38,6 +38,11 @@ class Tanya
 			   . 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
 			   . 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$medan = huruf('Besar_Depan', $medan);
+		# buat where
+		$c[] = array('fix'=>':=','atau'=>'WHERE','medan'=>'table_name','apa'=>':tn');
+		$p['tn'] = $myTable;
+		$c[] = array('fix'=>':=','atau'=>'AND','medan'=>'table_schema','apa'=>':ts');
+		$p['ts'] = $database;
 		# bentuk sql
 		$sql = ' SELECT ' . "\r" . $medan . "\r"
 			 . ' FROM INFORMATION_SCHEMA.COLUMNS' . "\r"

@@ -52,10 +52,10 @@ class Tanya
 		$medan['oracle'] = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
 		$t['oracle'] = 'user_tab_cols';
 		$medan['postgres'] = 'CHARACTER_MAXIMUM_LENGTH, COLUMN_NAME, IS_NULLABLE, COLUMN_DEFAULT, ' . "\r"
-			   . 'NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
+			. 'NUMERIC_PRECISION, NUMERIC_SCALE, UDT_NAME';
 		$medan['mysql'] = 'COLUMN_NAME, DATA_TYPE, ' . "\r"
-			   . 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
-			   . 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
+			. 'concat_ws(" ",CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION) DATA_NO, ' . "\r"
+			. 'COLUMN_KEY, EXTRA, PRIVILEGES, COLUMN_COMMENT';
 		$medan = huruf('Besar_Depan', $medan[$dbType]);
 		$sql = ' SELECT ' . "\r" . $medan . "\r"
 			 . ' FROM ' . "\r"

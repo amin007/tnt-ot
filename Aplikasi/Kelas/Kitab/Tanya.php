@@ -46,6 +46,19 @@ class Tanya
 		return $this->db->selectAll($sql);
 	}
 #-------------------------------------------------------------------------------------------------
+	public function pilihMedan01($myTable, $database = DB_NAME)
+	{# https://stackoverflow.com/questions/3157831/how-can-i-determine-the-column-type-with-pdo
+		# untuk oracle sahaja
+		$medan = 'COLUMN_NAME,DATA_TYPE,DATA_LENGTH,DATA_PRECISION,DATA_SCALE';
+		$medan = huruf('Besar_Depan', $medan);
+		$sql = ' SELECT ' . "\r" . $medan . "\r"
+			 . ' FROM user_tab_cols' . "\r"
+			 . ' WHERE table_name = "' . $myTable . '"';
+
+		echo htmlentities($sql) . '<br>';
+		return $this->db->selectAll($sql);
+	}
+#-------------------------------------------------------------------------------------------------
 	public function pilihMedan02($myTable)
 	{
 		//echo '<br>return $this->db->getColumnNames('.$myTable.');';

@@ -121,6 +121,9 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'elaunTugasMemandu' => null,
 			'b0115199' => null,
 			'jumClaim' => '100.00',
+			# Pergerakan Modul 1GFMAS
+			'kodPejabat' => 'UTK-DAA',
+			'kodModul' => 'BDP-AP01',
 			# ms3
 			'km01' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
 			'km02' => '',

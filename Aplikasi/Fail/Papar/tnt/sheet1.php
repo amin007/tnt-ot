@@ -367,12 +367,12 @@ table.excel tbody td {
 	<td colspan="3" style="font-size:30px;text-align:center;
 	border-right:2pt double black;
 	border-bottom:2pt double black;">
-	<b>POM</b></td>
+	<b><?php echo $this->claim['kodPejabat'] ?></b></td>
 	<td></td>
 	<td></td>
 	<td></td>
 	<td colspan="7" style="font-size:30px;text-align:right;">
-	BDP-AP01</td>
+	<?php echo $this->claim['kodModul'] ?></td>
 	<td id="hitamkiri"></td>
 </tr>
 <tr height="20">

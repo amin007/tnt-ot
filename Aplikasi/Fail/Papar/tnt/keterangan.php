@@ -367,9 +367,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">
-<li><a class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>a" data-toggle="modal" data-target="#x">A</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>b" data-toggle="modal" data-target="#x">B</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>c" data-toggle="modal" data-target="#x">C</a></li>
+<li><a href="#x" class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>a" data-toggle="modal" data-target="#x">A</a></li>
+<li><a href="#x" class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>b" data-toggle="modal" data-target="#x">B</a></li>
+<li><a href="#x" class="btn btn-outline-secondary rounded-pill" data-remote="<?php echo $url ?>c" data-toggle="modal" data-target="#x">C</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Keterangan</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Mula/Tamat</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Tuntutan</a></li>

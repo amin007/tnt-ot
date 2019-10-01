@@ -367,9 +367,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>a" >AAA</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b" >BBB</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b" >CCC</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>a">AAA</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b">BBB</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b">CCC</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Keterangan</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Mula/Tamat</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tuntutan</a></li>
@@ -387,9 +387,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 					<h5 class="modal-title">Pilih Keterangan Perjalanan</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				</div>
-				<div class="modal-body"><?php
-				//echo $pilihBorang;
-				?></div>
+				<div class="modal-body"></div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Batal</button>
 					<input type="submit" class="btn btn-outline-primary" value="Simpan">

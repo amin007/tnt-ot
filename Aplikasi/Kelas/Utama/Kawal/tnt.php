@@ -149,6 +149,12 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);//*/
 	}
 #------------------------------------------------------------------------------------------
+	public function jenisBorang($a=null,$b=null)
+	{
+		echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		echo "Anda memilih borang jenis $a | $b<br>\r";
+	}
+#------------------------------------------------------------------------------------------
 	public function borangBaru($a=null,$b=null)
 	{
 		echo '<hr>Nama class :' . __METHOD__ . '<hr>';

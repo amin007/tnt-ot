@@ -39,6 +39,44 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 #------------------------------------------------------------------------------------------------#
 #=================================================================================================
 #------------------------------------------------------------------------------------------------#
+	public function jenisTuntutan()
+	{
+		$data = array(
+			'Bayaran Tol',
+			'Bayaran Parkir',
+			'Bayaran Dobi',
+			'Bayaran Balik Telefon',
+			'Bayaran Pos',
+			'Tambang Bas',
+			'Tambang Teksi',
+			'Tambang Grabcar',
+			'Tambang Kereta Terbang',
+			'Tambang Keretapi',
+			'Tambang Komuter',
+			'Tambang ERL',
+			'Tambang LRT',
+			'Tambang Monoril',
+			'Tambang MRT',
+			'Tambang Kapal Terbang',
+			'Tambang Helikopter',
+			'Tambang Kapal Angkasa',
+			'Tambang Kapal Laut',
+			'Tambang Bot',
+			'Tambang Feri',
+			'Elaun Loging X RM 40.00',
+			'Elaun *Loging X RM 35.00',
+			'Elaun Hotel',
+			'Servis Caj',
+			'Elaun Makan X RM 40.00',
+			'Elaun Harian X RM 20.00',
+			'Elaun Kerja Luar',
+			'Elaun Tugas Memandu'
+		); # dapatkan medan terlibat
+		$kira = 1; # kira jumlah data
+
+		return $data;
+	}
+#------------------------------------------------------------------------------------------------#
 	public function biodata($pilih=2)
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';

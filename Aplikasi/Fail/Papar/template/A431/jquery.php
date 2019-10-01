@@ -14,6 +14,7 @@ if (isset($this->js))
 $dataURL = dpt_url();
 //echo '<pre>'; echo '<br>$dataURL:<br>'; print_r($dataURL); echo '</pre>';
 $classKhas = array('ubah','hadirbulan','awal','batch','senarai');
+$classKhas2 = array('borang');
 if ( isset($dataURL[1]) && ( in_array($dataURL[1],$classKhas) )) :
 echo "\n\n"; ?>
 <script type="text/javascript">
@@ -110,5 +111,29 @@ echo "\n\n"; ?>
 }
 .suggestionList li:hover {background-color: #659CD8;}
 </style>
+<?php elseif( isset($dataURL[1]) && ( in_array($dataURL[1],$classKhas2) )) :?>
+<script>
+$('.btn-action').click(function(){
+	var url = $(this).data("url");
+	$.ajax({
+		type: "GET",
+		url: url,
+		dataType: 'json',
+		success: function(res)
+		{
+			// get the ajax response data
+			var data = res.body;
+			// update modal content
+			$('.modal-body').text(data.someval);
+			// show modal
+			$('#myModal').modal('show');
+		},
+		error:function(request, status, error)
+		{
+			console.log("ajax call went wrong:" + request.responseText);
+		}
+	});
+});
+</script>
 <?php else :?>
 <?php endif;

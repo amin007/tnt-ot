@@ -367,19 +367,19 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>a">AAA</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b">BBB</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="<?php echo $url ?>b">CCC</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Keterangan</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Mula/Tamat</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tuntutan</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Bayaran</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tambang</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Pengangkutan</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Elaun</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>a">AAA</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>b">BBB</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>b">CCC</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Keterangan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Mula/Tamat</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Tuntutan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Bayaran</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Tambang</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Pengangkutan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Elaun</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------- --><br>
-<div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+<div id="x" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
 	<form method="POST" action="<?=$mencari?>" autocomplete="off">
 		<div class="modal-content">

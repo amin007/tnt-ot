@@ -407,7 +407,11 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$keteranganNamaPemandu = $j . '[keteranganNamaPemandu]';
 		$jarak = $j . '[jarak]';
 		$jumlah = $j . '[jumlah]';
-/*
+	}
+#-------------------------------------------------------------------------------------------------
+	function borangKeteranganAm()
+	{
+		?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active" id="a">
@@ -440,7 +444,10 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		</div>
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	</div><!-- / class="tab-pane fade" -->
+	<?php
+	}
+#-------------------------------------------------------------------------------------------------
+/*
 	<div class="tab-pane fade" id="b">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Mula/Tamat</legend>

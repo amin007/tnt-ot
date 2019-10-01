@@ -13,7 +13,8 @@
 <?php
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 //contohBorangBootstrap();//contohBorang02();//borangPerjalanan();
-modalBorang();
+//modalBorang();
+modalBorang02();
 ulangJadualAsas($this->senarai);
 ?>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->

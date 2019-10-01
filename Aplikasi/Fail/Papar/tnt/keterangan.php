@@ -409,6 +409,24 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$jumlah = $j . '[jumlah]';
 	}
 #-------------------------------------------------------------------------------------------------
+	function borangTarikhMasa($j)
+	{
+		$tarikh = $j . '[tarikh]';
+		$bertolak = $j . '[bertolak]';
+		$sampai = $j . '[sampai]';
+		?>			<div class="form-group col-md-4">
+				<label for="inputState">Tarikh & Masa</label>
+				<input name="$tarikh" type="date" class="form-control">
+				<div class="input-group input-group">
+					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
+					<input name="$bertolak" type="time" class="form-control">
+					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
+					<input name="$sampai" type="time" class="form-control">
+				</div><!-- / "input-group input-group" -->
+			</div><!-- / class="form-group --><?php
+		#
+	}
+#-------------------------------------------------------------------------------------------------
 	function borangKeteranganAm()
 	{
 		?>

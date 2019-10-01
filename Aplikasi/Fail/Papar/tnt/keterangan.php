@@ -412,9 +412,6 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	function borangKeteranganAm()
 	{
 		?>
-<!-- ----------------------------------------------------------------------------------------- --><br>
-<div class="tab-content" id="pills-tabContent">
-	<div class="tab-pane fade show active" id="a">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Keterangan</legend>
 		<div class="form-row">

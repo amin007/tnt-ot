@@ -407,17 +407,8 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$keteranganNamaPemandu = $j . '[keteranganNamaPemandu]';
 		$jarak = $j . '[jarak]';
 		$jumlah = $j . '[jumlah]';
-		?>
+/*
 <!-- ----------------------------------------------------------------------------------------- --><br>
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-<li><a href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a></li>
-<li><a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Mula/Tamat</a></li>
-<li><a href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tuntutan</a></li>
-<li><a href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Bayaran</a></li>
-<li><a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Tambang</a></li>
-<li><a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Pengangkutan</a></li>
-<li><a href="#g" class="btn btn-outline-secondary rounded-pill" data-toggle="pill" aria-selected="false">Elaun</a></li>
-</ul>
 <div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active" id="a">
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -693,7 +684,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	</div><!-- / class="tab-pane fade" -->
 </div>
 <!-- ----------------------------------------------------------------------------------------- --><br>
-<?php
+//*/
 		#		
 	}
 #-------------------------------------------------------------------------------------------------

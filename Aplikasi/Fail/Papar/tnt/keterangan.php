@@ -373,6 +373,24 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 <li><a href="#g" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Elaun</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------- --><br>
+<div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-xl">
+	<form method="POST" action="<?=$mencari?>" autocomplete="off">
+		<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Pilih Keterangan Perjalanan</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">Wow</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Batal</button>
+					<input type="submit" class="btn btn-outline-primary" value="Simpan">
+				</div>
+		</div>
+	</form>
+	</div>
+</div>
+<!-- ----------------------------------------------------------------------------------------- --><br>
 <?php	echo  "\n";
 	}
 #-------------------------------------------------------------------------------------------------

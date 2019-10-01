@@ -242,7 +242,7 @@ table.excel tbody td
 <tr height="20" id="garis2Kiri">
 	<!-- +15 -->
 	<td>&nbsp;&nbsp;&nbsp;</td>
-	<td>Feri :</td>
+	<td>Kapal/Bot/Feri :</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>

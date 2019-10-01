@@ -427,22 +427,13 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		#
 	}
 #-------------------------------------------------------------------------------------------------
-	function borangKeteranganAm()
+	function borangKeteranganAm($j)
 	{
 		?>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Keterangan</legend>
 		<div class="form-row">
-			<div class="form-group col-md-4">
-				<label for="inputState">Tarikh & Masa</label>
-				<input name="$tarikh" type="date" class="form-control">
-				<div class="input-group input-group">
-					<div class="input-group-prepend"><span class="input-group-text">Mula</span></div>
-					<input name="$bertolak" type="time" class="form-control">
-					<div class="input-group-prepend"><span class="input-group-text">Tamat</span></div>
-					<input name="$sampai" type="time" class="form-control">
-				</div><!-- / "input-group input-group" -->
-			</div><!-- / class="form-group -->
+			<?php borangTarikhMasa($j) ?>
 			<div class="form-group col-md-3">
 				<label for="inputCity">Keterangan</label>
 				<textarea name="$keterangan" class="form-control" row="100"></textarea>

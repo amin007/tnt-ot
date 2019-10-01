@@ -89,16 +89,10 @@ endforeach;
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
 				//$k0 = "$key|$tx";
-				echo  "\n" . '<div class="form-group row">' . "\n\t"
-				. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-				. $key . '</label>' . "\n\t" . '<div class="'.$class2.'">';
-				#
 				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
+				paparMedan($key,$tx,$class2);
 				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
-				echo $paparData . "\n\t";
-				#
-				echo '</div><!-- / class="'.$class2.'" -->' . "\n"
-				. '</div><!-- / class="form-group" -->' . "\n";
+				paparInputData($paparData,$class2);
 			}## --------------------------------------------------------------------------
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
@@ -113,6 +107,24 @@ endforeach;
 		$semua = array($jenis,$myTable,$kira,$key,$data,$name);
 
 		return array($tx,$semua);
+	}
+#-------------------------------------------------------------------------------------------------
+	function paparMedan($key,$tx,$class2)
+	{
+		$k0 = $key;
+		//$k0 = "$key|$tx";
+		echo  "\n" . '<div class="form-group row">' . "\n\t"
+		. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
+		. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';
+		#
+	}
+#-------------------------------------------------------------------------------------------------
+	function paparInputData($paparData,$class2)
+	{
+		echo $paparData . "\n\t"
+		. '</div><!-- / class="' . $class2 . '" -->' . "\n"
+		. '</div><!-- / class="form-group" -->' . "\n";
+		#
 	}
 #-------------------------------------------------------------------------------------------------
 	function ulangJadualAsal($jadual,$baris)

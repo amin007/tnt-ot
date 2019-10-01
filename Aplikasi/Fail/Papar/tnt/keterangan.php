@@ -407,7 +407,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$keteranganNamaPemandu = $j . '[keteranganNamaPemandu]';
 		$jarak = $j . '[jarak]';
 		$jumlah = $j . '[jumlah]';
-		print <<<END
+		?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 <li><a href="#a" class="btn btn-outline-secondary rounded-pill active" data-toggle="pill" aria-selected="true">Keterangan</a></li>
@@ -693,7 +693,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	</div><!-- / class="tab-pane fade" -->
 </div>
 <!-- ----------------------------------------------------------------------------------------- --><br>
-END;
+<?php
 		#		
 	}
 #-------------------------------------------------------------------------------------------------

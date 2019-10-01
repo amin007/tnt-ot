@@ -618,7 +618,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	<?php
 	}
 #-------------------------------------------------------------------------------------------------
-/*
+	function borangPengangkutan()
+	{
+		?>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Pengangkutan</legend>
 		<div class="form-row">
@@ -652,8 +654,10 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		</div>
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade" id="g">
+	<?php
+	}
+#-------------------------------------------------------------------------------------------------
+/*
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Elaun</legend>
 		<div class="form-row">

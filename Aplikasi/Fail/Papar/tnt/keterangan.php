@@ -363,7 +363,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$mencari = URL . 'tnt/borangBaru';
 		$url = URL . 'tnt/jenisBorang/';
 		//<a href="#theModal" class="nav-link" data-remote="/render/xJCCbGB5oA" data-toggle="modal" data-target="#theModal">Modal</a>
-		//<a href="#theModal" class="nav-link" data-remote="/render/xJCCbGB5oA" data-toggle="modal" data-target="#theModal">Modal</a>
+		//<a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal" data-remote="/render/xJCCbGB5oA" >Modal</a>
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">

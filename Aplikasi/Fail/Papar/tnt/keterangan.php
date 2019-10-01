@@ -527,7 +527,9 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 	<?php
 	}
 #-------------------------------------------------------------------------------------------------
-/*
+	function borangBayaran()
+	{
+		?>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Bayaran</legend>
 		<div class="form-row">
@@ -562,8 +564,10 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		</div>
 		</fieldset>
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-	</div><!-- / class="tab-pane fade" -->
-	<div class="tab-pane fade" id="e">
+	<?php
+	}
+#-------------------------------------------------------------------------------------------------
+/*
 	<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<fieldset class="form-group border p-2"><legend class="w-auto">Tambang</legend>
 		<div class="form-row">

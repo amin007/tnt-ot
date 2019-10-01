@@ -414,7 +414,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		$tarikh = $j . '[tarikh]';
 		$bertolak = $j . '[bertolak]';
 		$sampai = $j . '[sampai]';
-		?>			<div class="form-group col-md-4">
+		?><div class="form-group col-md-4">
 				<label for="inputState">Tarikh & Masa</label>
 				<input name="$tarikh" type="date" class="form-control">
 				<div class="input-group input-group">
@@ -424,6 +424,7 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 					<input name="$sampai" type="time" class="form-control">
 				</div><!-- / "input-group input-group" -->
 			</div><!-- / class="form-group --><?php
+		echo "\n";
 		#
 	}
 #-------------------------------------------------------------------------------------------------

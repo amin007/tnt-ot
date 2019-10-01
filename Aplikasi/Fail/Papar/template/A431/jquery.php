@@ -113,6 +113,17 @@ echo "\n\n"; ?>
 </style>
 <?php elseif( isset($dataURL[1]) && ( in_array($dataURL[1],$classKhas2) )) :?>
 <script>
+$('#theModal').on('show.bs.modal', function (e) {
+	var button = $(e.relatedTarget);
+	var modal = $(this);
+
+	// load content from HTML string
+	//modal.find('.modal-body').html("Nice modal body baby...");
+
+	// or, load content from value of data-remote url
+	modal.find('.modal-body').load(button.data("remote"));
+});
+/*
 $('.btn-action').click(function(){
 	var url = $(this).data("url");
 	$.ajax({
@@ -133,7 +144,7 @@ $('.btn-action').click(function(){
 			console.log("ajax call went wrong:" + request.responseText);
 		}
 	});
-});
+});\*/
 </script>
 <?php else :?>
 <?php endif;

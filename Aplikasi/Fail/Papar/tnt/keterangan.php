@@ -14,7 +14,6 @@
 //echo '<pre>senarai=><br>'; print_r($this->senarai); echo '</pre>' . "\r\r";
 //contohBorangBootstrap();//contohBorang02();//borangPerjalanan();
 //modalBorang();
-echo '<h2>' . $this->_borang . '</h2>';
 modalBorang02();
 ulangJadualAsas($this->senarai);
 ?>
@@ -366,13 +365,13 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 		echo  "\n";?>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">
-<li><a href="#a" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Keterangan</a></li>
-<li><a href="#b" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Mula/Tamat</a></li>
-<li><a href="#c" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tuntutan</a></li>
-<li><a href="#d" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Bayaran</a></li>
-<li><a href="#e" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tambang</a></li>
-<li><a href="#f" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Pengangkutan</a></li>
-<li><a href="#g" class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Elaun</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Keterangan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Mula/Tamat</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tuntutan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Bayaran</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Tambang</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Pengangkutan</a></li>
+<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#extraLargeModal">Elaun</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">

@@ -78,7 +78,7 @@ endforeach;
 		$html = new Aplikasi\Kitab\BrgBaru01;
 		$aksi = URL . $method . '/ubahSimpan/' . $carian;
 		$class1 = 'col-sm-7'; # untuk tajuk dan hantar
-		$class2 = 'col-sm-6 '; # untuk $data
+		$class2 = 'col-sm-6'; # untuk $data
 		$html->medanCarian(
 			array($method, $myTable, $senarai, $cariID, $_jadual)
 		);

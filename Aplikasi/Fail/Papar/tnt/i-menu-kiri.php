@@ -19,3 +19,4 @@
 				Maybank2u</a>
 			<a class="btn btn-outline-success rounded-pill" href="http://www.anm.gov.my/index.html">
 				ANM</a>
+ <?php echo "\t\t";?>

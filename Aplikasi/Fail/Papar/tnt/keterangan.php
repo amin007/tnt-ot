@@ -368,8 +368,6 @@ data-target="#extraLargeModal">Tambah Keterangan Perjalanan</button>
 <!-- ----------------------------------------------------------------------------------------- --><br>
 <ul class="nav nav-pills mb-3">
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>a">AAA</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>b">BBB</a></li>
-<li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x" data-remote="<?php echo $url ?>b">CCC</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Keterangan</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Mula/Tamat</a></li>
 <li><a class="btn btn-outline-secondary rounded-pill" data-toggle="modal" data-target="#x">Tuntutan</a></li>

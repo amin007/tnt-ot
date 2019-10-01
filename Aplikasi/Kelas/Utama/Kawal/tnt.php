@@ -129,7 +129,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=0);
 	}
 #------------------------------------------------------------------------------------------
-	public function borang($a=null)
+	public function borang($a=null,$b=null)
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
 		# Set pemboleubah utama
@@ -140,6 +140,7 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 			($t, $m, $c, $s, $p);
 		$this->papar->senarai['keterangan'] = $data;
 		$this->papar->_meta = $meta;
+		$this->papar->_borang = $b;
 
 		# Pergi papar kandungan
 		$p = 2; $f = array('index','biodata','keterangan','formula');

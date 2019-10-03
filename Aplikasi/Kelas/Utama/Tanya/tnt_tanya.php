@@ -207,6 +207,31 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		return ($pilih==1) ? $kira : $data; # pulangkan nilai
 	}
 #------------------------------------------------------------------------------------------------#
+	public function resit($pilih=2)
+	{
+		//echo '<hr>Nama class :' . __METHOD__ . '<hr>';
+		$t = 'Muka Surat ';
+		$ms = 10;
+		$data = array(
+			'BOOKING CODE' => 'ABC-123456-987',
+			'ISSUED ON' => date('d F Y'), // Tue 17 Sep 2019 08:50 AM
+			'ISSUED BY DRIVER' => 'PEMANDU GRAB 007',
+			'ISSUED T0' => 'Amin Ledang',
+			'TAG' => 'Personal',
+			'REMARKS' => '-',
+			'PICK UP LOCATION 1' => 'Jalan Kaya Raya 007',
+			'PICK UP LOCATION 2' => 'Muar Johor Malaysia Tercinta',
+			'DROP OFF LOCATION 1' => 'MCD Parit Raja Daa',
+			'DROP OFF LOCATION 2' => 'Batu Pahat Johor Malaysia Tercinta',
+			'Meter Fare' => '85',
+			'TOTAL' => 'MYR 85.00',
+			'Payment Type' => 'Bitcoin 7539',
+		); # dapatkan medan terlibat
+		$kira = 1; # kira jumlah data
+
+		return ($pilih==1) ? $kira : $data; # pulangkan nilai
+	}
+#------------------------------------------------------------------------------------------------#
 	public function keterangan()
 	{
 		//echo '<hr>Nama class :' . __METHOD__ . '()<hr>';

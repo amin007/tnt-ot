@@ -214,7 +214,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 		$ms = 10;
 		$data = array(
 			'BOOKING CODE' => 'ABC-123456-987',
-			'ISSUED ON' => date('d F Y'), // Tue 17 Sep 2019 08:50 AM
+			'ISSUED ON' => date('D d F Y h:i A'), // Tue 17 Sep 2019 08:50 AM
 			'ISSUED BY DRIVER' => 'PEMANDU GRAB 007',
 			'ISSUED T0' => 'Amin Ledang',
 			'TAG' => 'Personal',

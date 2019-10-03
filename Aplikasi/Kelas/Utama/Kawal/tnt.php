@@ -199,10 +199,11 @@ class Tnt extends \Aplikasi\Kitab\Kawal
 		$this->papar->Tajuk_Muka_Surat = 'Cetak';
 		$this->papar->biodata = $this->tanya->biodata();
 		$this->papar->claim = $this->tanya->claim();
+		$this->papar->resit = $this->tanya->resit();
 		$this->papar->ms = $this->tanya->ms();
 
 		# Pergi papar kandungan
-		$f = array('','sheet1','sheet2','sheet3','sheet4',);
+		$f = array('','sheet1','sheet2','sheet3','sheet4','sheet5',);
 		//$this->semakPembolehubah($this->papar->senarai,'senarai');# Semak data dulu
 		$this->paparKandungan($this->_folder,$f[$p],$noInclude=1);
 	}

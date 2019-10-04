@@ -241,8 +241,11 @@ function myGetType($var)
 function phpToSqlDataType($var)
 {
 	$len = strlen($var);
+	#https://stackoverflow.com/questions/2430084/php-get-number-of-decimal-digits
+	$tp = strlen(preg_replace("/.*\./", "", $var));//kira titik perpuluhan
 	if (is_array($var)) return array('enum',$len);//"array";
 	if (is_bool($var)) return array('tinyint',$len);//"boolean";
+	if (is_float($var) && in_array($tp,array(1,2)) ) return array('decimal','10,2');//"float";
 	if (is_float($var)) return array('float',$len);//"float";
 	if (is_int($var)) return array('int',$len);//"integer";
 	if (is_null($var)) return array('varchar',$len);//"NULL";

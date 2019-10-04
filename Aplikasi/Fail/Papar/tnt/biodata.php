@@ -19,7 +19,7 @@ foreach($this->senarai as $jadual => $row):
 	else
 	{
 		//paparJadual(null,$this->senarai, $jadual, $row);
-		buatSql($senarai,$myTable,$row);
+		buatSql($this->senarai, $jadual, ,$row);
 	}# if ( count($row)==0 )
 endforeach;
 #

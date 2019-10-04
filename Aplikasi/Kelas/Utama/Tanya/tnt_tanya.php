@@ -99,7 +99,7 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'noGaji' => 5020190103,
 			# pendapatan
 			'gajiPokok' => 1234.30,
-			'elaun' => 656.01,
+			'elaun' => 656.00,
 			'jumGaji' => 1890.10,
 			# kenderaan
 			'kenderaanModel' => ' Kereta Angkasa ',

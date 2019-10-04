@@ -724,7 +724,9 @@ table.excel tbody td {
 	<td>&nbsp;</td>
 	<td colspan="2">GAJI</td>
 	<td>: RM</td>
-	<td colspan="2" align="right"><?php echo $this->biodata['gajiPokok'] ?></td>
+	<td colspan="2" align="right"><?php
+	echo number_format($this->biodata['gajiPokok'], 2, '.', ',');
+	?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -738,7 +740,9 @@ table.excel tbody td {
 	<td>&nbsp;</td>
 	<td colspan="2">ELAUN-ELAUN</td>
 	<td>: RM</td>
-	<td colspan="2" align="right"><?php echo $this->biodata['elaun'] ?></td>
+	<td colspan="2" align="right"><?php
+	echo number_format($this->biodata['elaun'], 2, '.', ',');
+	//echo $this->biodata['elaun'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>
@@ -752,7 +756,9 @@ table.excel tbody td {
 	<td>&nbsp;</td>
 	<td colspan="2">JUMLAH</td>
 	<td>: RM</td>
-	<td colspan="2" align="right"><?php echo $this->biodata['jumGaji'] ?></td>
+	<td colspan="2" align="right"><?php
+	echo number_format($this->biodata['jumGaji'], 2, '.', ',');
+	//echo $this->biodata['jumGaji'] ?></td>
 	<td></td>
 	<td>&nbsp;</td>
 	<td id="kotaKiri"></td>

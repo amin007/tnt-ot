@@ -22,6 +22,17 @@ class Sql_Insert
 		return $data;
 	}
 #-------------------------------------------------------------------------------------------------
+	function phpDataType()
+	{
+		# https://www.php.net/manual/en/function.gettype.php
+		# gettype() : Possible values for the returned string are:
+		$data = array('boolean','integer','double','float','string','array','object',
+			'resource','NULL','unknown type'
+		);
+
+		return $data;
+	}
+#-------------------------------------------------------------------------------------------------
 #=================================================================================================
 }
 
@@ -83,5 +94,18 @@ class Sql_Insert
 <optgroup label="Foreign keys">
 </optgroup>
 </select>
+#-------------------------------------------------------------------------------------------------
+https://www.php.net/manual/en/function.gettype.php
+gettype() : Possible values for the returned string are:
+	"boolean"
+	"integer"
+	"double" (for historical reasons "double" is returned in case of a float, and not simply "float")
+	"string"
+	"array"
+	"object"
+	"resource"
+	"resource (closed)" as of PHP 7.2.0
+	"NULL"
+	"unknown type"
 #-------------------------------------------------------------------------------------------------
  //*/

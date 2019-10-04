@@ -146,7 +146,6 @@ ulangJadualAsas($this->senarai);
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
 				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
-				paparMedan($key,$tx,$class2);
 				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
 				paparInputData($key,$tx,$paparData,$class2);
 			}## --------------------------------------------------------------------------
@@ -163,16 +162,6 @@ ulangJadualAsas($this->senarai);
 		$semua = array($jenis,$myTable,$kira,$key,$data,$name);
 
 		return array($tx,$semua);
-	}
-#-------------------------------------------------------------------------------------------------
-	function paparMedan($key,$tx,$class2)
-	{
-		$k0 = $key;
-		//$k0 = "$key|$tx";
-		echo  "\n" . '<div class="form-group row">' . "\n\t"
-		. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-		. $k0 . '</label>' . "\n\t" . '<div class="' . $class2 . '">';
-		#
 	}
 #-------------------------------------------------------------------------------------------------
 	function paparInputData($key,$tx,$paparData,$class2)

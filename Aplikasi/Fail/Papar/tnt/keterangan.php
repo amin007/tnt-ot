@@ -171,7 +171,7 @@ ulangJadualAsas($this->senarai);
 		//$k0 = "$key|$tx";
 		echo  "\n" . '<div class="form-group row">' . "\n\t"
 		. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-		. $k0 . '</label>' . "\n\t" . '<div class="'.$class2.'">';
+		. $k0 . '</label>' . "\n\t" . '<div class="' . $class2 . '">';
 		#
 	}
 #-------------------------------------------------------------------------------------------------

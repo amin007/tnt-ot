@@ -98,24 +98,24 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'noPembekal' => 20190103,
 			'noGaji' => 5020190103,
 			# pendapatan
-			'gajiPokok' => 1234.00,
-			'elaun' => 656.00,
-			'jumGaji' => 1890.00,
+			'gajiPokok' => 1234.30,
+			'elaun' => 656.10,
+			'jumGaji' => 1890.10,
 			# kenderaan
 			'kenderaanModel' => ' Kereta Angkasa ',
-			'kenderaanNoDaftar' => ' ########## ',
-			'kenderaanKuasa' => ' ########## ',
-			'kenderaanKelasTuntutan' => ' ########## ',
+			'kenderaanNoDaftar' => ' ############ ',
+			'kenderaanKuasa' => ' ############ ',
+			'kenderaanKelasTuntutan' => ' ############ ',
 			# alamat pejabat
-			'alamatPejabat01' => ' ########## ',
-			'alamatPejabat02' => ' ########## ',
-			'alamatPejabat03' => ' ########## ',
-			'alamatPejabat04' => ' ########## ',
+			'alamatPejabat01' => ' ############ ',
+			'alamatPejabat02' => ' ############ ',
+			'alamatPejabat03' => ' ############ ',
+			'alamatPejabat04' => ' ############ ',
 			# alamat rumah
-			'alamatRumah01' => ' ########## ',
-			'alamatRumah02' => ' ########## ',
-			'alamatRumah03' => ' ########## ',
-			'alamatRumah04' => ' ########## ',
+			'alamatRumah01' => ' ############ ',
+			'alamatRumah02' => ' ############ ',
+			'alamatRumah03' => ' ############ ',
+			'alamatRumah04' => ' ############ ',
 			//'***' => ''
 		); # dapatkan medan terlibat
 		$kira = 1; # kira jumlah data

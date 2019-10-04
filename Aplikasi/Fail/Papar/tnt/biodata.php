@@ -36,18 +36,21 @@ endforeach;
 	function buatSql($senarai,$myTable,$row)
 	{
 		$priKey = 'No';
-		echo "CREATE TABLE `$myTable` (<br>";
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
 				$type = gettype($data);
 				$len = strlen($data);
 				//echo "$key | $data | $type | $len<br>";
-				echo " `$key` $type($len) DEFAULT NULL,<br>";
+				$cdata[] = "\t`$key` $type($len) DEFAULT NULL";
 			}## --------------------------------------------------------------------------
 		}
+		$m = implode(",\r", $cdata);
+		echo '<pre>';
+		print_r("CREATE TABLE `$myTable`(\r$m\r)");
+		echo '</pre>';
 		//echo "PRIMARY KEY (`$priKey`)";
-		echo "\r)";
+		//echo "\r)";
 		#
 	}
 #-------------------------------------------------------------------------------------------------

@@ -21,4 +21,6 @@
 				Maybank2u</a>
 			<a class="btn btn-outline-success rounded-pill" href="http://www.anm.gov.my/index.html">
 				ANM</a>
+			<a class="btn btn-outline-success rounded-pill" href="<?php echo URL ?>">
+				Muka Depan</a>
  <?php echo "\t\t";?>

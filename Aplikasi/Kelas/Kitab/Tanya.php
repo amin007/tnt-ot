@@ -9,6 +9,7 @@ class Tanya
 		$this->db = new \Aplikasi\Kitab\DB_Pdo(DB_TYPE, DB_HOST, DB_NAME, DB_USER, DB_PASS);
 		//$this->db = new \Aplikasi\Kitab\DB_Mysqli(DB_TYPE, DB_HOST, DB_NAME, DB_USER, DB_PASS);
 		$this->sql = new \Aplikasi\Kitab\Sql();
+		$this->createSql = new \Aplikasi\Kitab\Sql_Create();
 		$this->insertSql = new \Aplikasi\Kitab\Sql_Insert();
 	}
 #-------------------------------------------------------------------------------------------------

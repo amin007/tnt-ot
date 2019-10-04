@@ -46,9 +46,9 @@ endforeach;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				//$k0 = "$key|$tx";
-				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
-				echo "$key | $tx <br>";
+				$type = gettype($data);
+				$len = strlen($data);
+				echo "$key | $data | $type | $len<br>";
 			}## --------------------------------------------------------------------------
 		}
 		#

@@ -42,7 +42,7 @@ endforeach;
 				$type = gettype($data);
 				$len = strlen($data);
 				//echo "$key | $data | $type | $len<br>";
-				$cdata[] = "\t`$key` $type($len) DEFAULT NULL";
+				$cdata[] = "\t`$key` /*$data*/ $type($len) DEFAULT NULL";
 			}## --------------------------------------------------------------------------
 		}
 		$m = implode(",\r", $cdata);

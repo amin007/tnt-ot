@@ -95,12 +95,12 @@ class Tnt_Tanya extends \Aplikasi\Kitab\Tanya
 			'noAkaun' => '987456321',
 			'namaBank' => 'Maybank',
 			'alamatBank' => 'Jalan Kaya Raya',
-			'noPembekal' => '20190103',
-			'noGaji' => '5020190103',
+			'noPembekal' => 20190103,
+			'noGaji' => 5020190103,
 			# pendapatan
-			'gajiPokok' => '1234.00',
-			'elaun' => '656.00',
-			'jumGaji' => '1890.00',
+			'gajiPokok' => 1234.00,
+			'elaun' => 656.00,
+			'jumGaji' => 1890.00,
 			# kenderaan
 			'kenderaanModel' => '***',
 			'kenderaanNoDaftar' => '***',

@@ -148,7 +148,7 @@ ulangJadualAsas($this->senarai);
 				list($tx,$semua) = setPencam($i++,$kira,$meta,$myTable,$key,$data);
 				paparMedan($key,$tx,$class2);
 				$paparData = $html->ubahInput2($key,$data,$tx,$semua);
-				paparInputData($paparData,$class2);
+				paparInputData($key,$tx,$paparData,$class2);
 			}## --------------------------------------------------------------------------
 		}$html->medanHantar($_jadual, $class1);
 		echo "\n" . '</form><!-- / class="form-horizontal" -->';
@@ -175,8 +175,13 @@ ulangJadualAsas($this->senarai);
 		#
 	}
 #-------------------------------------------------------------------------------------------------
-	function paparInputData($paparData,$class2)
+	function paparInputData($key,$tx,$paparData,$class2)
 	{
+		$k0 = $key;
+		//$k0 = "$key|$tx";
+		echo  "\n" . '<div class="form-group row">' . "\n\t"
+		. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
+		. $k0 . '</label>' . "\n\t" . '<div class="' . $class2 . '">';
 		echo $paparData . "\n\t"
 		. '</div><!-- / class="' . $class2 . '" -->' . "\n"
 		. '</div><!-- / class="form-group" -->' . "\n";

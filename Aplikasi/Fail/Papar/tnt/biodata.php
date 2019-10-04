@@ -39,7 +39,8 @@ endforeach;
 		for ($kira=0; $kira < count($row); $kira++)
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
-				$type = gettype($data);
+				//$type = gettype($data);
+				$type = phpToSqlDataType($data,$len);
 				$len = strlen($data);
 				//echo "$key | $data | $type | $len<br>";
 				$cdata[] = "\t`$key` /*$data*/ $type($len) DEFAULT NULL";

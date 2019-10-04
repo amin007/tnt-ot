@@ -240,16 +240,19 @@ function myGetType($var)
 #------------------------------------------------------------------------------------------
 function phpToSqlDataType($var)
 {
-	if (is_array($var)) return 'enum';//"array";
-	if (is_bool($var)) return 'tinyint';//"boolean";
-	if (is_float($var)) return 'float';//"float";
-	if (is_int($var)) return 'int';//"integer";
-	if (is_null($var)) return 'varchar';//"NULL";
+	$len = strlen($var);
+	if (is_array($var)) return array('enum',$len);//"array";
+	if (is_bool($var)) return array('tinyint',$len);//"boolean";
+	if (is_float($var)) return array('float',$len);//"float";
+	if (is_int($var)) return array('int',$len);//"integer";
+	if (is_null($var)) return array('varchar',$len);//"NULL";
 	//if (is_numeric($var)) return "numeric";
 	//if (is_object($var)) return "object";
 	//if (is_resource($var)) return "resource";
-	if (is_string($var)) return 'varchar';//"string";
-	return 'apakah!!!';
+	if (is_string($var) && $len < 6) return array('char',$len);
+	if (is_string($var) && $len > 12) return array('varchar',255);
+	if (is_string($var)) return array('varchar',$len);//"string";
+	return array('apakah!!!',$len);
 }
 #------------------------------------------------------------------------------------------
 function kira($kiraan)

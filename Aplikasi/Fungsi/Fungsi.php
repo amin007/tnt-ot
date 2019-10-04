@@ -238,11 +238,27 @@ function myGetType($var)
 	return "unknown type";
 }
 #------------------------------------------------------------------------------------------
+/*
+kira titik perpuluhan
+	#https://stackoverflow.com/questions/2430084/php-get-number-of-decimal-digits
+	$tp = strlen(preg_replace("/.*\./", "", $var));//kira titik perpuluhan
+
+*/
+#------------------------------------------------------------------------------------------
+function countDecimals($str)
+{
+	# https://board.phpbuilder.com/d/10366697-resolved-how-can-i-count-decimal-places-in-a-number-in-php/7
+	//$fNumber = floatval($fNumber);
+	//for( $iDec = 0; $fNumber != round($fNumber, $iDec); $iDec++);
+	$iDec = strlen(substr(strrchr($str, "."), 1));
+
+	return $iDec;
+}
+#------------------------------------------------------------------------------------------
 function phpToSqlDataType($var)
 {
 	$len = strlen($var);
-	#https://stackoverflow.com/questions/2430084/php-get-number-of-decimal-digits
-	$tp = strlen(preg_replace("/.*\./", "", $var));//kira titik perpuluhan
+	$tp = countDecimals($var);
 	if (is_array($var)) return array('enum',$len);//"array";
 	if (is_bool($var)) return array('tinyint',$len);//"boolean";
 	if (is_float($var) && in_array($tp,array(1,2)) ) return array('decimal','10,2');//"float";

@@ -40,7 +40,8 @@ endforeach;
 			{## papar data $row ----------------------------------------------------------
 				$type = gettype($data);
 				$len = strlen($data);
-				echo "$key | $data | $type | $len<br>";
+				//echo "$key | $data | $type | $len<br>";
+				echo " `$key` $type($len) DEFAULT NULL,<br>";
 			}## --------------------------------------------------------------------------
 		}
 		#

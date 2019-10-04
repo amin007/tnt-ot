@@ -10,12 +10,16 @@ class Sql_Insert
 	{
 		# ambil dari adminer
 		$data = array(
-			'number' => array('tinyint','smallint','mediumint','int','bigint','decimal','float','double'),
+			'number' => array('tinyint','smallint','mediumint','int','bigint','decimal',
+				'float','double'),
 			'date and time' => array('date','datetime','timestamp','time','year'),
-			'strings' => array('char','varchar','tinytext','text','mediumtext','longtext','json'),
+			'strings' => array('char','varchar','tinytext','text','mediumtext',
+				'longtext','json'),
 			'lists' => array('enum','set'),
-			'binary' => array('bit','binary','varbinary','tinyblob','blob','mediumblob','longblob'),
-			'geometry' => array('geometry','point','linestring','polygon','multipoint','multilinestring','multipolygon','geometrycollection'),
+			'binary' => array('bit','binary','varbinary','tinyblob','blob',
+				'mediumblob','longblob'),
+			'geometry' => array('geometry','point','linestring','polygon','multipoint',
+				'multilinestring','multipolygon','geometrycollection'),
 			'foreign keys' => array()
 		);
 

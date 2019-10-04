@@ -166,12 +166,11 @@ ulangJadualAsas($this->senarai);
 #-------------------------------------------------------------------------------------------------
 	function paparInputData($key,$tx,$paparData,$class2)
 	{
-		$k0 = $key;
-		//$k0 = "$key|$tx";
+		$k0 = $key;//$k0 = "$key|$tx";
 		echo  "\n" . '<div class="form-group row">' . "\n\t"
 		. '<label for="inputTajuk" class="col-sm-2 control-label text-right">'
-		. $k0 . '</label>' . "\n\t" . '<div class="' . $class2 . '">';
-		echo $paparData . "\n\t"
+		. $k0 . '</label>' . "\n\t" . '<div class="' . $class2 . '">'
+		. $paparData . "\n\t"
 		. '</div><!-- / class="' . $class2 . '" -->' . "\n"
 		. '</div><!-- / class="form-group" -->' . "\n";
 		#

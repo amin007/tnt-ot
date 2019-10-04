@@ -183,7 +183,7 @@ ulangJadualAsas($this->senarai);
 		#
 	}
 #-------------------------------------------------------------------------------------------------
-	function contohBorang03()
+	function contohBorang00()
 	{
 		print <<<END
 END;

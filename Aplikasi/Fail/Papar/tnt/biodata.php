@@ -28,19 +28,6 @@ endforeach;
 <?php
 # koleksi fungsi untuk paparkan data dari $this->senarai
 #-------------------------------------------------------------------------------------------------
-	function ulangData($senarai)
-	{
-		foreach ($senarai as $myTable => $row)
-		{
-			if ( count($row)==0 ) echo '';
-			else
-			{
-				buatSql($senarai,$myTable,$row);
-			} // if ( count($row)==0 )
-		}
-		#
-	}
-#-------------------------------------------------------------------------------------------------
 	function buatSql($senarai,$myTable,$row)
 	{
 		for ($kira=0; $kira < count($row); $kira++)

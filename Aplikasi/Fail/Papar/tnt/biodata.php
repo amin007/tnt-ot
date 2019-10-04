@@ -40,9 +40,9 @@ endforeach;
 		{	foreach ( $row[$kira] as $key=>$data )
 			{## papar data $row ----------------------------------------------------------
 				//$type = gettype($data);$len = strlen($data);
-				list($type,$len) = phpToSqlDataType($data);
-				//echo "$key | $data | $type | $len<br>";
-				$cdata[] = "\t`$key` /*$data*/ $type($len) DEFAULT NULL";
+				$type = phpToSqlDataType($data);
+				//$cdata[] = "\t`$key` /*$data*/ $type DEFAULT NULL";
+				$cdata[] = "\t`$key` $type DEFAULT NULL";
 			}## --------------------------------------------------------------------------
 		}
 		$m = implode(",\r", $cdata);

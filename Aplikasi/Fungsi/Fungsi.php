@@ -293,6 +293,9 @@ function kira3($kira,$n)
 	return str_pad($kira,$n,'0',STR_PAD_LEFT);
 }
 #------------------------------------------------------------------------------------------
+#https://www.php.net/manual/en/function.number-format.php
+#https://www.php.net/manual/en/function.money-format.php
+#------------------------------------------------------------------------------------------
 function huruf($jenis, $papar)
 {
     /*

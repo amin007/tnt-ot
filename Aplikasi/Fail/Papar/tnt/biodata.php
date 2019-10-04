@@ -15,7 +15,12 @@
 
 //ulangJadual($this->senarai);
 foreach($this->senarai as $jadual => $row):
-	paparJadual(null,$this->senarai, $jadual, $row);
+	if ( count($row)==0 ) echo '';
+	else
+	{
+		//paparJadual(null,$this->senarai, $jadual, $row);
+		buatSql($senarai,$myTable,$row);
+	}# if ( count($row)==0 )
 endforeach;
 #
 ?>

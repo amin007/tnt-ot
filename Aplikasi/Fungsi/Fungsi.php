@@ -275,10 +275,10 @@ function phpToSqlDataType($var)
 	return 'apakah!!!';
 }
 #------------------------------------------------------------------------------------------
-function kira($kiraan)
+function kira($kiraan,$titikPerpuluhan=0)
 {
 	// pecahan kepada ratus
-	return number_format($kiraan,0,'.',',');
+	return number_format($kiraan,$titikPerpuluhan,'.',',');
 }
 #------------------------------------------------------------------------------------------
 function kira2($dulu,$kini)
@@ -295,7 +295,7 @@ function kira3($kira,$n)
 #------------------------------------------------------------------------------------------
 function kiraDuit($kira,$namaDuit=null)
 {
-	$kira = str_pad(kira($kira),5,'-',STR_PAD_LEFT);# tukar format 00000.00
+	$kira = str_pad(kira($kira,2),5,'-',STR_PAD_LEFT);# tukar format 00000.00
 	if($namaDuit == null) return $kira;
 	if(in_array($namaDuit,array('RM','rm'))) return 'RM&nbsp;&nbsp;' . $kira;
 	if(in_array($namaDuit,array('MYR','myr'))) return 'MYR ' . $kira;

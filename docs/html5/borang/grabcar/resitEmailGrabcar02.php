@@ -1,0 +1,414 @@
+<?php
+# isytiharkan zon masa => Asia/Kuala Lumpur
+date_default_timezone_set('Asia/Kuala_Lumpur');
+
+# isytihar data grabcar
+$resit = array(
+	'Vehicle Type' => 'Grab Heli Hahaha',// grabcar
+	'BOOKING CODE' => 'ABC-123456-987',
+	'ISSUED ON' => date('D d F Y h:i A'), // Tue 17 Sep 2019 08:50 AM
+	'ISSUED BY DRIVER' => 'PEMANDU GRAB 007',
+	'ISSUED T0' => 'Amin Ledang',
+	'TAG' => 'Personal',
+	'REMARKS' => '-',
+	'PICK UP TIME' => date('d M y +hi'), //'17 Sep 19 08:50 +0800',
+	'PICK UP LOCATION 1' => 'Jalan Kaya Raya 007',
+	'PICK UP LOCATION 2' => 'Muar Johor Malaysia Tercinta',
+	'DROP OFF LOCATION 1' => 'MCD Parit Raja Daa',
+	'DROP OFF LOCATION 2' => 'Batu Pahat Johor Malaysia Tercinta',
+	'Meter Fare' => '85',
+	'TOTAL' => 'MYR 85.00',
+	'Total RM' => 'RM 90.00',
+	'Payment Type' => 'Bitcoin 7539',// visa atau cash
+); # dapatkan medan terlibat
+define('URL','../../../../');
+?>
+
+<table width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="yiv8203291494borderPerTab" style="border:1px solid #EDEDED;">
+<tbody><tr>
+<td bgcolor="#ffffff">
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td> <img class="yiv8203291494produceImg" src="image/bannerGrab.png" width="600" height="137" alt="E-receipt Singapore" style="border:0;"> </td>
+</tr>
+</tbody></table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody><tr>
+<td valign="top" class="yiv8203291494vspacer15" width="45"></td>
+<td valign="top" style="font-family:Helvetica, 'Arial', sans-serif;color:#000000;font-size:11px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr><td height="15">&nbsp;</td></tr>
+<tr>
+<td align="left" style="font-family:Helvetica, 'Arial', sans-serif;color:#00af41;font-size:20px;line-height:24px;font-weight:bold;line-height:26px;text-align:left;"> Hope you had an enjoyable ride! </td>
+</tr>
+<tr><td height="15"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="15" border="0"></td></tr>
+<tr>
+<td>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="44%" align="left" valign="top" class="yiv8203291494produceTdLast" style="font-size:12px;line-height:21px;font-weight:bold;">
+TOTAL<br> <span style="font-size:28px;line-height:32px;font-weight:bold;color:#00af41;"><?php echo $resit['Total RM'] ?></span></td>
+<td width="56%" align="left" valign="top" class="yiv8203291494produceTdLast" style="font-size:12px;line-height:21px;font-weight:bold;">
+DATE&nbsp;&nbsp;|&nbsp; TIME<br> Pick-up time: <span style="font-size:12px;font-weight:bold;color:#00af41;"><?php
+echo $resit['PICK UP TIME'] ?></span></td>
+</tr>
+</tbody></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr><td height="15"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="15" border="0"></td></tr>
+</tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+</td>
+<td valign="top" class="yiv8203291494vspacer15" width="45"></td>
+</tr>
+</tbody></table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr><td height="5"><img style="display:block;" src="image/blank.gif" alt="" width="10" height="5" border="0"></td></tr>
+</tbody></table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f4f4">
+<tbody>
+<tr>
+	<td valign="top" class="yiv8203291494vspacer15" width="45">
+		<img style="display:block;" src="image/blank.gif" alt="" width="20" height="10" border="0">
+	</td>
+<td align="center" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" height="20"></td>
+</tr>
+</tbody></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td width="55%" align="left" style="font-size:14px;font-weight:bold;color:#00af41;"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td valign="top" width="207" style="max-width:207px;display:block;" class="yiv8203291494produceTd">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" valign="top" class="yiv8203291494tdp5" style="font-size:14px;font-weight:bold;color:#00af41;">Booking Details</td>
+</tr>
+<tr>
+<td align="center" valign="middle" height="10" class="yiv8203291494img_1">
+<img style="display:block;" src="image/blank.gif" alt="" width="170" height="10" border="0"> </td>
+</tr>
+<tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td align="left" valign="top" style="padding:0cm 0cm 0cm 0cm;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="yiv8203291494t3_1" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:16px;">Vehicle type:</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['Vehicle Type'] ?></span> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"> <img style="display:block;" src="image/blank.gif" alt="" width="20" height="3" border="0"> </td>
+</tr>
+
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:14px;">Issued by driver</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['ISSUED BY DRIVER'] ?></span> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"> <img style="display:block;" src="image/blank.gif" alt="" width="20" height="3" border="0"> </td>
+</tr>
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:16px;">Issued to</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['ISSUED T0'] ?></span> </td>
+</tr>
+</tbody></table>
+</td>
+ </tr>
+<tr>
+<td height="3"> <img style="display:block;" src="image/blank.gif" alt="" width="20" height="5" border="0"> </td>
+</tr>
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tbody><tr>
+	<td align="left" class="yiv8203291494tdp5" style="">
+	<span style="font-size:10px;color:#9E9E9E;line-height:16px;">Booking code</span><br>
+	<span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['BOOKING CODE'] ?></span> </td>
+	</tr>
+	</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"> <img style="display:block;" src="image/blank.gif" alt="" width="20" height="5" border="0"> </td>
+</tr>
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:16px;">Pick up location:</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['PICK UP LOCATION 1'] .' '. $resit['PICK UP LOCATION 2'] ?> </span> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="5" border="0"></td>
+</tr>
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+ <td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:16px;">Drop off location:</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['DROP OFF LOCATION 1'] .' '. $resit['DROP OFF LOCATION 2'] ?></span> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="5" border="0"></td>
+</tr>
+
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:10px;color:#9E9E9E;line-height:16px;">Profile:</span><br> <span style="font-size:12px;line-height:16px;font-weight:bold;"><?php echo $resit['TAG'] ?></span> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="3"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="3" border="0"></td>
+</tr>
+  
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td valign="top" class="yiv8203291494noneMobile" width="9"><img style="display:block;" src="image/blank.gif" alt="" width="9" height="10" border="0"></td>
+<td valign="top" class="yiv8203291494noneMobile" width="10" bgcolor="#f5f5f3"><img style="display:block;" src="image/blank.gif" alt="" width="10" height="10" border="0"></td>
+<td valign="top" width="280" style="max-width:280px;" class="yiv8203291494produceTd">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" valign="top" class="yiv8203291494tdp5" style="font-size:14px;font-weight:bold;color:#00af41;">Receipt Summary</td>
+</tr>
+<tr>
+<td align="center" valign="middle" height="10" class="yiv8203291494img_1"><img style="display:block;" src="image/blank.gif" alt="" width="170" height="10" border="0"></td>
+</tr>
+ <tr>
+<td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border:1px solid #dddddd;">
+<tbody><tr>
+<td align="left" valign="top" style="padding:0cm 0cm 0cm 0cm;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="yiv8203291494t3_1" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+<td height="10px" colspan="2" align="left" class="yiv8203291494tdp5"></td>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+<td height="5px" colspan="2" align="left" class="yiv8203291494tdp5" style="font-size:11px;line-height:18px;">
+	Payment Method:<br><span style="font-weight:bold;color:#000000;"><?php echo $resit['Payment Type'] ?></span>
+</td>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+<td height="5px" colspan="2" align="left" class="yiv8203291494tdp5"></td>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td height="3px" align="left" class="yiv8203291494tdp5"></td>
+<td height="3px" colspan="2" align="left" class="yiv8203291494tdp5" style="border-top:1px dashed #9E9E9E;"></td>
+<td height="3px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td align="left" class="yiv8203291494tdp5" width="15"></td>
+ <td width="171" align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:11px;color:#9E9E9E;line-height:21px;">Description:</span> </td>
+<td width="80" align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:11px;color:#9E9E9E;line-height:28px;">&nbsp;&nbsp;Amount:</span> </td>
+<td align="left" class="yiv8203291494tdp5" width="15"></td>
+</tr>
+<tr>
+ <td height="3px" align="left" class="yiv8203291494tdp5"></td>
+<td height="3px" colspan="2" align="left" class="yiv8203291494tdp5"></td>
+<td height="3px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+<td height="5px" colspan="2" align="left" class="yiv8203291494tdp5" style="border-top:1px dashed #9E9E9E;"></td>
+<td height="5px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td align="left" class="yiv8203291494tdp5" width="15"></td>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:11px;color:#000000;line-height:18px;">Ride Fare</span> </td>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:11px;color:#000000;line-height:18px;">&nbsp;&nbsp;<?php echo $resit['Total RM'] ?> </span> </td>
+<td align="left" class="yiv8203291494tdp5" width="15"></td>
+</tr>
+      
+<tr>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+<td height="10px" colspan="2" align="left" class="yiv8203291494tdp5"></td>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+<td height="10px" colspan="2" align="left" class="yiv8203291494tdp5" style="border-top:1px dashed #9E9E9E;"></td>
+<td height="10px" align="left" class="yiv8203291494tdp5"></td>
+</tr>
+<tr>
+ <td align="left" class="yiv8203291494tdp5" width="15"></td>
+<td align="right" class="yiv8203291494tdp5" style=""> <span style="font-size:12px;font-weight:bolder;color:#000000;line-height:28px;">TOTAL&nbsp;&nbsp;&nbsp;&nbsp;</span> </td>
+<td align="left" class="yiv8203291494tdp5" style=""> <span style="font-size:12px;font-weight:bolder;color:#000000;line-height:28px;">&nbsp;&nbsp;<?php echo $resit['Total RM'] ?></span> </td>
+<td align="left" class="yiv8203291494tdp5" width="15"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" class="yiv8203291494tdp5">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td align="left" class="yiv8203291494tdp5" style=""><img style="display:block;" src="image/blank.gif" alt="" width="20" height="10" border="0"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td height="20"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" class="yiv8203291494vspacer15" width="45"><img style="display:block;" src="image/blank.gif" alt="" width="20" height="10" border="0"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td height="20"><img style="display:block;" src="image/blank.gif" alt="" width="10" height="30" border="0"></td>
+</tr>
+</tbody></table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="border-bottom:1px solid #CBCBCB;">
+<tbody><tr>
+<td valign="top" class="yiv8203291494vspacer15" width="45"></td>
+<td valign="top" style="font-family:'Helvetica', Arial, sans-serif;color:#000000;font-size:11px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" style="font-family:'Helvetica', Arial, sans-serif;text-align:center;"> </td>
+ </tr>
+<tr>
+<td align="left" style="font-family:'Helvetica', Arial, sans-serif;text-align:center;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td valign="top" class="yiv8203291494noneMobile" width="10px"><img style="display:block;" src="image/blank.gif" alt="" width="3" height="10" border="0"></td>
+<td valign="top" width="1px" bgcolor="#ffffff" class="yiv8203291494noneMobile"></td>
+<td valign="top" class="yiv8203291494noneMobile" width="10px"><img style="display:block;" src="image/blank.gif" alt="" width="3" height="10" border="0"></td>
+<td width="243px" align="left" valign="top" class="yiv8203291494produceTdLast" style="font-family:'Helvetica', Arial, sans-serif;color:#666666;">
+<a rel="nofollow" style="font-size:12px;line-height:18px;font-weight:bold;color:#009d3b;text-decoration:none;">
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="18%" align="right" valign="top"><img height="60px" src="image/claimBusiness.png" style="margin-top:4px;"></td>
+<td width="82%" align="left" valign="top">Separate Work and Play<br> <span style="font-size:10px;font-weight:normal;line-height:16px;color:#666666;">Claiming business rides? Set up a separate Business Profile, sync receipts to your work email and expense provider. Click for set-up guide.<br> </span></td>
+</tr>
+</tbody></table>
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</tbody></table>
+</td>
+<td valign="top" class="yiv8203291494vspacer15" width="45"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td height="20"><img style="display:block;" src="image/blank.gif" alt="" width="10" height="20" border="0"></td>
+</tr>
+</tbody></table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tbody><tr>
+<td valign="top" class="yiv8203291494vspacer15" width="45"></td>
+<td valign="top" style="font-family:'Helvetica', Arial, sans-serif;color:#000000;font-size:11px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="left" style="font-family:'Helvetica', Arial, sans-serif;text-align:center;"></td>
+</tr>
+<tr>
+<td align="left" style="font-family:'Helvetica', Arial, sans-serif;text-align:center;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="45%" align="left" valign="top" class="yiv8203291494produceTdLast" style="font-family:'Helvetica', Arial, sans-serif;color:#666666;padding-right:10%;">
+<span style="color:#666666;"> <a rel="nofollow" target="_blank" href="https://help.grab.com/hc/ms" style="font-size:10px;line-height:12px;font-weight:bold;color:#666666;">Help Centre</a> </span><br> <span style="color:#666666;"> <a rel="nofollow" target="_blank" href="https://help.grab.com/hc/ms/articles/115005446908" style="font-size:10px;line-height:12px;font-weight:bold;color:#666666;">Lost an item on this ride?</a> </span><br><br>
+<span style="font-size:10px;font-weight:normal;line-height:16px;">
+Copyright © 2018 GrabTaxi Holdings Pte. Ltd.<br>All rights reserved.<br>  <a rel="nofollow" style="color:#666666;text-decoration:underline;font-style:italic;line-height:21px;"></a>
+</span>
+</td>
+<td width="35%" align="left" valign="top" class="yiv8203291494produceTdLast" style="font-family:'Helvetica', Arial, sans-serif;color:#666666;">
+	<span style="font-size:10px;line-height:12px;font-weight:bold;">Stay connected with us.</span><br><br> 
+	<a rel="nofollow" target="_blank" href="https://www.facebook.com/GrabMY"><img width="30px" src="image/iconFB.png"></a>&nbsp;&nbsp; 
+	<a rel="nofollow" target="_blank" href="https://twitter.com/GrabMY"><img width="30px" src="image/iconTw.png"></a>&nbsp;&nbsp;
+	<a rel="nofollow" target="_blank" href="https://instagram.com/GrabMY"><img width="30px" src="image/iconIg.png"></a>&nbsp;&nbsp;
+	<a rel="nofollow" target="_blank" href="https://www.linkedin.com/company/grabapp"><img width="30px" src="image/iconIn.png"></a>
+ <br><br> </td>
+</tr>
+</tbody></table>
+
+<!-- rangka email -->
+</td></tr></tbody></table>

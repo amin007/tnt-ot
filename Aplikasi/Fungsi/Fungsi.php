@@ -293,6 +293,16 @@ function kira3($kira,$n)
 	return str_pad($kira,$n,'0',STR_PAD_LEFT);
 }
 #------------------------------------------------------------------------------------------
+function kiraDuit($kira,$namaDuit=null)
+{
+	$kira = str_pad(kira($kira),5,'-',STR_PAD_LEFT);# tukar format 00000.00
+	if($namaDuit == null) return $kira;
+	if(in_array($namaDuit,array('RM','rm'))) return 'RM&nbsp;&nbsp;' . $kira;
+	if(in_array($namaDuit,array('MYR','myr'))) return 'MYR ' . $kira;
+	if(in_array($namaDuit,array('$'))) return '$ ' . $kira;
+	if(in_array($namaDuit,array('USD'))) return 'USD ' . $kira;
+}
+#------------------------------------------------------------------------------------------
 #https://www.php.net/manual/en/function.number-format.php
 #https://www.php.net/manual/en/function.money-format.php
 #------------------------------------------------------------------------------------------

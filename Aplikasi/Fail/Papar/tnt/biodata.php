@@ -180,4 +180,29 @@ END;
 		echo "\r<b>$jadual</b>";
 	}
 #-------------------------------------------------------------------------------------------------
+	function dataUtama()
+	{
+		$data = array(
+			'Alamat Bertugas' => '',
+			'No. Bil/Invois' => '',
+			'No.Gaji' => '',
+			'No. Telefon' => '',
+			'Email' => '',
+			'Nama (Huruf Besar)' => '',
+			'No. Kad Pengenalan' => '',
+			'Jawatan' => '',
+			'Gred' => '',
+			'No. Akaun Bank' => '',
+			'Nama / Alamat Bank' => '',
+			'Gaji' => '',
+			'Elaun-elaun' => '',
+			'Kenderaan Jenis/ Model' => '',
+			'Kenderaan No. Pendaftaran' => '',
+			'Alamat Pejabat' => '',
+			'Alamat Rumah Pegawai' => '',
+		);
+
+		return $data;
+	}
+#-------------------------------------------------------------------------------------------------
 ?>
